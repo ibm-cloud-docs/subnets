@@ -42,13 +42,14 @@ Portable Subnets are not protected by firewalls by default. If you need this fea
 
 When transferring a Portable IP from one server to another, make sure a gratuitous ARP packet is sent out so that our routers can update their ARP entry and forward the updated IP address to the correct server. If you don't send the ARP packet, it may take 4 hours or more for the IP address to begin responding correctly.
 
-### Vyatta Gateways
+### Virtual Router Appliance (Vyatta) Gateways
 
-When ordering subnets for a VLAN behind a Vyatta Gateway, ensure that the subnet is added correctly to the configuration of the Vyatta. If using VRRP for HA, ensure that the subnet is configured correctly to allow failover between the two gateway devices. If you need further assistance with these tasks, please refer to these two articles about configuring the Vyatta Gateway:
+When ordering subnets for a VLAN behind a Virtual Router Appliance Gateway, ensure that the subnet is added correctly to the configuration of the Virtual Router Appliance. If using VRRP for HA, ensure that the subnet is configured correctly to allow failover between the two gateway devices. If you need further assistance with these tasks, please refer to these two articles about configuring the Virtual Router Appliance Gateway:
 
- * [Network Gateway Devices Vyatta](../network-gateways/network-gateway-devices-vyatta.html)
+ * [Virtual Router Appliance Network Gateway](../virtual-router-appliance/manage-vlans.html)
 
- * [Vyatta High Availability Configuration](../vyatta/vyatta-high-availability-configuration.html)
+ * [Virtual Router Appliance High Availability Configuration](../virtual-router-appliance/vrrp.html)
+ 
  
  ### Canceling Subnets
  
