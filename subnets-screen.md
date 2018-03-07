@@ -1,17 +1,17 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-29"
+lastupdated: "2017-12-27"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Use the Subnets Screen
+# View all Subnets
 
-The **Subnets** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) lists each subnet associated with the account, along with specific information regarding the subnet, including its VLAN, location, and total number of IP addresses. Follow these steps to view the **Subnets** screen.
+The **Subnets** screen lists each subnet associated with the account, along with specific information regarding the subnet, including its VLAN, location, and total number of IP addresses. Follow these steps to view the **Subnets** scree:.
 
-1. Enter the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
-2. Select **Network > IP Management > Subnets** from the Navigation Bar to display the **Subnets** screen.
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
+2. In the Customer Portal navigation, select **Network > IP Management > Subnets**.
 
 ## What Happens Next
 

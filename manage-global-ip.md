@@ -1,27 +1,30 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-05"
+lastupdated: "2017-12-27"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# How to manage Global IP addresses 
+# Manage Global IP addresses
 
-As a general idea, managing your Global IP addresses falls under the **Subnets** menu. To manage your Global IP addresses, once they are ordered, please follow these steps:
+You can manage your Global IP addresses in the **Subnets** screen. 
 
-1. Navigate to **Network -> IP Management -> Subnets**
-* In the dropdown menu, choose **Global IPv4** (or IPv6) to filter the IP list to show only the Global IPs.
-* Select the subnet you wish to manage
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
+2. In the Customer Portal navigation, select **Network > IP Management > Subnets**.
+3. In the dropdown menu, choose **Global IPv4** (or IPv6) to filter the Subnet list to show only the Global IPs.
+4. Click on the Global IP you want to manage.
  
-**Please note: A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static IP address offering can be routed only to an IP address within the same datacenter, but global IP addresses do not share this restriction.**
+  **Note: A Global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static 
+  IP address offering can be routed only to an IP address within the same datacenter, but Global IP addresses do not share 
+  this restriction.**
 
-4. On the IP address management page enter the IP address of the server to which you wish to route the global IP address, and enter any applicable notes, then select **Update**.
+5. On the IP address management page, enter the IP address of the server to which you wish to route the Global IP address, and enter any applicable notes, then select **Update**.
 
 ![Figure 2](images/2_1.png)
 
-## How to add a Global IP to your server 
+## Add a Global IP to your server 
 
 Before your server will accept traffic for the Global IP, that IP must be properly added to the system. Each system requires slightly different commands, so they are shown in the next few sections.
 
@@ -80,9 +83,9 @@ To verify that your settings have taken effect, open a DOS prompt by browsing to
 
 **Notes:**
 
-1. If you already have an `eth1:1` file on your server as in the example above, increment the last digit to the next available integer.
+* If you already have an `eth1:1` file on your server as in the example above, increment the last digit to the next available integer.
 * Modification of a global IP address to a new server or VSI requires up to five minutes to take effect. 
 * Within the IBM Cloud network, the route change takes less than 1 minute to update.
 * Global IPs do not work for local load balancers.
 * Global IPs are distributed from a unique subnet; existing customer IPs cannot be converted or used as Global IPs.
-* By itself, Global IPs are not an automatic failover solution, because they lack health checks; however, a global IP address  may be used as a component for a failover environment, if you want to circumvent DNS propagation.
+* By itself, Global IPs are not an automatic failover solution, because they lack health checks; however, a Global IP address may be used as a component for a failover environment, if you want to circumvent DNS propagation.

@@ -16,13 +16,12 @@ Subnets and IPs
     subnet-details.md
     filter-ip.md
     
-    {:topicgroup}
-    Manage Global IP 
-      manage-global-ip.md
-      display-global-ip-screen.md
-      route-global-ip-to-device.md
-      unroute-global-ip.md
-      
+    {: .topicgroup}
+    Manage Global IPs 
+        manage-global-ip.md
+        display-global-ip-screen.md
+        route-global-ip-to-device.md
+        unroute-global-ip.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
