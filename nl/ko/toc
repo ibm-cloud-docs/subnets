@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="subnets" audience="service" href="/docs/infrastructure/subnets/getting-started.html"}
+서브넷 및 IP
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    about-global-ip.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    edit-notes.md
+    subnets-screen.md
+    subnet-details.md
+    filter-ip.md
+    
+    {: .topicgroup}
+    글로벌 IP 관리
+        manage-global-ip.md
+        display-global-ip-screen.md
+        route-global-ip-to-device.md
+        unroute-global-ip.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faq.md
+    global-ip-faqs.md
+    getting-help.md
+    {: .navgroup-end}
