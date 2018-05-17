@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-27"
+  years: 1994, 2018
+lastupdated: "2018-05-16"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -22,34 +22,25 @@ To order Subnets and IPs:
 {{site.data.keyword.BluSoftlayer_notm}} currently offers 2 different types of IP blocks: static or portable. These are designed to be used in different ways. A brief description follows of each type of block, also including a section on using these IP addresses within a Virtual Machine.
  
 ### Static IP block
-The most commonly used type of IP block within the {{site.data.keyword.BluSoftlayer_notm}} network is the Static IP block. A Static IP block is routed directly to a specific IP on our network. Every IP address in a Static block is usable on the server. One primary benefit of using a static IP block is that you do not lose the first two and last IP addresses--all addresses in the block are usable. 
+The most commonly used type of IP block within the {{site.data.keyword.BluSoftlayer_notm}} network is the Static IP block. A Static IP block is routed directly to a specific IP on our network. Every IP address in a Static block is usable on the server. One benefit of using a Static IP block is that you do not lose the first two and last IP addresses--all addresses in the block are usable.
 
-Here is an example of a small Static IP block (192.168.0.4/30), showing that all 4 IP’s in this block would be available to the server:
+Here is an example of a small Static IP block (192.168.0.4/30), showing that all 4 IPs in this block would be available to the server:
 ```
 ·192.168.0.4 – Usable Address
 ·192.168.0.5 – Usable Address
 ·192.168.0.6 – Usable Address
 ·192.168.0.7 – Usable Address
 ```
-With a portable block, only a single IP from this block would actually be useable on the server, because the network, gateway and broadcast IP addresses are bound directly to the VLAN.  
-
-Note: A special technique lets you use all of the IPs, because using the assigned subnet mask will only let you use all but one (the broadcast IP). To use all of the IPs, use the subnet mask of 255.255.255.255 instead, rather than missing out on the broadcast IP.
 
 ### Portable IP block
-A portable IP block can be used on multiple servers within a single VLAN concurrently. We offer two different types of portable IP blocks:
+A Portable IP block, also referred to as a **Secondary on VLAN** block, differs from a Static IP block in two key ways. First, a Portable IP block can be used by multiple servers within a single VLAN. Second, because its Network, Gateway and Broadcast IPs are bound directly to the VLAN, a Portable IP block provides fewer usable IP addresses than a Static IP block.
 
- * The first type of portable IP block is a “Routed to VLAN” block. This is a static IP block that is routed to an entire VLAN rather than a specific IP address.
- * The other type of portable IP Block is a “Secondary on VLAN” block, which is designed to be used within a Virtual Environment.
- 
-The primary difference between the two is the number of IPs that are available for use. 
-
-A **Routed to VLAN block**,like a static block, provides you access to all IPs within the block. However, a **Secondary on VLAN** block requires that the Network, Gateway and Broadcast IPs be bound directly to the VLAN, which renders them unusable. A **Routed to VLAN** block would be used when the user wanted to use any IP within that block on any server within the VLAN at any time. The **Secondary on VLAN** block is used in conjunction with a Virtual Machine. More information on **Secondary on VLAN** blocks is provided under the _IPs for Virtual Machines_ section.
-
-When ordering a portable IP block, by default {{site.data.keyword.BluSoftlayer_notm}} will provide you with a **Secondary on VLAN** block. If you wish to have this block converted to a **Routed to VLAN** block for use on your servers within a single VLAN, please open a support ticket requesting that this block be converted to a **Routed to VLAN** block
+The **Secondary on VLAN** block can be used in conjunction with a Virtual Machine. More information on **Secondary on VLAN** blocks is provided under the _IPs for Virtual Machines_ section.
 
 ### PODs that support Hot Standby Router Protocol (HSRP)
+When calculating the required size of a **Secondary on VLAN** block, you must compensate for the three unusable IP addresses (Network, Gateway and Broadcast) bound to the VLAN.
 
-It is important to note that PODs that take advantage of the Hot Standby Router Protocol (HSRP) utilize 2 additional IPv4 addresses: one for the VLAN interface of each participating router, out of every **Secondary on VLAN** block configured on the VLAN. Most of our PODs support HSRP.
+If your **Secondary on VLAN** block is created in a POD supporting Hot Standby Router Protocol (HSRP), two additional IPv4 addresses will be unavailable for use: One IP for each router in the standby pair. Since most PODs support HSRP, you should plan that a total of five IP addresses in a **Secondary on VLAN** block will be unavailable for use.
 
 What follows is an example of a **Secondary on VLAN** block (192.168.0.4/28) being used for multiple Virtual Machines in an HRSP POD.
 ```
@@ -71,7 +62,7 @@ What follows is an example of a **Secondary on VLAN** block (192.168.0.4/28) bei
 ```
  
 ### IPs for Virtual Machines
-Virtual Machines (VMs) are commmonly used in cloud workloads, sometimes called "instances" or "computes". This section provides information on what type of IP blocks are required to be used in a VM. The information provided here is based on Microsoft Hyper-V.
+Virtual Machines (VMs), sometimes called "instances" or "computes," are commonly used in cloud workloads. This section provides information on what type of IP blocks are required to be used in a VM. The information provided here is based on Microsoft Hyper-V.
 
 Every VM connected to the {{site.data.keyword.BluSoftlayer_notm}} network in a virtual environment requires a primary IP address from a portable block of IPs, because Hyper-V requires each VM to provide a Network, Gateway and Broadcast address on the same subnet as the primary IP assigned to that VM. One advantage to our network configuration is that a single **Secondary on VLAN** block can be used for multiple Virtual Machines. 
 
@@ -86,8 +77,8 @@ What follows is an example of a **Secondary on VLAN** block (192.168.0.4/29) bei
 ·192.168.0.6 – VPS3
 ·192.168.0.7 – Broadcast Address
 ```
-As the example shows, this **Secondary on VLAN** block provides 5 usable IP addresses out of the 8 IP addresses in the block, bound across 3 different Virtual Machines. This configuration brings up the question: “How do I add more IPs to a Virtual Machine if all the IPs on the Portable block are used?”. This problem can be solved through the use of a static block, or a **Routed to VLAN** portable block.
+As the example shows, this **Secondary on VLAN** block provides 5 usable IP addresses out of the 8 IP addresses in the block, bound across 3 different Virtual Machines. This configuration brings up the question: “How do I add more IPs to a Virtual Machine if all the IPs on the Portable block are used?”. This problem can be solved through the use of a Static block.
 
-To use a static block within a VM, first order a new static IP block from the Customer Portal. As you order this block, you can select the IP address to which you wish to have this block routed. By selecting the IP address that is assigned to the VM, the new block will be routed specifically to that VM. Then you can bind the new block of IPs directly to that VM and begin using them immediately.
+To use a Static block within a VM, first order a new Static IP block from the Customer Portal. As you order this block, you can select the IP address to which you wish to have this block routed. By selecting the IP address that is assigned to the VM, the new block will be routed specifically to that VM. Then you can bind the new block of IPs directly to that VM and begin using them immediately.
 
-Alternately, if you wish for the new block to be usable by more than one Virtual Machine, use a **Routed to VLAN** block. A **Routed to VLAN** block is available by purchasing a Portable IP block from the portal and selecting the VLAN within which the IP address of the VM resides. Once the IP block is created, it is available for use on any server or VM on that VLAN.
+Alternately, if you want the new IP block to be usable by more than one Virtual Machine, order a Portable IP block or **Secondary on VLAN** block that has sufficient available IPs after Network, Gateway, Broadcast and two HSRP addresses are set aside. Once the Portable IP block is created, it is available for use on any server or VM on that VLAN.
