@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="subnets" audience="service" href="/docs/infrastructure/subnets/getting-started.html"}
+{: .toc subcollection="subnets" audience="service" arm="3662761" href="/docs/infrastructure/subnets/getting-started.html"}
 Subnets and IPs
 
     {: .navgroup id="learn"}
@@ -11,13 +11,15 @@ Subnets and IPs
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    route-subnet.md
     edit-notes.md
     subnets-screen.md
     subnet-details.md
     filter-ip.md
-    
+    use-secondary-self-hosted-vms.md
+
     {: .topicgroup}
-    Manage Global IPs 
+    Manage Global IPs
         manage-global-ip.md
         display-global-ip-screen.md
         route-global-ip-to-device.md
