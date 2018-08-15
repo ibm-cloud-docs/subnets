@@ -20,20 +20,19 @@ more details regarding the types of subnets described.
 So let's say you have two Bare Metal Servers, let's call them `aunt` and
 `uncle`. Both will be host to your own virtual machines, and each already has
 their own IP addresses assigned from a **Primary Subnet**. You need additional
-IP addresses for the virtual machines. You could use any type of Secondary
+IP addresses for your virtual machines. You could use any type of Secondary
 Subnet to achieve that, but we'd recommend using a **Portable Secondary Subnet**
 as the source of addresses used by your VMs. A portable subnet provides both
-`aunt` and `uncle` access to the IP addresses defined by the portable subnet.
-This way, you can share those IP addresses across both servers, and if you
-utilize migration techniques for your VMs, can transfer VMs across your hosts
+`aunt` and `uncle` access to the IP addresses defined by the subnet. This way,
+you can share those IP addresses across both servers, and if you utilize
+migration techniques for your VMs, can transfer VMs across those servers
 seamlessly.
 
 Now let's say you've created two virtual machines, `VPS1` and `VPS2`, purchased
-portable subnet 129.42.0.0/29, and assigned two addresses from the portable subnet
-to your virtual machines. The IP address utilization would look something like
-this:
+portable subnet 129.42.0.0/29, and assigned two addresses from it to your
+virtual machines. The IP address utilization would look something like this:
 
-129.42.0.0/29
+129.42.0.0/29 - Portable Secondary Subnet
 ```
 129.42.0.0 – Network
 129.42.0.1 – Gateway
@@ -55,14 +54,14 @@ subnets provide flexibility, they also don't give you access to all of the IP
 addresses. If you only needed say four additional IP addresses, purchasing a
 static subnet is an efficient option. Let's try that out.
 
-You purchase a static subnet and receive 129.42.0.100/30, and during the purchase
-you route it to 129.42.0.3 or VPS1 in this scenario. That provides you with all
-four IP addresses to use on whatever server is responding to 129.42.0.3, again,
-that's currently VPS1, but you could transfer 129.42.0.3 to VPS2 at any time and
-those four new IP addresses from 129.42.0.100/30 would follow! So let's look at
-the IP address utilization again:
+You purchase a static subnet and receive 129.42.0.100/30. During the purchase
+you route it to 129.42.0.3 or VPS1 in this scenario. Doing so provides you with
+all four IP addresses to use on whatever server is responding to 129.42.0.3,
+again, that's currently VPS1, but you could transfer 129.42.0.3 to VPS2 at any
+time and those four new IP addresses from 129.42.0.100/30 would follow! So let's
+look at the IP address utilization again:
 
-129.42.0.0/29
+129.42.0.0/29 - Portable Secondary Subnet
 ```
 129.42.0.0 – Network
 129.42.0.1 – Gateway
@@ -74,7 +73,7 @@ the IP address utilization again:
 129.42.0.7 – Broadcast
 ```
 
-129.42.0.100/30
+129.42.0.100/30 - Static Secondary Subnet
 ```
 129.42.0.100 – 129.42.0.3 (aka VPS1)
 129.42.0.101 – 129.42.0.3 (aka VPS1)

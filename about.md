@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-07-27"
+lastupdated: "2018-08-07"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -101,10 +101,10 @@ no Network Address Translation (NAT) being performed for any of the addresses
 provided. Each address can be used natively on servers, and thus each can be
 used for discrete purposes.
 
-***Availability***
-|                 | IPv4 | IPv6 |
-| Public Network  | Yes  | Yes  |
-| Private Network |      |      |
+| **Availability** | IPv4 | IPv6 |
+| ---------------- | :--: | :--: |
+| Public Network   | Yes  | Yes  |
+| Private Network  |      |      |
 
 #### Portable Subnet
 
@@ -129,21 +129,21 @@ available in our example:
 10.0.0.7 - Broadcast
 ```
 
-***Availability***
-|                 | IPv4 | IPv6 |
-| Public Network  | Yes  | Yes  |
-| Private Network | Yes  |      |
+| **Availability** | IPv4 | IPv6 |
+| ---------------- | :--: | :--: |
+| Public Network   | Yes  | Yes  |
+| Private Network  | Yes  |      |
 
 
 ### Global IP Addresses
 
-For information regarding the Global IP Offering, please refer to the
+For information regarding the Global IP offering, please refer to the
 [Global IP documentation](about-global-ip.html).
 
-***Availability***
-|                 | IPv4 | IPv6 |
-| Public Network  | Yes  | Yes  |
-| Private Network |      |      |
+| **Availability** | IPv4 | IPv6 |
+| ---------------- | :--: | :--: |
+| Public Network   | Yes  | Yes  |
+| Private Network  |      |      |
 
 
 ## Canceling Subnets

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-03"
+lastupdated: "2018-08-06"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -15,8 +15,8 @@ Primary Subnets are assigned and removed as needed by
 as Bare Metal Servers or Virtual Server Instances. We don't simply assign one IP
 address at a time, we assign a subnet. This means there is sometimes additional
 room for future resources. This designation is stating that these addresses will
-be used by future resources. Please see the question, **Can I use the other IP
-addresses defined by the Primary Subnets I see?** for why you should not
+be used by future resources. Please see the question, "**Can I use the other IP
+addresses defined by the Primary Subnets I see?**" for why you should not
 consider these IP addresses as usable.
 
 
@@ -68,8 +68,8 @@ so review [About Subnets](about.md). Once you have a subnet routed to the IP
 address or VLAN desired, you'll want to refer to the specific compute
 documentation for how to setup your new IP addresses:
 
-  * [Bare Metal Server IP address assignment](https://console.bluemix.net/docs/bare-metal/how-are-server-ip-addresses-assigned-softlayer-network.html)
-  * [Virtual Server Instance IP address assignment](https://console.bluemix.net/docs/vsi/how-are-server-ip-addresses-assigned-softlayer-network.html)
+  * [Bare Metal Server IP address assignment](/docs/bare-metal/how-are-server-ip-addresses-assigned-softlayer-network.html)
+  * [Virtual Server Instance IP address assignment](/docs/vsi/how-are-server-ip-addresses-assigned-softlayer-network.html)
 
 
 ## What does 'Reserved for HSRP' when I look at a subnet's IP addresses mean?
