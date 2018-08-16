@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-07-27"
+lastupdated: "2018-08-16"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -14,7 +14,7 @@ it is necessary to utilize **Secondary Subnets**. We'll discuss a flexible way
 to provide your VMs IP addresses using one or more virtual machine hosts, whether
 participating in clustered configurations or not.
 
-Throughout the course of this scenario, refer to [About Subnets](about.md) for
+Throughout the course of this scenario, refer to [About Subnets](about.html) for
 more details regarding the types of subnets described.
 
 So let's say you have two Bare Metal Servers, let's call them `aunt` and
@@ -49,7 +49,7 @@ is providing. You can absolutely assign more addresses out of the 129.42.0.0/29
 subnet, but you may want to only use that subnet to bring VMs online, not for
 their services. You have two options: 1) purchase another portable subnet 2)
 purchase a static subnet. If you recall from the descriptions of portable versus
-static subnets in [About Subnets](about.md), you'll know that while portable
+static subnets in [About Subnets](about.html), you'll know that while portable
 subnets provide flexibility, they also don't give you access to all of the IP
 addresses. If you only needed say four additional IP addresses, purchasing a
 static subnet is an efficient option. Let's try that out.

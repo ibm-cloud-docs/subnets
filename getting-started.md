@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-06"
+lastupdated: "2018-08-16"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -16,7 +16,7 @@ Subnets are an important part of how you use the internet, and that's also true 
     * Static - IP addresses are available to the resource identified as the routing endpoint.
   * Global IP Addresses - Unique routing behavior utilizing {{site.data.keyword.cloud}}'s backbone which provides IP addresses to the resource identified as the routing endpoint.
 
-Review each type in detail at [About Subnets and IPs](about.md) in order to review aspects such as IPv4 vs. IPv6 and public/private network availability.
+Review each type in detail at [About Subnets and IPs](about.html) in order to review aspects such as IPv4 vs. IPv6 and public/private network availability.
 
 To understand subnets and subnetting more generally, review [Subnetwork ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Subnetwork).
 Additionally, you'll see we refer to subnets using [CIDR notation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing).

@@ -24,7 +24,7 @@ consider these IP addresses as usable.
 
 No! We realize you see the Primary Subnets assigned by
 {{site.data.keyword.BluSoftlayer_notm}} as any other subnet, but as described in
-[About Subnets](about.md), Primary Subnets are what provide IP addresses to
+[About Subnets](about.html), Primary Subnets are what provide IP addresses to
 resources on demand. We assign and remove Primary Subnets as we require to
 fulfill other products. If you attempt to use unassigned IP addresses from
 Primary Subnets, we will inevitably assign them to another resource at some
@@ -58,13 +58,13 @@ This won't happen! We automatically assign Primary Subnets to make more IP
 addresses available to fulfill your compute purchases. You don't need to manage
 a thing. However, if you mean that you need more IP addresses for say local
 virtual machines or segregating applications, then read up on **Secondary
-Subnets** in [About Subnets](about.md).
+Subnets** in [About Subnets](about.html).
 
 
 ## How do I assign more IP addresses to a compute resource?
 
 First, you'll want to purchase a **Secondary Subnet**, there are multiple types,
-so review [About Subnets](about.md). Once you have a subnet routed to the IP
+so review [About Subnets](about.html). Once you have a subnet routed to the IP
 address or VLAN desired, you'll want to refer to the specific compute
 documentation for how to setup your new IP addresses:
 
