@@ -1,14 +1,16 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-08-06"
+lastupdated: "2018-11-13"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
 
 # FAQ
 
 ## What does 'Primary IP for future server only' when I look at a subnet's IP addresses mean?
+{: faq}
 
 Primary Subnets are assigned and removed as needed by
 {{site.data.keyword.BluSoftlayer_notm}} for other resources you've ordered, such
@@ -21,6 +23,7 @@ consider these IP addresses as usable.
 
 
 ## Can I use the other IP addresses defined by the Primary Subnets I see?
+{: faq}
 
 No! We realize you see the Primary Subnets assigned by
 {{site.data.keyword.BluSoftlayer_notm}} as any other subnet, but as described in
@@ -38,6 +41,7 @@ your account for as long as you own them.
 
 
 ## Is there a way to specify which subnet I want to use for my device when I order it?
+{: faq}
 
 Yes, a specific subnet may be specified during the ordering process. When
 ordering a device, this option is available at the end of the order form. After
@@ -53,6 +57,7 @@ subnet is discouraged for typical uses.
 
 
 ## I ran out of IP addresses, now what?
+{: faq}
 
 This won't happen! We automatically assign Primary Subnets to make more IP
 addresses available to fulfill your compute purchases. You don't need to manage
@@ -62,6 +67,7 @@ Subnets** in [About Subnets](about.html).
 
 
 ## How do I assign more IP addresses to a compute resource?
+{: faq}
 
 First, you'll want to purchase a **Secondary Subnet**, there are multiple types,
 so review [About Subnets](about.html). Once you have a subnet routed to the IP
@@ -73,6 +79,7 @@ documentation for how to setup your new IP addresses:
 
 
 ## What does 'Reserved for HSRP' when I look at a subnet's IP addresses mean?
+{: faq}
 
 In a decreasing number of locations, {{site.data.keyword.BluSoftlayer_notm}} has
 routers utilizing a technique known as Hot Router Standby Protocol or HSRP.

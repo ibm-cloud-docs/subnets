@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="subnets" audience="service" arm="3662761" href="/docs/infrastructure/subnets/getting-started.html"}
+{: .toc subcollection="subnets" audience="service" arm="3662761" href="/docs/infrastructure/subnets/getting-started.html" path="infrastructure/subnets"}
 Subnets and IPs
 
     {: .navgroup id="learn"}
