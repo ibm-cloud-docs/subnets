@@ -1,26 +1,32 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-27"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Manage Global IP addresses
 
 You can manage your Global IP addresses in the **Subnets** screen. 
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > Subnets**.
-3. In the dropdown menu, choose **Global IPv4** (or IPv6) to filter the Subnet list to show only the Global IPs.
-4. Click on the Global IP you want to manage.
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+1. In the Customer Portal navigation, select **Classic Infrastructure**. 
+1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
+1. In the dropdown menu, choose **Global IPv4** (or IPv6) to filter the Subnet list to show only the Global IPs.
+1. Click on the Global IP you want to manage.
  
   **Note: A Global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static 
   IP address offering can be routed only to an IP address within the same datacenter, but Global IP addresses do not share 
   this restriction.**
 
-5. On the IP address management page, enter the IP address of the server to which you wish to route the Global IP address, and enter any applicable notes, then select **Update**.
+1. On the IP address management page, enter the IP address of the server to which you wish to route the Global IP address, and enter any applicable notes, then select **Update**.
 
 ![Figure 2](images/2_1.png)
 

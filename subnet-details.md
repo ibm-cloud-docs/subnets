@@ -1,18 +1,25 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-27"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # View Subnet Details 
 
-The **Subnet Details** screen displays all IP addresses associated with a subnet, its status, its description, and any notes, if present. Follow the steps given in this article to display subnet details.
+The **Subnet Details** screen displays all IP addresses associated with a subnet, its status, its description, and any notes, if present. Follow the steps in this article to display subnet details.
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > Subnets**.
-3. Click on the **Subnet** link to view the subnet's details.
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+1. In the Customer Portal navigation, select **Classic Infrastructure**.
+1. In the Classic Infrastructure menu, select **Network > IP Management > Subnets**.
+1. Click on the **Subnet** link to view the subnet's details.
 
 ## What Happens Next
 

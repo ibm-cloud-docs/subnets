@@ -1,19 +1,27 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-05"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Filter IP Addresses on the Subnet Details Screen
 
 On the **Subnet Details** screen, all IP addresses associated with the subnet are displayed, along with their status, description and any notes present for the IP. The list of IPs may be filtered by IP address to narrow the IPs displayed at any time. Follow these steps to filter IP addresses on the Subnet Details screen.
 
-* Navigate to the **Subnet Details** screen within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/)}. Refer to [Use the Subnet Details Screen](subnet-details.html){:new_window}.
+* Navigate to the **Subnet Details** screen within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)}. Refer to [Use the Subnet Details Screen](/docs/infrastructure/subnets?topic=subnets-view-subnet-details){:new_window}.
+* Click the desired **IP address** in the **Subnet** column.
 * Choose the **Filter** tab to display the filter options.
-* Select the desired **IP address** from the **IP Address** drop down list.
-  * **Note:** Partial IP addresses may be selected to display a number of addresses. For example, if the last portion of the IP address selected is .1, the IP addresses listed may include those that end in .1 through .19.
+* Select the IP address from the dropdown list.
+  Partial IP addresses may be selected to display a number of addresses. For example, if the last portion of the IP address selected is .1, the IP addresses listed may include those that end in .1 through .19.
+  {:note}
 
 ## What Happens Next
 

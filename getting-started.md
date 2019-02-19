@@ -1,10 +1,16 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-08-16"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Getting Started with Subnets and IPs
 
@@ -16,7 +22,7 @@ Subnets are an important part of how you use the internet, and that's also true 
     * Static - IP addresses are available to the resource identified as the routing endpoint.
   * Global IP Addresses - Unique routing behavior utilizing {{site.data.keyword.cloud}}'s backbone which provides IP addresses to the resource identified as the routing endpoint.
 
-Review each type in detail at [About Subnets and IPs](about.html) in order to review aspects such as IPv4 vs. IPv6 and public/private network availability.
+Review each type in detail at [About Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips) in order to review aspects such as IPv4 vs. IPv6 and public/private network availability.
 
 To understand subnets and subnetting more generally, review [Subnetwork ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Subnetwork).
 Additionally, you'll see we refer to subnets using [CIDR notation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing).
@@ -26,10 +32,17 @@ Additionally, you'll see we refer to subnets using [CIDR notation ![External lin
 
 Follow these steps to order Subnets which provide additional IP addresses:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-  2. In the Customer Portal navigation, select **Network > IP Management > Subnets**.
-  3. Select the link, "Order IP Addresses", in the top right of the listing.
-  4. To start the ordering process, select the appropriate type of subnet from the dropdown menu.
+  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. In the Customer Portal navigation, select **Classic Infrastructure**. 
+  1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
+  1. Select the link, "New IP Addresses", in the top right of the listing.
+  1. To start the ordering process, select Public or Private type of subnet from the radio buttons.
+  1. Choose between IPv4 or IPv6 options.
+  1. To choose Static or Global IPs, click the corresponding box. 
+    1. For IPv4, use the dropdown list available in the Static or Portable options to choose how many addresses you want. 
+  1. Select the VLAN to establish where the new IP addresses are routed.
+  1. Fill out the remaining information requested, and click **Create**.
+
 
 After a subnet has been purchased, the type and routing destination cannot be changed. You must order a new subnet to acquire a different type or routing endpoint.
 

@@ -1,11 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-08-09"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # About Global IP Addresses
 
@@ -26,9 +31,10 @@ Global IP addresses provide flexibility. They enable you to shift workloads betw
 
 To manage Global IP addresses, follow these steps:
 
- 1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
- 2. In the Customer Portal navigation, select **Network > IP Management > Global IP**.
- 3. You'll see your Global IP addresses listed. Utilize filters to narrow your search as needed. 
+ 1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+ 1. In the Customer Portal navigation, select **Classic Infrastructure**.
+ 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
+ 1. You'll see your Global IP addresses listed. Utilize filters to narrow your search as needed. 
  
 You may notice that some entries do not have a value for **Target**, which indicates that the Global IP address is not currently routed, so is not in service.
 
@@ -41,7 +47,8 @@ Once you locate the desired Global IP address, click on its subnet identifier. Y
  
 Typing a hostname enables you to search for a server's hostname, so you can look up its IP address. After you enter an IP address, select **Update**. To unroute the Global IP address, select **Clear**. When the input status changes to say 'Unrouted', select **Update**.
 
-**Note**: The dropdown menu is not an exhaustive list of available IP addresses. Manually enter the desired IP address if it is not available in the selection list.
+The dropdown menu is not an exhaustive list of available IP addresses. Manually enter the desired IP address if it is not available in the selection list.
+{:note}
 
 ### How often can I update?
 
@@ -52,9 +59,10 @@ Only one, single route update is allowed to be in progress at any time. If you a
 
 Follow these instructions to order Global IP addresses:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-  2. In the Customer Portal navigation, select **Network > IP Management > Global IP**.
-  3. Click on the **Order IP Addresses** link.
+  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. In the Customer Portal navigation, select **Classic Infrastructure**.
+  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
+  3. Click on the **New IP Addresses** link.
   4. From the dropdown menu, choose **Global IPv4** or **Global IPv6** as needed, and click **Continue** to start the ordering process.
 
 ![Figure 1](images/1_2.png)
@@ -71,7 +79,8 @@ An account may only have five (5) Global IP addresses per IP version. For instan
 
 If you no longer require a Global IP address, follow these steps to cancel it:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-  2. In the Customer Portal navigation, select **Network > IP Management > Global IP**.
-  3. Complete any necessary filters to locate the desired address.
-  4. On the right-hand side of the address's entry in the address list, a circle with an X is shown. Click on this icon to initiate the cancellation process.
+  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. In the Customer Portal navigation, select **Classic Infrastructure**.
+  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
+  1. Complete any necessary filters to locate the desired address.
+  1. On the right-hand side of the address's entry in the address list, a circle with an X is shown. Click on this icon to initiate the cancellation process.

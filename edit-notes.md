@@ -1,24 +1,30 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-01-29"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Edit notes for a Subnet or an IP address
 
 ## Notes for a subnet
-The **Subnets** screen within the [Customer Portal](https://control.softlayer.com/){:new_window} displays all subnets associated with the account, and it shows all corresponding details regarding each subnet, including the network, VLAN, location and notes. The **Notes** section of the screen is editable. It may be updated by any user who has permission to interact with subnets. We recommend keeping the **Notes** section updated with details about the subnet, which may include the intended use for the subnet and any other pertinent information to assist users. Follow the steps in this article to edit notes for a subnet.
+The **Subnets** screen within the [Customer Portal](https://{DomainName}/){:new_window} displays all subnets associated with the account, and it shows all corresponding details regarding each subnet, including the network, VLAN, location and notes. The **Notes** section of the screen is editable. It may be updated by any user who has permission to interact with subnets. We recommend keeping the **Notes** section updated with details about the subnet, which may include the intended use for the subnet and any other pertinent information to assist users. Follow the steps in this article to edit notes for a subnet.
 
-* Navigate to the **Subnets** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Using the Subnets Screen](subnets-screen.html){:new_window}.
+* Navigate to the **Subnets** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Subnets Screen](/docs/infrastructure/subnets?topic=subnets-view-subnet-details){:new_window}.
 * Click anywhere within the **Notes** column for the desired subnet to open the field for edits.
 * Enter the **desired notes or comments** in the **Notes** field.
 * Click away from the Notes column to save the edits.
 
 ## Notes for an IP address
 
-To edit notes for an IP address, first follow the instructions for displaying the IP address on the [Subnet Details Screen](filter-ip.html#filter-ip-addresses-on-the-subnet-details-screen) to search for the IP address you wish to annotate. When the desired address has been displayed, select the related **Notes** field and enter your text.
+To edit notes for an IP address, first follow the instructions for displaying the IP address on the [Subnet Details Screen](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) to search for the IP address you wish to annotate. When the desired address has been displayed, select the related **Notes** field and enter your text.
 
 ## What Happens Next
 
