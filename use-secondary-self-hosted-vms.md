@@ -1,12 +1,18 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2018-02-01"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2018-02-28"
+
+keywords: Ms IP addresses, Use Secondary Subnets, own virtual machines
+
+subcollection: subnets
+
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Use Secondary Subnets on Self-Hosted VMs
+{:#use-secondary-subnets-self-hosted-vms}
 
 When hosting your own virtual machines, and wanting to those virtual machines to
 be first class citizens on the {{site.data.keyword.BluSoftlayer_notm}} network,

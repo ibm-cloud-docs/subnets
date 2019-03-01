@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: Global IP addresses, Global IPs, IP Management
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Manage Global IP addresses
+{:#manage-global-ip-addresses}
 
 You can manage your Global IP addresses in the **Subnets** screen. 
 
@@ -25,16 +32,18 @@ You can manage your Global IP addresses in the **Subnets** screen.
   **Note: A Global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static 
   IP address offering can be routed only to an IP address within the same datacenter, but Global IP addresses do not share 
   this restriction.**
-
+  
 1. On the IP address management page, enter the IP address of the server to which you wish to route the Global IP address, and enter any applicable notes, then select **Update**.
 
 ![Figure 2](images/2_1.png)
 
 ## Add a Global IP to your server 
+{:#add-global-ip-server}
 
 Before your server will accept traffic for the Global IP, that IP must be properly added to the system. Each system requires slightly different commands, so they are shown in the next few sections.
 
 ### For Linux servers:
+{:#add-global-ip-server-linux}
 
 **Red Hat/CentOS**
 
@@ -75,6 +84,7 @@ If your system does not work properly, add the following lines instead, replacin
 ```
 
 ### For Windows servers
+{:#add-global-ip-server-windows}
 
 1. Browse to: **Start -> Control Panel -> Network Connections -> Local Area Connection (Public) (properties)**.
 * Select: **Internet Protocol (TCP/IP)** and click **Properties -> Advanced**.

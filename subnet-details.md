@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: View Subnet Details, IP addresses, Subnet link
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,7 +18,8 @@ lastupdated: "2019-02-01"
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# View Subnet Details 
+# View Subnet Details
+{:#view-subnet-details}
 
 The **Subnet Details** screen displays all IP addresses associated with a subnet, its status, its description, and any notes, if present. Follow the steps in this article to display subnet details.
 
@@ -22,5 +29,6 @@ The **Subnet Details** screen displays all IP addresses associated with a subnet
 1. Click on the **Subnet** link to view the subnet's details.
 
 ## What Happens Next
+{:#view-subnet-details-next}
 
 All IP addresses associated with the subnet are shown, along with their status, description, and any notes, if present. You may edit the notes for any IP addresses associated with the subnet at any time. If a link to a device is listed as the description, click the link to the view the **Device Details** screen for the device associated with the IP address.

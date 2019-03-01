@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: IP addresses, IPs Subnets, types of subnets
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Getting Started with Subnets and IPs
+{:#getting-started-subnets-ips}
 
 Subnets are an important part of how you use the internet, and that's also true when using {{site.data.keyword.cloud}}. We have specific terminology for the types, and uses, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You will encounter the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
 
@@ -29,6 +36,7 @@ Additionally, you'll see we refer to subnets using [CIDR notation ![External lin
 
 
 ## Ordering Subnets
+{:#ordering-subnets}
 
 Follow these steps to order Subnets which provide additional IP addresses:
 
@@ -47,5 +55,6 @@ Follow these steps to order Subnets which provide additional IP addresses:
 After a subnet has been purchased, the type and routing destination cannot be changed. You must order a new subnet to acquire a different type or routing endpoint.
 
 ### What Happens Next?
+{:#ordering-subnets-next}
 
 Barring any necessary approval processes for your account status, a new subnet with your desired configuration appears on your account within a few moments.

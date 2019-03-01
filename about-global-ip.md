@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: Global IP Addresses, Global IP address, single IP address
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # About Global IP Addresses
+{:#about-global-ip-address}
 
 A Global IP address is a specialized Static Secondary Subnet. It is delivered to you as a /32 subnet (in other words, a single IP address) that can be routed to any other IP address on your account. Both IPv4 and IPv6 addresses are available, and each type must be routed to an IP address of the same IP version. Acceptable routing targets include Primary IP addresses in use by your servers and any Portable Secondary Subnet IP addresses. The unique capabilities of a Global IP address are these:
 
@@ -28,6 +35,7 @@ Global IP addresses provide flexibility. They enable you to shift workloads betw
 
 
 ## Managing Global IP addresses
+{:#manage-global-ip-address}
 
 To manage Global IP addresses, follow these steps:
 
@@ -39,6 +47,7 @@ To manage Global IP addresses, follow these steps:
 You may notice that some entries do not have a value for **Target**, which indicates that the Global IP address is not currently routed, so is not in service.
 
 ### Routing and unrouting addresses
+{:#route-unroute-address}
 
 Once you locate the desired Global IP address, click on its subnet identifier. You'll next see a screen that shows its current route target, if applicable. To route (send traffic) to a new destination, you have two options:
 
@@ -51,11 +60,13 @@ The dropdown menu is not an exhaustive list of available IP addresses. Manually 
 {:note}
 
 ### How often can I update?
+{:#how-often-can-i-update}
 
 Only one, single route update is allowed to be in progress at any time. If you attempt to update a Global IP address's route while another update is in progress, you'll receive an error. Wait until the previous update is complete before trying again.
 
 
 ## How to order Global IP addresses
+{:#how-to-order-global-ip-address}
 
 Follow these instructions to order Global IP addresses:
 
@@ -68,14 +79,17 @@ Follow these instructions to order Global IP addresses:
 ![Figure 1](images/1_2.png)
 
 ### What Happens Next?
+{:#global-ip-address-next}
 
 Barring any necessary approval processes for your account status, a new Global IP address subnet appears on your account within a few moments.
 
 ### Resource Limit
+{:#global-ip-resource-limit}
 
 An account may only have five (5) Global IP addresses per IP version. For instance, five (5) IPv4 Global IP addresses, and five (5) IPv6 Global IP addresses.
 
 ## How to cancel Global IP addresses
+{:#how-to-cancel-global-ip-address}
 
 If you no longer require a Global IP address, follow these steps to cancel it:
 

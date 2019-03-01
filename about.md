@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: IP addresses , IP address, duration of your use
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,13 +19,16 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # About Subnets and IPs
+{:#about-subnets-ips}
 
 {{site.data.keyword.BluSoftlayer_notm}} has specific terminology for the types, and uses, of subnets found on our platform. Knowing their intended use will help you know how best to use them in your cloud infrastructure.
 
 
 ## Types of Subnets
+{:#subnet-types}
 
 ### Primary Subnets
+{:#primary-subnets}
 
 Primary Subnets are assigned automatically by {{site.data.keyword.BluSoftlayer_notm}}, and are what provide IP addresses to
 resources as needed. We assign and remove Primary Subnets as required to fulfill other products. All servers will be provisioned with at least one IP address from a Primary Subnet, commonly referred to as a primary IP address. Some products and options result in more primary IP addresses being assigned.
@@ -32,6 +41,7 @@ Under no circumstances are we able to reserve IP addresses in Primary Subnets fo
 {:note}
 
 ### Secondary Subnets
+{:#secondary-subnets}
 
 Secondary Subnets provide you with additional IP addresses for many needs. Unlike Primary Subnets, these subnets are owned by you for the duration of your use, and will not be removed unless you cancel them. Secondary subnets should be used when you need a stable IP address that should not be dependent of any specific compute device. Example uses include:
 
@@ -55,6 +65,7 @@ Here is an example of the IP addresses provided by the subnet 10.0.0.0/29:
 ```
 
 #### Static Subnets
+{:#static-subnets}
 
 A Static subnet provides a single destination with access to all IP addresses defined by that subnet. One benefit of using a Static subnet is that the destination device is able to utilize all IP addresses defined; not suffering the usual network, gateway, and broadcast address usage penalty. So using our example subnet, all addresses are usable:
 
@@ -77,6 +88,7 @@ Thus, if a server has IP address 10.0.0.13, and you routed 10.0.0.0/30 staticall
 | Private Network  |      |      |
 
 #### Portable Subnet
+{:#portable-subnet}
 
 A Portable subnet provides its IP addresses to all resources on a VLAN. This means that any compute resource on the same VLAN can utilize any address provided by the subnet. This behavior is very useful for "floating" addresses across multiple resources, and decouples the subnet from any particular resource. A necessity of portable subnets is that not all IP addresses defined by the subnet are usable by devices. Networking mechanics require some of the IP addresses to be consumed. These consumed addresses are referred to as the broadcast, network, and gateway IP addresses. Notice the addresses which are
 available in our example:
@@ -99,6 +111,7 @@ available in our example:
 
 
 ### Global IP Addresses
+{:#global-ip-addresses}
 
 For information regarding the Global IP offering, please refer to the [Global IP documentation](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
 
@@ -109,6 +122,7 @@ For information regarding the Global IP offering, please refer to the [Global IP
 
 
 ## Canceling Subnets
+{:#canceling-subnets}
 
 If you no longer require a Secondary Subnet, follow these steps to cancel it:
 
@@ -120,15 +134,19 @@ If you no longer require a Secondary Subnet, follow these steps to cancel it:
 
 
 ## Product Specific Considerations when Ordering Subnets
+{:#product-specific-considerations-subnets}
 
 ### Hardware Firewall (Shared)
+{:#hardware-firewall-subnets}
 
 Portable Subnets are not protected by firewalls by default. If you need this feature, please discuss it with your Sales representative. Secondary Subnets larger than /29 cannot be routed through this firewall offering.
 
 ### Transferring Portable Subnet IP Addresses Between Servers
+{:#transferring-portable-subnet-ip-between-servers}
 
 When transferring an IP address from one server to another, make sure a gratuitous ARP packet is sent. This allows our routers to update their ARP entry and forward traffic to the correct server. Not doing so could result in up to a 4 hour delay in the new server receiving traffic for the transferred address.
 
 ### Virtual Router Appliances
+{:#virtual-router-appliances-subnets}
 
 When ordering subnets for a VLAN behind a High Availability Virtual Router Appliance, ensure the subnet is configured correctly to allow for fail-over between the two appliances. Detailed assistance is described in the [VRA High Availability Configuration](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-working-with-high-availability-and-vrrp) documentation.

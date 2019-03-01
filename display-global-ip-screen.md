@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-02-28"
+
+keywords: Global IP Screen, Global IP subnets, Network
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Display the Global IP Screen
+{:#display-global-ip-screen}
 
 To manage your interactions with Global IP subnets, use the Global IP screen on the Customer Portal. Follow these steps to display the Global IP screen:.
 
@@ -21,5 +28,6 @@ To manage your interactions with Global IP subnets, use the Global IP screen on 
 * From the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP** to display the Global IP screen.
 
 ## What Happens Next
+{:#display-global-ip-screen-next}
 
 From the Global IP screen, subnets may be [routed](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) to and [unrouted](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device) from devices.

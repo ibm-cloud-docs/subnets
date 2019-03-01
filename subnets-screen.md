@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-02-27"
+
+keywords: Subnets screen, specific information, Customer Portal
+
+subcollection: subnets
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-04"
 {:generic: data-hd-programlang="generic"}
 
 # View all Subnets
+{:#view-all-subnets}
 
 The **Subnets** screen lists each subnet associated with the account, along with specific information regarding the subnet, including its VLAN, location, and total number of IP addresses. Follow these steps to view the **Subnets** screen.
 
@@ -21,5 +28,6 @@ The **Subnets** screen lists each subnet associated with the account, along with
 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
 
 ## What Happens Next
+{:#view-all-subnets-next}
 
 On the **Subnets** screen, each subnet associated with the account is displayed within the list of subnets. From this screen, you may view a subnet or VLAN's details, edit notes for a subnet, or order additional IP addresses.
