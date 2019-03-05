@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-04"
 
 keywords: IP addresses , IP address, duration of your use
 
@@ -19,7 +19,7 @@ subcollection: subnets
 {:generic: data-hd-programlang="generic"}
 
 # About Subnets and IPs
-{:#about-subnets-ips}
+{:#about-subnets-and-ips}
 
 {{site.data.keyword.BluSoftlayer_notm}} has specific terminology for the types, and uses, of subnets found on our platform. Knowing their intended use will help you know how best to use them in your cloud infrastructure.
 
