@@ -1,0 +1,42 @@
+---
+
+copyright:
+  years: 1994, 2017-2019
+lastupdated: "2019-02-28"
+
+keywords: IP address Notes, IP address, Notes section of the screen
+
+subcollection: subnets
+
+---
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
+# 서브넷 또는 IP 주소의 참고 편집
+{:#edit-notes-subnet-ip}
+
+## 서브넷의 참고
+{:#edit-notes-subnet}
+
+[고객 포털](https://{DomainName}/){:new_window} 내의 **서브넷** 화면은 계정과 연관된 모든 서브넷을 표시하며, 네트워크, VLAN, 위치 및 참고를 포함하여 각 서브넷에 관한 모든 해당 세부사항을 표시합니다. 화면의 **참고** 섹션은 편집 가능합니다. 서브넷에 상호작용 권한이 있는 모든 사용자가 업데이트할 수 있습니다. **참고** 섹션을 서브넷 관련 세부사항으로 계속 업데이트하는 것을 권장합니다. 여기에는 서브넷의 용도와 사용자를 돕기 위한 기타 모든 관련 정보가 들어 있습니다. 서브넷의 참고를 편집하려면 이 기사의 단계를 따르십시오.
+
+* [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)의 **서브넷** 화면으로 이동하십시오. [서브넷 화면 사용](/docs/infrastructure/subnets?topic=subnets-view-subnet-details){:new_window}을 참조하십시오.
+* 원하는 서브넷에 대한 **참고** 열 내의 아무 곳이나 클릭하여 편집할 필드를 여십시오.
+* **참고** 필드에 **원하는 참고 또는 주석**을 입력하십시오.
+* 편집을 저장하려면 참고 열을 클릭하십시오.
+
+## IP 주소의 참고
+{:#edit-notes-ip}
+
+IP 주소에 대한 참고를 편집하려면 먼저 [서브넷 세부사항 화면](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen)에 IP 주소를 표시하는 지시사항에 따라서 어노테이션을 작성할 IP 주소를 검색하십시오. 원하는 주소가 표시된 후 관련 **참고** 필드를 선택하고 텍스트를 입력하십시오.
+
+## 다음 작업
+{:#edit-notes-subnet-ip-next}
+
+서브넷 또는 IP 주소에 대한 참고를 업데이트한 후, 참고는 다시 편집될 때까지 서브넷 또는 IP 주소와 함께 남아 있습니다. 서브넷 참고는 언제든지 위의 단계를 반복하여 편집할 수 있습니다.
