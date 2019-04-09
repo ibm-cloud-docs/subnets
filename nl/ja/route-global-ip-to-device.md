@@ -23,7 +23,7 @@ subcollection: subnets
 
 グローバル IP アドレスは、{{site.data.keyword.BluSoftlayer_notm}} が提供するどのデバイスに対しても、ユーザーによって手動でルーティングされます。 グローバル IP をデバイスにルーティングするには、そのデバイスが、そのグローバル IP を所有するアカウントに関連付けられている必要があります。 グローバル IP アドレスをデバイスにルーティングするには、以下の手順に従ってください。
 
-1. [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) で、「グローバル IP (Global IP)」画面にナビゲートします。 [『「グローバル IP (Global IP)」画面の表示』](/docs/infrastructure/subnets?topic=subnets-display-the-global-ip-screen){:new_window}を参照してください。
+1. [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) で、「グローバル IP (Global IP)」画面にナビゲートします。 [『「グローバル IP (Global IP)」画面の表示』](/docs/infrastructure/subnets?topic=subnets-display-global-ip-screen){:new_window}を参照してください。
 * ルーティングするグローバル IP サブネットを選択します。
 * グローバル IP のルーティング先となるデバイスの IP アドレスを、**「ルーティング先 (Routes to)」**フィールドに入力していきます。 入力の進行に応じて、このフィールドは自動的に埋められます。 ここには、ご使用のアカウントに関連付けられているデバイスが表示されます。
 * グローバル IP、デバイス、または他の項目に関する適切なメモを、**「メモ」**フィールドに入力します。
@@ -32,4 +32,4 @@ subcollection: subnets
 ## 次のステップ
 {:#route-global-ip-address-device-next}
 
-グローバル IP サブネット経路を開始すると、プロセスが開始されます。 ルーティングは一般に、完了までに 1 分はかかりません。 グローバル IP は、いつでもデバイスから[ルーティング解除](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device)できます。
+グローバル IP サブネット経路を開始すると、プロセスが開始されます。 ルーティングは一般に、完了までに 1 分はかかりません。 グローバル IP は、いつでもデバイスから[ルーティング解除](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address)できます。
