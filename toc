@@ -28,6 +28,5 @@ Subnets and IPs
 
     {: .navgroup id="help"}
     faq.md
-    global-ip-faqs.md
     getting-help.md
     {: .navgroup-end}

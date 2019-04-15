@@ -113,7 +113,7 @@ available in our example:
 ### Global IP Addresses
 {:#global-ip-addresses}
 
-For information regarding the Global IP offering, please refer to the [Global IP documentation](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+For information regarding the Global IP offering, please refer to the [Global IP documentation](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address).
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
