@@ -30,4 +30,4 @@ Per gestire le tue interazioni con le sottoreti di IP globali, utilizza la scher
 ## Operazioni successive
 {:#display-global-ip-screen-next}
 
-Dalla schermata dell'IP globale, le sottoreti possono essere [instradate](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) o ne può essere [annullato l'instradamento](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device) per i dispositivi.
+Dalla schermata dell'IP globale, le sottoreti possono essere [instradate](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device) o ne può essere [annullato l'instradamento](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address) per i dispositivi.
