@@ -30,4 +30,4 @@ Para gerenciar suas interações com sub-redes de IP global, use a tela IP globa
 ## O que acontece em seguida
 {:#display-global-ip-screen-next}
 
-Na tela IP Global, as sub-redes podem ser [roteadas](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) para dispositivos e ter o [roteamento removido](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device) deles.
+Na tela IP Global, as sub-redes podem ser [roteadas](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device) para dispositivos e ter o [roteamento removido](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address) deles.
