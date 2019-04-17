@@ -34,7 +34,7 @@ subcollection: subnets
 ## IP 주소의 참고
 {:#edit-notes-ip}
 
-IP 주소에 대한 참고를 편집하려면 먼저 [서브넷 세부사항 화면](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen)에 IP 주소를 표시하는 지시사항에 따라서 어노테이션을 작성할 IP 주소를 검색하십시오. 원하는 주소가 표시된 후 관련 **참고** 필드를 선택하고 텍스트를 입력하십시오.
+IP 주소에 대한 참고를 편집하려면 먼저 [서브넷 세부사항 화면](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen)에 IP 주소를 표시하는 지시사항에 따라서 어노테이션을 작성할 IP 주소를 검색하십시오. 원하는 주소가 표시된 후 관련 **참고** 필드를 선택하고 텍스트를 입력하십시오.
 
 ## 다음 작업
 {:#edit-notes-subnet-ip-next}
