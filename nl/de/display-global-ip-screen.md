@@ -30,4 +30,4 @@ Verwenden Sie die Anzeige für globale IP im Kundenportal, um Ihre Interaktionen
 ## Nächste Schritte
 {:#display-global-ip-screen-next}
 
-Über die Anzeige für globale IP können Sie Teilnetze an Geräte [weiterleiten](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) und die Weiterleitung von Teilnetzen an Geräte [aufheben](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device).
+Über die Anzeige für globale IP können Sie Teilnetze an Geräte [weiterleiten](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device) und die Weiterleitung von Teilnetzen an Geräte [aufheben](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address).
