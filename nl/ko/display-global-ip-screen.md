@@ -30,4 +30,4 @@ subcollection: subnets
 ## 다음 작업
 {:#display-global-ip-screen-next}
 
-글로벌 IP 화면에서 서브넷은 디바이스로 [라우팅](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device)되고 디바이스에서 [라우팅 해제](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device)될 수 있습니다.
+글로벌 IP 화면에서 서브넷은 디바이스로 [라우팅](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device)되고 디바이스에서 [라우팅 해제](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address)될 수 있습니다.
