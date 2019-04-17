@@ -111,7 +111,7 @@ subcollection: subnets
 ### 全局 IP 地址
 {:#global-ip-addresses}
 
-有关全局 IP 产品的信息，请参阅[全局 IP 文档](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses)。
+有关全局 IP 产品的信息，请参阅[全局 IP 文档](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address)。
 
 |**可用性**|IPv4|IPv6|
 | ---------------- | :--: | :--: |
