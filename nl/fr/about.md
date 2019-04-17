@@ -111,7 +111,7 @@ Un sous-réseau portable fournit ses adresses IP à toutes les ressources d'un r
 ### Adresses IP globales
 {:#global-ip-addresses}
 
-Pour en savoir plus sur l'offre IP Globale, veuillez consulter la [documentation sur les adresses IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+Pour en savoir plus sur l'offre IP Globale, veuillez consulter la [documentation sur les adresses IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address).
 
 | **Disponibilité** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
