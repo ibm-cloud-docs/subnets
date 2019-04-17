@@ -30,4 +30,4 @@ subcollection: subnets
 ## 后续操作
 {:#display-global-ip-screen-next}
 
-在“全局 IP”屏幕中，可以将子网[路由](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device)到设备，也可以从设备[取消路由](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device)子网。
+在“全局 IP”屏幕中，可以将子网[路由](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device)到设备，也可以从设备[取消路由](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address)子网。
