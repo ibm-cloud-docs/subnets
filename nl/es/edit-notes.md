@@ -34,7 +34,7 @@ La pantalla **Subredes** en el [Portal de clientes](https://{DomainName}/){:new_
 ## Notas de una dirección IP
 {:#edit-notes-ip}
 
-Para editar las notas de una dirección IP, primero siga las instrucciones para visualizar la dirección IP en la [pantalla Detalles de subred](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) para buscar la dirección IP que desea anotar. Cuando se haya mostrado la dirección deseada, seleccione el campo **Notas** relacionado y especifique su texto.
+Para editar las notas de una dirección IP, primero siga las instrucciones para visualizar la dirección IP en la [pantalla Detalles de subred](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen) para buscar la dirección IP que desea anotar. Cuando se haya mostrado la dirección deseada, seleccione el campo **Notas** relacionado y especifique su texto.
 
 ## Qué sucede a continuación
 {:#edit-notes-subnet-ip-next}
