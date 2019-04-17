@@ -34,7 +34,7 @@ La schermata **Subnets** nel [Portale del Cliente](https://{DomainName}/){:new_w
 ## Note di un indirizzo IP
 {:#edit-notes-ip}
 
-Per modificare le note di un indirizzo IP, segui prima le istruzioni per la visualizzazione dell'indirizzo IP nella [Schermata dei dettagli della sottorete](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) per ricercare l'indirizzo IP che vuoi commentare. Quando l'indirizzo IP desiderato è stato visualizzato, seleziona il campo **Notes** correlato e immetti il tuo testo.
+Per modificare le note di un indirizzo IP, segui prima le istruzioni per la visualizzazione dell'indirizzo IP nella [Schermata dei dettagli della sottorete](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen) per ricercare l'indirizzo IP che vuoi commentare. Quando l'indirizzo IP desiderato è stato visualizzato, seleziona il campo **Notes** correlato e immetti il tuo testo.
 
 ## Operazioni successive
 {:#edit-notes-subnet-ip-next}
