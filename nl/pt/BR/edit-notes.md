@@ -34,7 +34,7 @@ A tela **Subnets** no [Portal do cliente](https://{DomainName}/){:new_window} ex
 ## Notas para um endereço IP
 {:#edit-notes-ip}
 
-Para editar as notas para um endereço IP, primeiro siga as instruções para exibir o endereço IP na [Tela Detalhes da sub-rede](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) para procurar o endereço IP que você deseja anotar. Quando o endereço desejado tiver sido exibido, selecione o campo **Notas** relacionado e insira seu texto.
+Para editar as notas para um endereço IP, primeiro siga as instruções para exibir o endereço IP na [Tela Detalhes da sub-rede](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen) para procurar o endereço IP que você deseja anotar. Quando o endereço desejado tiver sido exibido, selecione o campo **Notas** relacionado e insira seu texto.
 
 ## O que acontece em seguida
 {:#edit-notes-subnet-ip-next}
