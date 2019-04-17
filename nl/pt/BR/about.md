@@ -129,7 +129,7 @@ transmissão, de rede e de gateway. Observe os endereços que estão disponívei
 ### Endereços IP globais
 {:#global-ip-addresses}
 
-Para obter informações sobre a oferta de IP global, consulte a [Documentação do IP global](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+Para obter informações sobre a oferta de IP global, consulte a [Documentação do IP global](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address).
 
 | **Disponibilidade** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
