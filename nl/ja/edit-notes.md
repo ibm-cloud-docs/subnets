@@ -34,7 +34,7 @@ subcollection: subnets
 ## IP アドレスのメモ
 {:#edit-notes-ip}
 
-IP アドレスのメモを編集するには、[「サブネット詳細 (Subnet Details)」画面](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen)で IP アドレスを表示するための手順に従って、注釈を付ける IP アドレスを検索します。 目的のアドレスが表示されたら、関連する**「メモ」**フィールドを選択し、テキストを入力してください。
+IP アドレスのメモを編集するには、[「サブネット詳細 (Subnet Details)」画面](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen)で IP アドレスを表示するための手順に従って、注釈を付ける IP アドレスを検索します。 目的のアドレスが表示されたら、関連する**「メモ」**フィールドを選択し、テキストを入力してください。
 
 ## 次のステップ
 {:#edit-notes-subnet-ip-next}
