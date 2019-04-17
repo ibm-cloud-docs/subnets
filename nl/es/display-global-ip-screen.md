@@ -30,4 +30,4 @@ Para gestionar sus interacciones con subredes de IP globales, utilice la pantall
 ## Qué sucede a continuación
 {:#display-global-ip-screen-next}
 
-En la pantalla IP global, se pueden [direccionar](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) las subredes a los dispositivos y también se puede [cancelar su direccionamiento](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device).
+En la pantalla IP global, se pueden [direccionar](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device) las subredes a los dispositivos y también se puede [cancelar su direccionamiento](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address).
