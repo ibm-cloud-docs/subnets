@@ -111,7 +111,7 @@ subcollection: subnets
 ### 廣域 IP 位址
 {:#global-ip-addresses}
 
-如需廣域 IP 供應項目的相關資訊，請參閱[廣域 IP 文件](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses)。
+如需廣域 IP 供應項目的相關資訊，請參閱[廣域 IP 文件](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address)。
 
 |**可用性** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
