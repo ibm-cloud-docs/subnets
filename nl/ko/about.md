@@ -112,7 +112,7 @@ subcollection: subnets
 ### 글로벌 IP 주소
 {:#global-ip-addresses}
 
-글로벌 IP 오퍼링에 관한 정보는 [글로벌 IP 문서](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses)를 참조하십시오.
+글로벌 IP 오퍼링에 관한 정보는 [글로벌 IP 문서](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address)를 참조하십시오.
 
 | **사용 가능성** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
