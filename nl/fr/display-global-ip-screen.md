@@ -30,4 +30,4 @@ Pour gérer vos interactions avec les sous-réseaux des adresses IP globales, ut
 ## Etapes suivantes
 {:#display-global-ip-screen-next}
 
-Dans l'écran IP Globale, les sous-réseaux peuvent être [routés vers](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device) des dispositifs ou [déroutés](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device) de ceux-ci.
+Dans l'écran IP Globale, les sous-réseaux peuvent être [routés vers](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device) des dispositifs ou [déroutés](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address) de ceux-ci.
