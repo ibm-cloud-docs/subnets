@@ -110,7 +110,7 @@ Von einem portierbaren Teilnetz werden IP-Adressen für alle Ressourcen in einem
 ### Globale IP-Adressen
 {:#global-ip-addresses}
 
-Informationen zum Angebot für globale IPs finden Sie in der [Dokumentation zu globalen IPs](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+Informationen zum Angebot für globale IPs finden Sie in der [Dokumentation zu globalen IPs](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address).
 
 | **Verfügbarkeit** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
