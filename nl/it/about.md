@@ -111,7 +111,7 @@ Una sottorete portatile fornisce i suoi indirizzi IP a tutte le risorse su una V
 ### Indirizzi IP globali
 {:#global-ip-addresses}
 
-Per informazioni sull'offerta dell'IP globale, fai riferimento alla [Documentazione dell'IP globale](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+Per informazioni sull'offerta dell'IP globale, fai riferimento alla [Documentazione dell'IP globale](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address).
 
 | **Disponibilità** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
