@@ -111,7 +111,7 @@ Una subred portátil proporciona sus direcciones IP a todos los recursos de una 
 ### Direcciones IP globales
 {:#global-ip-addresses}
 
-Para obtener información sobre la oferta de IP globales, consulte la [documentación sobre IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-addresses).
+Para obtener información sobre la oferta de IP globales, consulte la [documentación sobre IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address).
 
 | **Disponibilidad** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
