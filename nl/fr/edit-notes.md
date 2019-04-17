@@ -34,7 +34,7 @@ L'écran **Sous-réseaux** du [portail client ](https://{DomainName}/){:new_wind
 ## Remarques sur une adresse IP
 {:#edit-notes-ip}
 
-Pour éditer des remarques sur une adresse IP, suivez d'abord les instructions relatives à l'affichage des adresses IP sur l'écran [Détails du sous-réseau](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) pour rechercher l'adresse IP que vous souhaitez annoter. Une fois que l'adresse souhaitée s'affiche, sélectionnez la zone **Remarque** correspondante et entrez votre texte.
+Pour éditer des remarques sur une adresse IP, suivez d'abord les instructions relatives à l'affichage des adresses IP sur l'écran [Détails du sous-réseau](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen) pour rechercher l'adresse IP que vous souhaitez annoter. Une fois que l'adresse souhaitée s'affiche, sélectionnez la zone **Remarque** correspondante et entrez votre texte.
 
 ## Etapes suivantes
 {:#edit-notes-subnet-ip-next}
