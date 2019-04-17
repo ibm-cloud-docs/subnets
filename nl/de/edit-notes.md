@@ -34,7 +34,7 @@ In der Anzeige **Teilnetze** im [Kundenportal](https://{DomainName}/){:new_windo
 ## Anmerkungen für eine IP-Adresse
 {:#edit-notes-ip}
 
-Führen Sie zum Bearbeiten der Anmerkungen für eine IP-Adresse zuerst die Anweisungen zum Anzeigen der IP-Adresse in der [Anzeige 'Teilnetzdetails](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen) aus, um nach der IP-Adresse zu suchen, für die Sie Anmerkungen bearbeiten möchten. Wenn die gewünschte Adresse angezeigt wird, wählen Sie das zugehörige Feld **Anmerkungen** aus und geben Sie den gewünschten Text ein.
+Führen Sie zum Bearbeiten der Anmerkungen für eine IP-Adresse zuerst die Anweisungen zum Anzeigen der IP-Adresse in der [Anzeige 'Teilnetzdetails](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen) aus, um nach der IP-Adresse zu suchen, für die Sie Anmerkungen bearbeiten möchten. Wenn die gewünschte Adresse angezeigt wird, wählen Sie das zugehörige Feld **Anmerkungen** aus und geben Sie den gewünschten Text ein.
 
 ## Nächste Schritte
 {:#edit-notes-subnet-ip-next}
