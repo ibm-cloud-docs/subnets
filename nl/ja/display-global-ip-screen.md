@@ -30,4 +30,4 @@ subcollection: subnets
 ## 次のステップ
 {:#display-global-ip-screen-next}
 
-「グローバル IP (Global IP)」画面で、サブネットをデバイスに[ルーティング](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device)し、またデバイスから[ルーティング解除](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device)することができます。
+「グローバル IP (Global IP)」画面で、サブネットをデバイスに[ルーティング](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device)し、またデバイスから[ルーティング解除](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address)することができます。
