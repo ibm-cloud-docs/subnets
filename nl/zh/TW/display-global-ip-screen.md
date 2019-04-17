@@ -30,4 +30,4 @@ subcollection: subnets
 ## 後續情形
 {:#display-global-ip-screen-next}
 
-從「廣域 IP」畫面中，可能會在裝置中[遞送](/docs/infrastructure/subnets?topic=subnets-route-a-global-ip-address-to-a-device)及[取消遞送](/docs/infrastructure/subnets?topic=subnets-unroute-a-global-ip-address-from-a-device)子網路。
+從「廣域 IP」畫面中，可能會在裝置中[遞送](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device)及[取消遞送](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address)子網路。
