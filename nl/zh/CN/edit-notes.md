@@ -34,7 +34,7 @@ subcollection: subnets
 ## IP 地址的注释
 {:#edit-notes-ip}
 
-要编辑 IP 地址的注释，请首先遵循在[子网详细信息屏幕](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen)上显示 IP 地址的指示信息，以搜索要注释的 IP 地址。显示了所需的地址时，选择相关的**注释**字段并输入文本。
+要编辑 IP 地址的注释，请首先遵循在[子网详细信息屏幕](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen)上显示 IP 地址的指示信息，以搜索要注释的 IP 地址。显示了所需的地址时，选择相关的**注释**字段并输入文本。
 
 ## 后续操作
 {:#edit-notes-subnet-ip-next}
