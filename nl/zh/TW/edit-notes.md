@@ -34,7 +34,7 @@ subcollection: subnets
 ## IP 位址注意事項
 {:#edit-notes-ip}
 
-若要編輯 IP 位址的注意事項，請先遵循在[子網路詳細資料畫面](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-on-the-subnet-details-screen)上顯示 IP 位址的指示來搜尋您要註釋的 IP 位址。已顯示所需位址時，請選取相關的**注意事項**欄位，然後輸入您的文字。
+若要編輯 IP 位址的注意事項，請先遵循在[子網路詳細資料畫面](/docs/infrastructure/subnets?topic=subnets-filter-ip-addresses-subnet-details-screen)上顯示 IP 位址的指示來搜尋您要註釋的 IP 位址。已顯示所需位址時，請選取相關的**注意事項**欄位，然後輸入您的文字。
 
 ## 後續情形
 {:#edit-notes-subnet-ip-next}
