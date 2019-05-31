@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-05-13"
 
 keywords: IP addresses, IPs Subnets, types of subnets
 
@@ -18,8 +18,8 @@ subcollection: subnets
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Getting Started with Subnets and IPs
-{:#getting-started-subnets-ips}
+# Getting started tutorial
+{: #getting-started}
 
 Subnets are an important part of how you use the internet, and that's also true when using {{site.data.keyword.cloud}}. We have specific terminology for the types, and uses, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You will encounter the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
 
