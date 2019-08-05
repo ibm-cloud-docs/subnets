@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-28"
+  years: 1994,2019
+lastupdated: "2019-06-11"
 
 keywords: Global IP Addresses, Global IP address, single IP address
 
@@ -39,7 +39,7 @@ Global IP addresses provide flexibility. They enable you to shift workloads betw
 
 To manage Global IP addresses, follow these steps:
 
- 1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+ 1. From your browser, open the [{{site.data.keyword.cloud_notm}} infrastructure customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
  1. In the Customer Portal navigation, select **Classic Infrastructure**.
  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
  1. You'll see your Global IP addresses listed. Utilize filters to narrow your search as needed. 
@@ -70,7 +70,7 @@ Only one, single route update is allowed to be in progress at any time. If you a
 
 Follow these instructions to order Global IP addresses:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. From your browser, open the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
   1. In the Customer Portal navigation, select **Classic Infrastructure**.
   1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
   3. Click on the **New IP Addresses** link.
@@ -93,7 +93,7 @@ An account may only have five (5) Global IP addresses per IP version. For instan
 
 If you no longer require a Global IP address, follow these steps to cancel it:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. From your browser, open the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
   1. In the Customer Portal navigation, select **Classic Infrastructure**.
   1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
   1. Complete any necessary filters to locate the desired address.

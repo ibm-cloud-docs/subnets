@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-08-05"
 
 keywords: IP addresses, IPs Subnets, types of subnets
 
@@ -16,9 +16,10 @@ subcollection: subnets
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
 
-# Getting started tutorial
+# Getting started with Subnets and IPs
 {: #getting-started}
 
 Subnets are an important part of how you use the internet, and that's also true when using {{site.data.keyword.cloud}}. We have specific terminology for the types, and uses, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You will encounter the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
@@ -31,8 +32,8 @@ Subnets are an important part of how you use the internet, and that's also true 
 
 Review each type in detail at [About Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips) in order to review aspects such as IPv4 vs. IPv6 and public/private network availability.
 
-To understand subnets and subnetting more generally, review [Subnetwork ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Subnetwork).
-Additionally, you'll see we refer to subnets using [CIDR notation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing).
+To understand subnets and subnetting more generally, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){:external}.
+Additionally, you'll see we refer to subnets using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:external}.
 
 
 ## Ordering Subnets
@@ -40,7 +41,7 @@ Additionally, you'll see we refer to subnets using [CIDR notation ![External lin
 
 Follow these steps to order Subnets which provide additional IP addresses:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. From your browser, open the [customer portal](https://{DomainName}/){:external} and log into your account.
   1. In the Customer Portal navigation, select **Classic Infrastructure**. 
   1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
   1. Select the link, "New IP Addresses", in the top right of the listing.

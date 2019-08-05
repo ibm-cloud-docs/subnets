@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-28"
+  years: 1994, 2019
+lastupdated: "2019-06-11"
 
 keywords: Global IP Screen, Global IP subnets, Network
 
@@ -21,9 +21,9 @@ subcollection: subnets
 # Display the Global IP Screen
 {:#display-global-ip-screen}
 
-To manage your interactions with Global IP subnets, use the Global IP screen on the Customer Portal. Follow these steps to display the Global IP screen:.
+To manage your interactions with Global IP subnets, use the Global IP screen on the {{site.data.keyword.cloud}} infrastructure customer portal. Follow these steps to display the Global IP screen:.
 
-* Log in to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)using your unique credentials.
+* Log in to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)using your unique credentials.
 * From the navigation menu, select **Classic Infrastructure**.
 * From the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP** to display the Global IP screen.
 

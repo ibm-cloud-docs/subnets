@@ -16,6 +16,7 @@ Subnets and IPs
     subnets-screen.md
     subnet-details.md
     use-secondary-self-hosted-vms.md
+    static-to-vlan-deprecation.md
 
     {: .topicgroup}
     Manage Global IPs
