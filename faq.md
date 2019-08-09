@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-08-07"
 
 keywords: Primary IP, IP address, Frequently Asked Questions
 
@@ -52,7 +52,7 @@ This won't happen! We automatically assign Primary Subnets to make more IP addre
 {: faq}
 
 First, you'll want to purchase a **Secondary Subnet**, there are multiple types, so review [About Subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). Once you have a subnet routed to the IP address or VLAN desired, you'll want to refer to the specific compute documentation for how to setup your new IP addresses:
-  * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-bm-assign-ip-address#bm-assign-ip-address)
+  * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-assigning-and-binding-ip-addresses#bm-assign-ip-address)
   * [Virtual Server Instance IP address assignment](/docs/vsi?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
 
 
