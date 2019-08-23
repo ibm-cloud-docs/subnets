@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-08-21"
 
 keywords: IP addresses , IP address, duration of your use
 
@@ -21,7 +21,7 @@ subcollection: subnets
 # About Subnets and IPs
 {:#about-subnets-and-ips}
 
-{{site.data.keyword.BluSoftlayer_notm}} has specific terminology for the types, and uses, of subnets found on our platform. Knowing their intended use will help you know how best to use them in your cloud infrastructure.
+{{site.data.keyword.cloud_notm}} has specific terminology for the types, and uses, of subnets found on our platform. Knowing their intended use will help you know how best to use them in your cloud infrastructure.
 
 
 ## Types of Subnets
@@ -30,7 +30,7 @@ subcollection: subnets
 ### Primary Subnets
 {:#primary-subnets}
 
-Primary Subnets are assigned automatically by {{site.data.keyword.BluSoftlayer_notm}}, and are what provide IP addresses to
+Primary Subnets are assigned automatically by {{site.data.keyword.cloud_notm}}, and are what provide IP addresses to
 resources as needed. We assign and remove Primary Subnets as required to fulfill other products. All servers will be provisioned with at least one IP address from a Primary Subnet, commonly referred to as a primary IP address. Some products and options result in more primary IP addresses being assigned.
 
 It is important to understand that IP addresses within Primary Subnets, which are not yet assigned to resources, are not available for your use. If you attempt to use unassigned IP addresses from Primary Subnets we will inevitably assign them to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a Primary Subnet which is not specifically assigned during fulfillment of other products.
@@ -47,10 +47,10 @@ Secondary Subnets provide you with additional IP addresses for many needs. Unlik
 
   * IP addresses you can assign to your own, local, virtual machines.
   * Multiple, distinct service IP addresses hosted by a single server allowing you to easily identify traffic. Commonly used with web servers and TLS.
-  * A service IP address tied to DNS. Avoid DNS caching delays when shifting workloads to new servers (ie. the service IP won't change simply because a server's primary IP address does!).
+  * A service IP address tied to DNS. Avoid DNS caching delays when shifting workloads to new servers (in other words, the service IP won't change simply because a server's primary IP address does!).
   * High availability configurations which utilize "floating" IP address protocols.
 
-To achieve such uses, and many more, we offer different routing options for Secondary Subnets. In order to help illustrate the differences between the Secondary Subnets we offer, we'll refer to the below example subnet in further explanations.
+To achieve such uses, and many more, we offer different routing options for Secondary Subnets. In order to help illustrate the differences between the Secondary Subnets we offer, we'll refer to the following example subnet in further explanations.
 
 Here is an example of the IP addresses provided by the subnet 10.0.0.0/29:
 ```
@@ -67,7 +67,7 @@ Here is an example of the IP addresses provided by the subnet 10.0.0.0/29:
 #### Static Subnets
 {:#static-subnets}
 
-A Static subnet provides a single destination with access to all IP addresses defined by that subnet. One benefit of using a Static subnet is that the destination device is able to utilize all IP addresses defined; not suffering the usual network, gateway, and broadcast address usage penalty. So using our example subnet, all addresses are usable:
+A Secondary Static subnet provides a single destination with access to all IP addresses defined by that subnet. One benefit of using a Static subnet is that the destination device is able to utilize all IP addresses defined; not suffering the usual network, gateway, and broadcast address usage penalty. So using our example subnet, all addresses are usable:
 
 ```
 10.0.0.0 - Usable by device
@@ -82,16 +82,27 @@ A Static subnet provides a single destination with access to all IP addresses de
 
 Thus, if a server has IP address 10.0.0.13, and you routed 10.0.0.0/30 statically to 10.0.0.13, that server can now bind four additional IP addresses; receiving traffic on each individually. It is important to understand there is no Network Address Translation (NAT) being performed for any of the addresses provided. Each address can be used natively on servers, and thus each can be used for discrete purposes.
 
+The following IP addresses are eligible as route targets for Static subnets within the same datacenter:
+
+  * Any Primary IP address assigned to a Bare Metal Server or Virtual Server Instance.
+  * Any virtual/floating IP address assigned to a Gateway or Virtual Router Appliance.
+  * Any Portable subnet IP address, excluding Network, Gateway and Broadcast addresses.
+
+The following IP addresses are NOT eligible as route targets for Static subnets:
+
+  * Any Static subnet IP address.
+  * Any IPv6 address, as an IPv4 Static subnet route target.
+  * Any IPv4 address, as an IPv6 Static subnet route target.
+
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
-| Private Network  |      |      |
+| Private Network  |  No  | No   |
 
 #### Portable Subnet
 {:#portable-subnet}
 
-A Portable subnet provides its IP addresses to all resources on a VLAN. This means that any compute resource on the same VLAN can utilize any address provided by the subnet. This behavior is very useful for "floating" addresses across multiple resources, and decouples the subnet from any particular resource. A necessity of portable subnets is that not all IP addresses defined by the subnet are usable by devices. Networking mechanics require some of the IP addresses to be consumed. These consumed addresses are referred to as the broadcast, network, and gateway IP addresses. Notice the addresses which are
-available in our example:
+A Secondary Portable subnet provides its IP addresses to all resources on a VLAN. This means that any compute resource on the same VLAN can utilize any address provided by the subnet. This behavior is very useful for "floating" addresses across multiple resources, and decouples the subnet from any particular resource. A necessity of portable subnets is that not all IP addresses defined by the subnet are usable by devices. Networking mechanics require some of the IP addresses to be consumed. These consumed addresses are referred to as the broadcast, network, and gateway IP addresses. Notice the addresses which are available in our example:
 
 ```
 10.0.0.0 - Network
@@ -107,7 +118,7 @@ available in our example:
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
-| Private Network  | Yes  |      |
+| Private Network  | Yes  | No   |
 
 
 ### Global IP Addresses
@@ -118,7 +129,7 @@ For information regarding the Global IP offering, please refer to the [Global IP
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
-| Private Network  |      |      |
+| Private Network  | No   | No   |
 
 
 ## Canceling Subnets
@@ -126,12 +137,11 @@ For information regarding the Global IP offering, please refer to the [Global IP
 
 If you no longer require a Secondary Subnet, follow these steps to cancel it:
 
-  1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-  1. In the Customer Portal navigation, select **Classic Infrastructure**. 
+  1. From your browser, open the [customer portal](https://{DomainName}/){: new_window} and log into your account.
+  1. In the customer portal navigation, select **Classic Infrastructure**. 
   1. From the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
   1. Choose any desired filters to locate the desired subnet.
-  1. On the right hand side of the subnet's entry in the subnet list, a red circled with an X will be shown. Click on this icon to initiate the cancellation process.
-
+  1. Click the cancel icon next to the subnets's entry in the subnet list to initiate the cancellation process.
 
 ## Product Specific Considerations when Ordering Subnets
 {:#product-specific-considerations-subnets}
@@ -139,7 +149,7 @@ If you no longer require a Secondary Subnet, follow these steps to cancel it:
 ### Hardware Firewall (Shared)
 {:#hardware-firewall-subnets}
 
-Portable Subnets are not protected by firewalls by default. If you need this feature, please discuss it with your Sales representative. Secondary Subnets larger than /29 cannot be routed through this firewall offering.
+Portable Subnets are not protected by firewalls by default. If you need this feature, discuss it with your Sales representative. Secondary Subnets larger than /29 cannot be routed through this firewall offering.
 
 ### Transferring Portable Subnet IP Addresses Between Servers
 {:#transferring-portable-subnet-ip-between-servers}
