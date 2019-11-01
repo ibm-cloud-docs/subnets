@@ -24,7 +24,7 @@ subcollection: subnets
 
 Subnets are an important part of how you use the internet, and that's also true when using {{site.data.keyword.cloud}}. We have specific terminology for the types, and uses, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You will encounter the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
 
-  * Primary Subnets - Subnets assigned to meet the IP addressing needs of other products such as Bare Metal Server and Virtual Server Instances. These subnets are automatically assigned and removed.
+  * Primary Subnets - Subnets assigned to meet the IP addressing needs of other products such as Bare Metal Server and Virtual Server Instances. These subnets are automatically assigned and removed. Review the limitations of [primary subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) for information on their proper use.
   * Secondary Subnets - Subnets which are purchased and routed by you; cancelled when no longer needed. There are two sub-types:
     * Portable - IP addresses are available to all resources on a VLAN.
     * Static - IP addresses are available to the resource identified as the routing endpoint.
