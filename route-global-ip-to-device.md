@@ -12,18 +12,25 @@ subcollection: subnets
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Route a Global IP Address to a Device
 {:#route-global-ip-address-device}
 
 Global IP addresses are manually routed by the user to any device that {{site.data.keyword.BluSoftlayer_notm}} offers. To route a Global IP to a device, the device must be associated with the account that owns the Global IP. Follow the steps below to route a Global IP address to a device.
 
-1. Navigate to the Global IP screen on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Display the Global IP Screen](/docs/infrastructure/subnets?topic=subnets-display-global-ip-screen).
+1. Navigate to the Global IP screen on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Display the Global IP Screen](/docs/infrastructure/subnets?topic=subnets-display-global-ip-screen).
 
 * Select the Global IP subnet to be routed.
 * Begin typing the IP address of the device that the Global IP will route to in the **Routes to** field. This field will auto complete based on your input. It displays any device associated with your account.

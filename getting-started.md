@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-11-07"
 
 keywords: IP addresses, IPs Subnets, types of subnets
 
@@ -41,10 +41,10 @@ Additionally, you'll see we refer to subnets using [CIDR notation](https://en.wi
 
 Follow these steps to order Subnets which provide additional IP addresses:
 
-  1. From your browser, open the [customer portal](https://{DomainName}/){:external} and log into your account.
-  1. In the Customer Portal navigation, select **Classic Infrastructure**. 
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
+  1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page. 
   1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
-  1. Select the link, "New IP Addresses", in the top right of the listing.
+  1. Click the "Order IP Addresses" button.
   1. To start the ordering process, select Public or Private type of subnet from the radio buttons.
   1. Choose between IPv4 or IPv6 options.
   1. To choose Static or Global IPs, click the corresponding box. 

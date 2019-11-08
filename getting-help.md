@@ -10,7 +10,7 @@ subcollection: subnets
 
 ---
 
-<!-- Common attributes used in the template are defined as follows: -->
+
 {:tsSymptoms: .tsSymptoms} 
 {:tsCauses: .tsCauses} 
 {:tsResolve: .tsResolve} 
@@ -18,22 +18,13 @@ subcollection: subnets
 {:shortdesc: .shortdesc}
 {:DomainName: data-hd-keyref="DomainName"}
 
-<!-- # {{site.data.keyword.blockstorageshort}} troubleshooting
-{: #ts} -->
-<!-- Provide an appropriate ID above -->
-
-<!-- IN PROGRESS - AUDIENCE BLUE, STAGING ONLY -->
 
 
-<!-- This is the template for troubleshooting topics.  -->
 
-<!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
-
-<!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting Help and Support 
 {: #gettinghelp-subnets}
 
-If you have problems or questions when using subnets, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+If you have problems or questions when using subnets, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}.
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.

@@ -24,8 +24,8 @@ subcollection: subnets
 
 The **Subnet Details** screen displays all IP addresses associated with a subnet, its status, its description, and any notes, if present. Follow the steps in this article to display subnet details.
 
-1. From your browser, open the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-1. In the {{site.data.keyword.cloud_notm}} Console navigation, select **Classic Infrastructure**.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
+  1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure menu, select **Network > IP Management > Subnets**.
 1. Click on the **Subnet** link to view the subnet's details.
 
@@ -34,7 +34,7 @@ The **Subnet Details** screen displays all IP addresses associated with a subnet
 
 On the **Subnet Details** screen, all IP addresses associated with the subnet are displayed, along with their status, description and any notes present for the IP. The list of IPs may be filtered by IP address to narrow the IPs displayed at any time. Follow these steps to filter IP addresses on the Subnet Details screen.
 
-* Navigate to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)}. Refer to [Use the Subnet Details Screen](/docs/infrastructure/subnets?topic=subnets-view-subnet-details).
+* Navigate to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Use the Subnet Details Screen](/docs/infrastructure/subnets?topic=subnets-view-subnet-details).
 * Click the desired **IP address** in the **Subnet** column.
 * Choose the **Filter** tab to display the filter options.
 * Select the IP address from the dropdown list.

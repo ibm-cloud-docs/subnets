@@ -14,7 +14,7 @@ subcollection: subnets
 {:faq: data-hd-content-type='faq'}
 {:new_window: target="_blank"}
 
-# FAQ
+# FAQs
 {: #faq}
 
 ## What does "Primary IP for future server only" when I look at a subnet's IP addresses mean?
@@ -60,8 +60,7 @@ First, you'll want to purchase a **Secondary Subnet**, there are multiple types,
 {: #subnets-faq-reserved-hsrp-meaning}
 {: faq}
 
-In a decreasing number of locations, {{site.data.keyword.BluSoftlayer_notm}} has routers utilizing a technique known as Hot Router Standby Protocol or HSRP. Specifically, the way it is used impacts the IP addresses available to ***Portable Secondary Subnets***; meaning you will lose access to two additional addresses in these locations. As the designation, "Reserved for HSRP", indicates, these IP addresses are reserved to fulfill the needs of HSRP. You may even have subnets on the same router, some with and some without, such reservations. As with any IP conflict, please do not attempt to use these
-addresses or you risk affecting traffic on the entire subnet.
+In a decreasing number of locations, {{site.data.keyword.BluSoftlayer_notm}} has routers utilizing a technique known as Hot Router Standby Protocol or HSRP. Specifically, the way it is used impacts the IP addresses available to ***Secondary Portable Subnets***; meaning you will lose access to two additional addresses in these locations. As the designation, "Reserved for HSRP", indicates, these IP addresses are reserved to fulfill the needs of HSRP. You may even have subnets on the same router, some with and some without, such reservations. As with any IP conflict, please do not attempt to use these addresses or you risk affecting traffic on the entire subnet.
 
 ## Global IP FAQ
 {: #global-ip-faq}

@@ -23,8 +23,8 @@ subcollection: subnets
 
 You can manage your Global IP addresses in the **Subnets** screen. 
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-1. In the Customer Portal navigation, select **Classic Infrastructure**. 
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
+1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page. 
 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
 1. In the dropdown menu, choose **Global IPv4** (or IPv6) to filter the Subnet list to show only the Global IPs.
 1. Click on the Global IP you want to manage.
@@ -57,6 +57,7 @@ Before your server will accept traffic for the Global IP, that IP must be proper
       NETWORK=[Network of the Primary IP Block]
       ONBOOT=yes
 ```
+{:pre}
 
 **Debian/Ubuntu**
 
@@ -68,6 +69,7 @@ Before your server will accept traffic for the Global IP, that IP must be proper
       post-up ip addr add [Global IP address]/32 dev eth1
       post-down ip addr del [Global IP address]/32 dev eth1
 ```
+{:pre}
 
 If your system does not work properly, add the following lines instead, replacing the # with the next number available:
 
@@ -82,12 +84,13 @@ If your system does not work properly, add the following lines instead, replacin
 
         gateway [Server Primary Public Gateway]
 ```
+{:pre}
 
 ### For Windows servers
 {:#add-global-ip-server-windows}
 
 1. Browse to: **Start -> Control Panel -> Network Connections -> Local Area Connection (Public) (properties)**.
-* Select: **Internet Protocol (TCP/IP)** and click **Properties -> Advanced**.
+* Select **Internet Protocol (TCP/IP)** and click **Properties -> Advanced**.
 * Select **Add** in the IP addresses section and enter the IP address and Subnet mask.
 * Once this task is complete, simply "OK" back to the desktop.
 
@@ -96,6 +99,7 @@ To verify that your settings have taken effect, open a DOS prompt by browsing to
 ```
         > ipconfig /all
 ```
+{:pre}
 
 **Notes:**
 

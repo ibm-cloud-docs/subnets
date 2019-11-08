@@ -23,8 +23,8 @@ subcollection: subnets
 
 The **Subnets** screen lists each subnet associated with the account, along with specific information regarding the subnet, including its network, type, VLAN, location, target, and total number of IP addresses. Follow these steps to view the **Subnets** screen.
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-1. In the Customer Portal navigation, select **Classic Infrastructure**.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
+1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
 
 
