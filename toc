@@ -19,7 +19,7 @@ Subnets and IPs
     static-to-vlan-deprecation.md
 
     {: .topicgroup}
-    Manage Global IPs
+    Managing global IPs
         manage-global-ip.md
         display-global-ip-screen.md
         route-global-ip-to-device.md
