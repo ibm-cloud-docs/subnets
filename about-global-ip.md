@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994,2019
-lastupdated: "2019-11-06"
+  years: 1994,2020
+lastupdated: "2020-01-29"
 
 keywords: global IP addresses, global IP Address, single IP address
 
@@ -33,12 +33,12 @@ A global IP address is a specialized secondary static subnet that can be routed 
   * Global, on-demand routing to IP addresses on an account.
   * Global IP addresses are announced to the internet by all {{site.data.keyword.cloud}} edge routers. Therefore, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses {{site.data.keyword.cloud}}'s dedicated, global backbone to reach the destination you've configured.
 
-Global IP addresses provide flexibility. They enable you to shift workloads between servers, even across geographically disparate data centers. Also, global IP addresses provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.
+Global IP addresses provide flexibility. They enable you to shift workloads between servers, even across geographically disparate data centers. Also, global IP addresses provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.2
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
-| Private Network  |  -   |  -   |
+| Private Network  | No   | No   |
 
 
 ## Managing global IP addresses
@@ -47,7 +47,7 @@ Global IP addresses provide flexibility. They enable you to shift workloads betw
 To manage global IP addresses, follow these steps:
 
  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the classic infrastructure landing page.
+ 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the classic infrastructure landing page.
  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
  1. Your global IP addresses are listed. Use filters to narrow your search as needed.
 

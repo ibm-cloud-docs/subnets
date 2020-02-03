@@ -28,7 +28,7 @@ Primary subnets are assigned and removed as needed by {{site.data.keyword.BluSof
 {: #subnets-faq-use-other-ip-addresses-primary-subnets}
 {: faq}
 
-No! We realize you see the primary subnets that are assigned by {{site.data.keyword.BluSoftlayer_notm}} as any other subnet, but as described in [About subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips), primary subnets are what provide IP addresses to resources on demand. We assign and remove primary subnets as we require to fulfill other products. If you attempt to use unassigned IP addresses from primary subnets, we will inevitably assign them to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a primary subnet, which is not assigned during fulfillment of other products. It is recommended you use "secondary subnets" for all additional IP (application/service) address needs. Secondary subnets are much more flexible and are maintained on your account for as long as you own them.
+No! We realize you see the primary subnets that are assigned by {{site.data.keyword.BluSoftlayer_notm}} as any other subnet, but as described in [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips), primary subnets are what provide IP addresses to resources on demand. We assign and remove primary subnets as we require to fulfill other products. If you attempt to use unassigned IP addresses from primary subnets, we will inevitably assign them to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a primary subnet, which is not assigned during fulfillment of other products. It is recommended you use "secondary subnets" for all additional IP (application/service) address needs. Secondary subnets are much more flexible and are maintained on your account for as long as you own them.
 
 
 ## Is there a way to specify which subnet I want to use for my device when I order it?
@@ -44,14 +44,14 @@ It is important to note that submission of the order **does not guarantee** that
 {: #subnets-faq-ran-out-of-addresses}
 {: faq}
 
-We automatically assign primary subnets to make more IP addresses available to fulfill your compute purchases. You don't need to manage a thing. However, if you mean that you need more IP addresses for say local virtual machines or segregating applications, then read up on "secondary subnets" in [About subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips).
+We automatically assign primary subnets to make more IP addresses available to fulfill your compute purchases. You don't need to manage a thing. However, if you mean that you need more IP addresses for say local virtual machines or segregating applications, then read up on "secondary subnets" in [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips).
 
 
 ## How do I assign more IP addresses to a compute resource?
 {: #subnets-faq-assign-more-ip-addresses-to-compute-resource}
 {: faq}
 
-Purchase a secondary subnet. Because there are multiple types of subnets, it is a good idea to review [About subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). After you have a subnet that is routed to the IP address or VLAN you want, you'll want to refer to the specific compute documentation for how to set up your new IP addresses:
+Purchase a secondary subnet. Because there are multiple types of subnets, it is a good idea to review [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). After you have a subnet that is routed to the IP address or VLAN you want, you'll want to refer to the specific compute documentation for how to set up your new IP addresses:
 
   * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-assigning-and-binding-ip-addresses#bm-assign-ip-address)
   * [Virtual Server Instance IP address assignment](/docs/vsi?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)

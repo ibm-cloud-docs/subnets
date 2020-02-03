@@ -45,7 +45,7 @@ Under no circumstances are we able to reserve IP addresses in primary subnets fo
 
 Secondary subnets provide additional, independent IP addresses for your compute resources. Perfect for use as external application or service addresses. Secondary subnet IP addresses are managed independently of other resources and are yours until canceled.
 
-Secondary subnets come in "data center" and "global" flavors, the latter referred to as global IP. For more information, see [Getting started with Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started).
+Secondary subnets come in "data center" and "global" flavors, the latter referred to as global IP. For more information, see [Getting started with Subnets and IPs](/docs/subnets?topic=subnets-getting-started).
 
 Features:
 
@@ -138,7 +138,7 @@ A secondary "portable" subnet provides its IP addresses to all resources on a VL
 ### Global IP addresses
 {:#global-ip-addresses}
 
-For information regarding the global IP offering, see [Global IP documentation](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address).
+For information regarding the global IP offering, see [Global IP documentation](/docs/subnets?topic=subnets-about-global-ip-address#about-global-ip-address).
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
@@ -173,4 +173,4 @@ When transferring an IP address from one server to another, make sure that a gra
 ### Virtual Router Appliances
 {:#virtual-router-appliances-subnets}
 
-When ordering subnets for a VLAN behind a High Availability (HA) Virtual Router Appliance (VRA), ensure that the subnet is configured correctly to allow for fail-over between the two appliances. For more information, see [VRA High Availability Configuration](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-working-with-high-availability-and-vrrp).
+When ordering subnets for a VLAN behind a High Availability (HA) Virtual Router Appliance (VRA), ensure that the subnet is configured correctly to allow for fail-over between the two appliances. For more information, see [VRA High Availability Configuration](/docs/virtual-router-appliance?topic=virtual-router-appliance-working-with-high-availability-and-vrrp).

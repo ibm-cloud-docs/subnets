@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2020
-lastupdated: "2020-01-29"
+  years: 1994, 2017-2019
+lastupdated: "2019-11-12"
 
-keywords: IP addresses, IPs subnets, types of subnets
+keywords: IP addresses, IPs Subnets, types of subnets
 
 subcollection: subnets
 
@@ -32,13 +32,13 @@ subcollection: subnets
 Subnets are an important part of how you use the internet, and that's also true when you use {{site.data.keyword.cloud}}. IBM has specific terminology for the types, and use, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You come across the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
 {:shortdesc}
 
-  * Primary subnets - Assigned to meet the IP addressing needs of other products, such as bare metal server and virtual server instances. These subnets are automatically assigned and removed. Review the limitations of [primary subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) for information on their proper use.
+  * Primary subnets - Assigned to meet the IP addressing needs of other products, such as bare metal server and virtual server instances. These subnets are automatically assigned and removed. Review the limitations of [primary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) for information on their proper use.
   * Secondary subnets - Purchased and routed by you, and cancelled when no longer needed. There are two subtypes:
     * Portable - IP addresses are available to all resources on a VLAN.
     * Static - IP addresses are available to the resource identified as the routing endpoint.
   * Global IP addresses - Unique routing behavior that uses {{site.data.keyword.cloud}}'s backbone, which provides IP addresses to the resource identified as the routing endpoint.
 
-Review each type in detail at [About subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips) to review aspects such as IPv4 versus IPv6 and public versus private network availability.
+Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips) to review aspects such as IPv4 versus IPv6 and public versus private network availability.
 
 To understand subnets and subnetting more generally, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){:external}.
 Additionally, subnets are referred in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:external}.

@@ -37,4 +37,4 @@ To manage your interactions with global IP subnets, use the global IP screen on 
 ## What happens next
 {:#display-global-ip-screen-next}
 
-From the global IP screen, subnets can be [routed](/docs/infrastructure/subnets?topic=subnets-route-global-ip-address-device#route-global-ip-address-device) to and [unrouted](/docs/infrastructure/subnets?topic=subnets-unroute-global-ip-address#unroute-global-ip-address) from devices.
+From the global IP screen, subnets can be [routed](/docs/subnets?topic=subnets-route-global-ip-address-device#route-global-ip-address-device) to and [unrouted](/docs/subnets?topic=subnets-unroute-global-ip-address#unroute-global-ip-address) from devices.

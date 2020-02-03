@@ -34,7 +34,7 @@ The **Subnet Details** screen displays all IP addresses associated with a subnet
 
 On the **Subnet Details** screen, all IP addresses associated with the subnet are displayed, along with their status, description and any notes present for the IP. The list of IPs may be filtered by IP address to narrow the IPs displayed at any time. Follow these steps to filter IP addresses on the Subnet Details screen.
 
-* Go to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Using the Subnet Details screen](/docs/infrastructure/subnets?topic=subnets-view-subnet-details).
+* Go to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Using the Subnet Details screen](/docs/subnets?topic=subnets-view-subnet-details).
 * Click the **IP address** that you want in the **Subnet** column.
 * Choose the **Filter** tab to display the filter options.
 * Select the IP address from the menu list.

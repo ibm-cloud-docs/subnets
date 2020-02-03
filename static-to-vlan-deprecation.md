@@ -12,7 +12,7 @@ subcollection: subnets
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:external: target="_blank" .external}
-{:DomainName: data-hd-keyref="DomainName"} 
+{:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
 {:tip: .tip}
 {:important: .important}
@@ -28,15 +28,15 @@ The deprecation of the static-to-VLAN functionality is retroactive, and in most 
 ## Action required
 {: #action-required}
 
-You have 45 days from receipt of the IBM Support case to coordinate a transition plan, and 90 days to complete the transition plan. If you fail to communicate after 45 days, all static-to-VLAN subnets are disabled as indicated by the notice. 
+You have 45 days from receipt of the IBM Support case to coordinate a transition plan, and 90 days to complete the transition plan. If you fail to communicate after 45 days, all static-to-VLAN subnets are disabled as indicated by the notice.
 
 Failure to respond in 45 days causes traffic to stop on your VLANs. You have 90 days from the date of the initial notice to coordinate completion of transition activities. At the end of 90 days, all static-to-VLAN subnets are reclaimed.
-{: important} 
+{: important}
 
 ## Establishing your transition plan
 {: #establish-transition-plan}
 
-For each of the subnets affected, you must identify the best course of action to take. This might require changing IP addresses that are used by your servers. The following scenarios provide some recommended courses of action. This is by no means an exhaustive list of scenarios or available options. We ask that you provide detailed descriptions of your usage of IP addresses and your environment so that we can help you minimize the disruption. 
+For each of the subnets affected, you must identify the best course of action to take. This might require changing IP addresses that are used by your servers. The following scenarios provide some recommended courses of action. This is by no means an exhaustive list of scenarios or available options. We ask that you provide detailed descriptions of your usage of IP addresses and your environment so that we can help you minimize the disruption.
 
 You can review the [secondary subnet summary](#secondary-subnets-summary) about the relevant static-to-VLAN, secondary portable, and secondary static subnet behaviors to help you determine a plan.
 
@@ -173,4 +173,4 @@ If you then decide that host EFG is going to take over the portable IP address `
 10.100.134.207 - host EFG
 ```
 
-For more information about available subnets and their uses, see [secondary subnet documentation](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets).
+For more information about available subnets and their uses, see [secondary subnet documentation](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets).

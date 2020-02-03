@@ -33,7 +33,7 @@ it is necessary to use secondary subnets. Here, we discuss a flexible way
 to provide your VMs IP addresses by using one or more virtual machine hosts, whether
 participating in clustered configurations or not.
 
-Throughout the course of this scenario, refer to [About subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips) for more information regarding the types of subnets described.
+Throughout the course of this scenario, refer to [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips) for more information regarding the types of subnets described.
 
 So let's say you have two bare metal servers, named **`aunt`** and **`uncle`**. Both will be host to your own virtual machines, and each already has their own IP addresses assigned from a primary subnet. You need additional IP addresses for your virtual machines. You can use any type of secondary subnet to achieve that, but we recommend using a secondary portable subnet as the source of addresses used by your VMs. A portable subnet provides both **`aunt`** and **`uncle`** access to the IP addresses defined by the subnet. This way, you can share those IP addresses across both servers, and if you use migration techniques for your VMs, can transfer VMs across those servers seamlessly.
 
@@ -53,7 +53,7 @@ Now let's say you've created two virtual machines, **`VPS1`** and **`VPS2`**, pu
 ```
 {:pre}
 
-Now let's say you want VPS1 to have more IP addresses to segregate services it is providing. You can assign more addresses out of the `129.42.0.0/29` subnet, but you might want to use that subnet only to bring VMs online, not for their services. You have two options: 1) purchase another portable subnet, or 2) purchase a static subnet. If you recall from the descriptions of portable versus static subnets in [About subnets](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips), you know that while portable subnets provide flexibility, they also don't give you access to all of the IP addresses. If you only needed four additional IP addresses, for example, purchasing a static subnet is an efficient option. Let's try that out.
+Now let's say you want VPS1 to have more IP addresses to segregate services it is providing. You can assign more addresses out of the `129.42.0.0/29` subnet, but you might want to use that subnet only to bring VMs online, not for their services. You have two options: 1) purchase another portable subnet, or 2) purchase a static subnet. If you recall from the descriptions of portable versus static subnets in [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips), you know that while portable subnets provide flexibility, they also don't give you access to all of the IP addresses. If you only needed four additional IP addresses, for example, purchasing a static subnet is an efficient option. Let's try that out.
 
 You purchase a static subnet and receive `129.42.0.100/30`. During the purchase, you route it to `129.42.0.3` or VPS1 in this scenario. Doing so provides you with all four IP addresses to use on whatever server is responding to 129.42.0.3, again, that's currently VPS1, but you can transfer 129.42.0.3 to VPS2 at any time and those four new IP addresses from `129.42.0.100/30` would follow. Let's look at the IP address usage again:
 
