@@ -25,14 +25,14 @@ subcollection: subnets
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Displaying the Global IP screen
+# Displaying the global IP screen
 {:#display-global-ip-screen}
 
-To manage your interactions with global IP subnets, use the global IP screen on the {{site.data.keyword.cloud}} infrastructure customer portal. Follow these steps to display the global IP screen:
+To manage your interactions with global IP subnets, use the global IP screen on the {{site.data.keyword.cloud}} infrastructure customer console. Follow these steps to display the global IP screen:
 
   1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-  1. In the Classic Infrastructure navigation, select **Network > IP Management > Global IP** to show the global IP screen.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+  1. In the Classic Infrastructure navigation, select **Network > IP Management > Global IP**.
 
 ## What happens next
 {:#display-global-ip-screen-next}

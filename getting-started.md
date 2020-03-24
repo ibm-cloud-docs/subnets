@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2017-2019
 lastupdated: "2019-11-12"
 
-keywords: IP addresses, IPs Subnets, types of subnets
+keywords: subnets, IP addresses, IPs Subnets, types of subnets
 
 subcollection: subnets
 
@@ -41,7 +41,7 @@ Subnets are an important part of how you use the internet, and that's also true 
 Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips) to review aspects such as IPv4 versus IPv6 and public versus private network availability.
 
 To understand subnets and subnetting more generally, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){:external}.
-Additionally, subnets are referred in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:external}.
+Additionally, subnets are referred to in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:external}.
 
 
 ## Ordering subnets
@@ -50,8 +50,8 @@ Additionally, subnets are referred in [CIDR notation](https://en.wikipedia.org/w
 Follow these steps to order subnets, which provide more IP addresses:
 
   1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-  1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+  1. Select **Network > IP Management > Subnets**.
   1. Click **Order IP addresses**.
   1. To start the ordering process, select either the Public or Private type of subnet.
   1. Choose between IPv4 or IPv6 options.
@@ -62,7 +62,7 @@ Follow these steps to order subnets, which provide more IP addresses:
 
 After a subnet is purchased, you cannot change the type and routing destination. You must order a new subnet to acquire a different type or routing endpoint.
 
-### What happens next?
+### What happens next
 {:#ordering-subnets-next}
 
 Barring any necessary approval processes for your account status, a new subnet with your configuration appears on your account within a few moments.

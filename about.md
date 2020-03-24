@@ -23,7 +23,6 @@ subcollection: subnets
 
 {{site.data.keyword.cloud_notm}} has specific terminology for the types, and uses, of subnets found on the {{site.data.keyword.cloud_notm}} platform. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.
 
-
 ## Types of subnets
 {:#subnet-types}
 
@@ -45,9 +44,9 @@ Under no circumstances are we able to reserve IP addresses in primary subnets fo
 
 Secondary subnets provide additional, independent IP addresses for your compute resources. Perfect for use as external application or service addresses. Secondary subnet IP addresses are managed independently of other resources and are yours until canceled.
 
-Secondary subnets come in "data center" and "global" flavors, the latter referred to as global IP. For more information, see [Getting started with Subnets and IPs](/docs/subnets?topic=subnets-getting-started).
+Secondary subnets come in "data center" and "global" flavors, the latter referred to as global IP. For more information, see [Getting started with subnets and IPs](/docs/subnets?topic=subnets-getting-started).
 
-Features:
+#### Features
 
 -   Data center and globally routable public IPv4 and IPv6 IP addresses
 -   Data center routable private IPv4 IP addresses
@@ -57,7 +56,7 @@ Features:
 -   High availability configurations, which use virtual/floating IP address protocols
 -   Route to a disaster recovery site in any data center that uses a global IP.
 
-Secondary subnets provide you with multiple IP addresses for many needs. Unlike primary subnets, these subnets are owned by you for the duration of your use, and are not removed unless you cancel them. Use secondary subnets when you need a stable IP address that does not depend on any specific compute device. Example uses include:
+Secondary subnets provide you with multiple IP addresses for many needs. Unlike primary subnets, these subnets are owned by you during your use, and are not removed unless you cancel them. Use secondary subnets when you need a stable IP address that does not depend on any specific compute device. Example uses include:
 
   * IP addresses that you can assign to your own, local, virtual machines
   * Multiple, distinct service IP addresses hosted by a single server allowing you to easily identify traffic. Commonly used with web servers and TLS
@@ -94,7 +93,7 @@ A secondary static subnet provides a single destination with access to all IP ad
 10.0.0.7 - Usable by device
 ```
 
-Thus, if a server has IP address 10.0.0.13, and you routed 10.0.0.0/30 statically to 10.0.0.13, that server can now bind four additional IP addresses, receiving traffic on each individually. It is important to understand that Network Address Translation (NAT) is not performed for any of the addresses provided. Each address can be used natively on servers, and thus each can be used for discrete purposes.
+Thus, if a server has IP address 10.0.0.13, and you routed 10.0.0.0/30 statically to 10.0.0.13, that server can now bind four more IP addresses, receiving traffic on each individually. It is important to understand that Network Address Translation (NAT) is not done for any of the addresses provided. Each address can be used natively on servers, and thus each can be used for discrete purposes.
 
 The following IP addresses are eligible as route targets for static subnets within the same data center:
 
@@ -151,9 +150,9 @@ For information regarding the global IP offering, see [Global IP documentation](
 
 If you no longer require a secondary subnet, follow these steps to cancel it:
 
-  1. From your browser, open the [customer portal](https://{DomainName}/){: new_window} and log in to your account.
-  1. In the customer portal navigation, select **Classic Infrastructure**.
-  1. From the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+  1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Classic Infrastructure**.
+  1. Select **Network > IP Management > Subnets**.
   1. Choose filters to locate the subnet that you want.
   1. Click the Cancel icon next to the subnet's entry in the subnet list to initiate the cancellation process.
 
@@ -168,7 +167,7 @@ By default, portable subnets are not protected by firewalls. If you need this fe
 ### Transferring portable subnet IP addresses between servers
 {:#transferring-portable-subnet-ip-between-servers}
 
-When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This allows our routers to update their ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
+When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows our routers to update their ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
 
 ### Virtual Router Appliances
 {:#virtual-router-appliances-subnets}

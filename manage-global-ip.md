@@ -17,25 +17,28 @@ subcollection: subnets
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Managing global IP addresses
 {:#manage-global-ip-addresses}
+{: help}
+{: support}
 
 You can manage your global IP addresses in the **Subnets** screen. 
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page. 
-1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > Subnets**.
 1. In the menu list, select **Global IPv4** (or IPv6) to filter the subnet list to show only the global IPs.
 1. Click the global IP you want to manage.
  
-  **Note: A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static 
+   A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static 
   IP address offering can be routed only to an IP address within the same data center, but global IP addresses do not share 
-  this restriction.**
+  this restriction.
+  {: note}
   
-1. On the IP address management page, enter the IP address of the server to which you want to route the Global IP address, and enter any applicable notes, then select **Update**.
-
-![Figure 2](images/2_1.png)
+1. On the IP address management page, enter the IP address of the server to which you want to route the global IP address, and enter any applicable notes, then select **Update**.
 
 ## Adding a global IP to your server 
 {:#add-global-ip-server}
@@ -86,7 +89,7 @@ If your system doesn't work properly, add the following lines instead, replacing
 ```
 {:pre}
 
-### For Windows&reg; servers
+### For Windows servers
 {:#add-global-ip-server-windows}
 
 1. Browse to **Start > Control Panel > Network Connections > Local Area Connection (Public) (properties)**.

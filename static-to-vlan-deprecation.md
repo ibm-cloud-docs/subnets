@@ -122,7 +122,7 @@ Server `ABC`with IP address `10.0.0.29`, and `10.54.28.80/29` is routed to `10.0
 10.54.28.87 - host ABC
 ```
 
-### Secondary Static to Secondary Portable Subnets
+### Secondary static to secondary portable subnets
 {: #secondary-static-to-secondary-portable-subnets}
 
 It is possible to combine the portability of addresses afforded by secondary portable subnets with the address efficiency of secondary static subnets. This can be done by addressing servers from a secondary portable subnet, and then routing one or more secondary static subnets to the portable IP address. For example:
@@ -173,4 +173,4 @@ If you then decide that host EFG is going to take over the portable IP address `
 10.100.134.207 - host EFG
 ```
 
-For more information about available subnets and their uses, see [secondary subnet documentation](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets).
+For more information about available subnets and their uses, see [secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets).

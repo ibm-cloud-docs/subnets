@@ -31,9 +31,9 @@ subcollection: subnets
 A global IP address is a specialized secondary static subnet that can be routed to any data center, on demand. Global IP addresses are available as either a IPv4 /32 subnet (a single IP address), or a IPv6 /64 subnet. Each version can be routed only to a destination IP address of matching version (no address translation is performed). Acceptable routing targets include primary IP addresses in use by your servers and any secondary portable subnet IP addresses. The unique capabilities of a global IP address are these:
 
   * Global, on-demand routing to IP addresses on an account.
-  * Global IP addresses are announced to the internet by all {{site.data.keyword.cloud}} edge routers. Therefore, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses {{site.data.keyword.cloud}}'s dedicated, global backbone to reach the destination you've configured.
+  * Global IP addresses are announced to the internet by all {{site.data.keyword.cloud}} edge routers. Therefore, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses IBM Cloud's dedicated, global backbone to reach the destination you've configured.
 
-Global IP addresses provide flexibility. They enable you to shift workloads between servers, even across geographically disparate data centers. Also, global IP addresses provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.2
+Global IP addresses provide flexibility. They enable you to shift workloads between servers, even across geographically disparate data centers. Also, global IP addresses provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
@@ -69,7 +69,7 @@ The menu is not an exhaustive list of available IP addresses. Manually enter the
 ### How often can I update?
 {:#how-often-can-i-update}
 
-A single route update is allowed to be in progress at any time. If you attempt to update a global IP address's route while a previous update is in progress, you receive an error. Wait until the previous update is complete before trying again.
+A single route update is allowed to be in progress at any time. If you attempt to update a global IP address's route while a previous update is in progress, you receive an error. Wait until the previous update is complete before you try again.
 
 
 ## Ordering global IP addresses
@@ -78,16 +78,14 @@ A single route update is allowed to be in progress at any time. If you attempt t
 Follow these instructions to order global IP addresses:
 
   1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+  1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
   1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
   1. Click **Order IP addresses**.
   1. In the **New IP addresses** screen, select **Public** or **Private**.
   1. Choose **Global IPv4** or **Global IPv6** as needed.
   1. Choose your options on **Static**, **Portable**, or **Global** addresses, and then click **Create** to start the ordering process.
 
-![Figure 1](images/1_2.png)
-
-### What happens next?
+### What happens next
 {:#global-ip-address-next}
 
 Barring any necessary approval processes for your account status, a new global IP address subnet appears on your account within a few moments.
@@ -103,7 +101,7 @@ An account can have only five global IP addresses per IP version. For instance, 
 If you no longer require a global IP address, follow these steps to cancel it:
 
   1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Classic Infrastructure**.
+  1. Select **Network > IP Management > Global IP**.
   1. Complete any necessary filters to locate the address that you want.
   1. At the end of the entry in the address list, click the ![close icon](../../icons/close-tagging.svg) to initiate the cancellation process.

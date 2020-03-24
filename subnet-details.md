@@ -18,15 +18,19 @@ subcollection: subnets
 {:tip: .tip}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Viewing subnet details
 {:#view-subnet-details}
+{: help}
+{: support}
 
 The **Subnet Details** screen displays all IP addresses associated with a subnet, its status, its description, and any notes, if present. Follow the steps in this article to display subnet details.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure menu, select **Network > IP Management > Subnets**.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > Subnets**.
 1. Click the **Subnet** link to view the subnet's details.
 
 ## Filtering subnet details
@@ -34,7 +38,7 @@ The **Subnet Details** screen displays all IP addresses associated with a subnet
 
 On the **Subnet Details** screen, all IP addresses associated with the subnet are displayed, along with their status, description and any notes present for the IP. The list of IPs may be filtered by IP address to narrow the IPs displayed at any time. Follow these steps to filter IP addresses on the Subnet Details screen.
 
-* Go to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Using the Subnet Details screen](/docs/subnets?topic=subnets-view-subnet-details).
+* Go to the **Subnet Details** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Viewing subnet details](/docs/subnets?topic=subnets-view-subnet-details).
 * Click the **IP address** that you want in the **Subnet** column.
 * Choose the **Filter** tab to display the filter options.
 * Select the IP address from the menu list.
