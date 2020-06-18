@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="subnets" category="network" audience="service" href="/docs/subnets?topic=subnets-getting-started" console-page="/classic/network/subnets" product-page="https://www.ibm.com/cloud/network" path="subnets"}
+{: .toc subcollection="subnets" category="network_classic" audience="service" href="/docs/subnets?topic=subnets-getting-started" console-page="/classic/network/subnets" product-page="https://www.ibm.com/cloud/network" path="subnets"}
 Subnets and IPs
 
     {: .navgroup id="learn"}
