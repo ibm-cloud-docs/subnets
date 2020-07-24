@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
+  years: 1994, 2019
 lastupdated: "2019-05-31"
 
 keywords: Subnets screen, specific information

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
+  years: 1994, 2019
 lastupdated: "2019-11-12"
 
 keywords: subnets, IP addresses, IPs Subnets, types of subnets

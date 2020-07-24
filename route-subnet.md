@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-02-28"
 
 keywords: routing secondary subnets, destination of any secondary subnet, different type of subnet

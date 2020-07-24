@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-11-06"
 
 keywords: Ms IP addresses, Use secondary subnets, own virtual machines

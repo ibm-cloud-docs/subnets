@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
+  years: 1994, 2019
 lastupdated: "2019-11-07"
 
 keywords: IP address notes, IP address, notes section of the screen

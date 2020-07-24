@@ -16,7 +16,7 @@ Subnets and IPs
     subnet-details.md    
     route-subnet.md
     use-secondary-self-hosted-vms.md
-    static-to-vlan-deprecation.md
+    rir-tool.md
 
     {: .topicgroup}
     Managing global IPs

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994,2020
+  years: 1994, 2020
 lastupdated: "2020-01-29"
 
 keywords: global IP addresses, global IP Address, single IP address
