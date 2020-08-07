@@ -26,4 +26,4 @@ If you have problems or questions when you use subnets, get help by searching fo
 
 If you have technical questions about subnets, post your question on [Stack Overflow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://stackoverflow.com/search?q=subnets+ibm-cloud){:new_window} and tag your question with "subnets" and "ibm-cloud".
 
-For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support).
