@@ -60,7 +60,7 @@ We automatically assign primary subnets to make more IP addresses available to f
 Purchase a secondary subnet. Because there are multiple types of subnets, it is a good idea to review [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). After you have a subnet that is routed to the IP address or VLAN you want, you'll want to refer to the specific compute documentation for how to set up your new IP addresses:
 
   * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-bm-assigning-and-binding-ip-addresses#bm-assign-ip-address)                            
-  * [Virtual Server Instance IP address assignment](/docs/vsi?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
+  * [Virtual Server Instance IP address assignment](/docs/virtual-servers?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
 
 
 ## What does "Reserved for HSRP" when I look at a subnet's IP addresses mean?
