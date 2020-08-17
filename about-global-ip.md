@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-01-29"
+lastupdated: "2020-08-17"
 
 keywords: global IP addresses, global IP Address, single IP address
 
@@ -81,9 +81,10 @@ Follow these instructions to order global IP addresses:
   1. From the Dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
   1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Global IP**.
   1. Click **Order IP addresses**.
-  1. In the **New IP addresses** screen, select **Public** or **Private**.
-  1. Choose **Global IPv4** or **Global IPv6** as needed.
-  1. Choose your options on **Static**, **Portable**, or **Global** addresses, and then click **Create** to start the ordering process.
+  1. In the **New IP addresses** screen, select **Public**.
+  1. Choose **IPv4** or **IPv6** as needed.
+  1. Choose **Global** addresses. 
+  1. Check that you have read and agreed to the Master Service Agreement, then click **Create** to start the ordering process.
 
 ### What happens next
 {:#global-ip-address-next}
