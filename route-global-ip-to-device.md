@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: global IP Address, global IP addresses, update button
+keywords: 
 
 subcollection: subnets
 
@@ -28,14 +28,19 @@ subcollection: subnets
 # Routing a global IP address to a device
 {:#route-global-ip-address-device}
 
-Global IP addresses are manually routed by the user to any device that {{site.data.keyword.BluSoftlayer_notm}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP. Follow these steps to route a global IP address to a device.
+Global IP addresses are manually routed by the user to any device that {{site.data.keyword.BluSoftlayer_notm}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP. 
+{:shortdesc}
+
+Follow these steps to route a global IP address to a device, such as a bare metal server, portable subnet address, gateway virtual IP, or virtual server instance.
 
 1. Go to the Global IP screen on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Displaying the global IP screen](/docs/subnets?topic=subnets-display-global-ip-screen).
+1. Select the global IP subnet to be routed.
+1. Begin typing the IP address of the device that you want the global IP to route to in the **Routes to** field. This field auto completes based on your input. It displays any device that is associated with your account.
+1. Enter any pertinent notes regarding the global IP, device, or other items, in the **Notes** field.
+1. Select **Update** to complete the route, or select **Cancel** to cancel the action and return to the **Subnets** screen.
 
-* Select the global IP subnet to be routed.
-* Begin typing the IP address of the device that the global IP will route to in the **Routes to** field. This field will auto complete based on your input. It displays any device that is associated with your account.
-* Enter any pertinent notes regarding the global IP, device, or other items, in the **Notes** field.
-* Select **Update** to complete the route, or select **Cancel** to cancel the action and return to the **Subnets** screen.
+You cannot route global IP addresses to a primary subnet IP address.
+{:important}
 
 ## What happens next
 {:#route-global-ip-address-device-next}
