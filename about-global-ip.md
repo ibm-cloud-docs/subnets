@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-08-17"
+lastupdated: "2020-09-29"
 
-keywords: global IP addresses, global IP Address, single IP address
+keywords: 
 
 subcollection: subnets
 
@@ -28,12 +28,15 @@ subcollection: subnets
 # About global IP addresses
 {:#about-global-ip-address}
 
-A global IP address is a specialized secondary static subnet that can be routed to any data center, on demand. Global IP addresses are available as either a IPv4 /32 subnet (a single IP address), or a IPv6 /64 subnet. Each version can be routed only to a destination IP address of matching version (no address translation is performed). Acceptable routing targets include primary IP addresses in use by your servers and any secondary portable subnet IP addresses. The unique capabilities of a global IP address are these:
+A global IP address is a specialized secondary static subnet that can be routed to any data center, on demand. 
+{:shortdesc}
+
+Global IP addresses are available as either an IPv4 /32 subnet (a single IP address), or an IPv6 /64 subnet. Each version can be routed only to a destination IP address of matching version (no address translation is performed). Acceptable routing targets include public primary IP addresses in use by your servers and any public secondary portable subnet IP addresses. The unique capabilities of a global IP address are:
 
   * Global, on-demand routing to IP addresses on an account.
-  * Global IP addresses are announced to the internet by all {{site.data.keyword.cloud}} edge routers. Therefore, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses IBM Cloud's dedicated, global backbone to reach the destination you've configured.
+  * Global IP addresses are announced to the internet by all {{site.data.keyword.cloud}} edge routers. Therefore, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses the IBM Cloud dedicated, global backbone to reach the destination you configured.
 
-Global IP addresses provide flexibility. They enable you to shift workloads between servers, even across geographically disparate data centers. Also, global IP addresses provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.
+Global IP addresses provide the flexibility to shift workloads between servers, even across geographically disparate data centers. Global IP addresses also provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is perfect for transitioning workloads across disaster recovery sites, or to seamlessly transition to a new deployment in a geographic area that can serve your audience better.
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
@@ -43,6 +46,9 @@ Global IP addresses provide flexibility. They enable you to shift workloads betw
 
 ## Managing global IP addresses
 {:#manage-global-ip-address}
+
+You must have the Classic infrastructure permission of **Manage Network Subnet Routes** to change the routing of global IP addresses.
+{:note}
 
 To manage global IP addresses, follow these steps:
 
@@ -56,12 +62,9 @@ You might notice that some entries do not have a value for **Target**, which ind
 ### Routing and unrouting addresses
 {:#route-unroute-address}
 
-After you locate the global IP address, click its subnet identifier. You'll next see a screen that shows its current route target, if applicable. To route (send traffic) to a new destination, you have two options:
+After you locate the global IP address, click its subnet identifier. The next screen shows its current route target, if applicable. To send traffic to a new destination, you can either enter a complete IP address, or begin typing a hostname.
 
- * Enter a complete IP address, or
- * Begin typing a hostname.
-
-Typing a hostname enables you to search for a server's hostname, so you can look up its IP address. After you enter an IP address, select **Update**. To unroute the global IP address, select **Clear**. When the input status changes to say 'Unrouted', select **Update**. Acceptable routing targets include primary IP addresses in use by your servers and any secondary portable subnet IP addresses.
+Typing a hostname starts a search for a server's hostname, so you can look up its IP address. After you enter an IP address, select **Update**. To unroute the global IP address, select **Clear**. When the input status changes to 'Unrouted', select **Update**. Acceptable routing targets include primary IP addresses in use by your servers and any secondary portable subnet IP addresses.
 
 The menu is not an exhaustive list of available IP addresses. Manually enter the IP address that you want if it is not available in the list.
 {:note}
