@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-02-12"
+lastupdated: "2020-10-08"
 
 keywords: primary IP, IP address, frequently asked questions
 
@@ -107,18 +107,6 @@ We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses
 {: faq}
 
 Because of incompatibility between IP address styles, you cannot use IPv4 and IPv6 global IPs interchangeably.
-
-## What is a global IP?
-{: #faq-what-is-global-ip}
-{: faq}
-
-A global IP is a static IP address, which can be transferred between bare metal servers or virtual servers that are associated with the account that owns the subnet. Global IPs can be moved to any compatible device or instance on the {{site.data.keyword.BluSoftlayer_notm}} network.
-
-## How many global IP addresses may I order?
-{: #faq-global-ip-how-many}
-{: faq}
-
-Each account can have up to five global IP addresses. A global IP can be either IPv4, IPv6, or both.
 
 ## How much does it cost to add a global IP to my account?
 {: #faq-global-ip-how-much}
