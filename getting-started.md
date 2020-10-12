@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-12"
 
-keywords: subnets, IP addresses, IPs Subnets, types of subnets
+keywords: subnets
 
 subcollection: subnets
 

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: global IP addresses, global IPs, IP management
+keywords: 
 
 subcollection: subnets
 
@@ -26,6 +26,7 @@ subcollection: subnets
 {: support}
 
 You can manage your global IP addresses in the **Subnets** screen.
+{:shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.

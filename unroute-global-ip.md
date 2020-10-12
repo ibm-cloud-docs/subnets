@@ -3,7 +3,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: global IP address, unroute process, device global IP addresses
+keywords: 
 
 subcollection: subnets
 
@@ -27,6 +27,7 @@ subcollection: subnets
 {:#unroute-global-ip-address}
 
 Global IP addresses can be manually unrouted by the user at any time. Follow these steps to unroute a global IP address from a device.
+{:shortdesc}
 
 1. Go to the Global IP screen on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Displaying the global IP screen](/docs/subnets?topic=subnets-display-global-ip-screen#display-global-ip-screen).
 * Select the global IP address to be unrouted.

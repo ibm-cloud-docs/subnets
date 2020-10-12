@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-10-08"
 
-keywords: primary IP, IP address, frequently asked questions
+keywords: 
 
 subcollection: subnets
 
@@ -17,6 +17,9 @@ subcollection: subnets
 
 # FAQs
 {: #faq}
+
+Have a question about subnets? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
+{:shortdesc}
 
 ## What does "Primary IP for future server only" mean when I look at a subnet's IP addresses?
 {: #subnets-faq-primary-ip-future-server-only}

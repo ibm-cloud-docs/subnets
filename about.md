@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-20"
 
-keywords: IP addresses , IP address, duration of your use
+keywords: 
 
 subcollection: subnets
 
@@ -22,6 +22,7 @@ subcollection: subnets
 {:#about-subnets-and-ips}
 
 {{site.data.keyword.cloud_notm}} has specific terminology for the types, and uses, of subnets found on the {{site.data.keyword.cloud_notm}} platform. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.
+{:shortdesc}
 
 ## Types of subnets
 {:#subnet-types}
@@ -29,8 +30,7 @@ subcollection: subnets
 ### Primary subnets
 {:#primary-subnets}
 
-Primary subnets are assigned automatically by {{site.data.keyword.cloud_notm}}, and are what provide IP addresses to
-resources as needed. IBM assigns and removes primary subnets as required to fulfill other products. All servers are provisioned with at least one IP address from a primary subnet, commonly referred to as a primary IP address. Some products and options result in more primary IP addresses being assigned.
+Primary subnets are assigned automatically by {{site.data.keyword.cloud_notm}}, and are what provide IP addresses to resources as needed. IBM assigns and removes primary subnets as required to fulfill other products. All servers are provisioned with at least one IP address from a primary subnet, commonly referred to as a primary IP address. Some products and options result in more primary IP addresses being assigned.
 
 It is important to understand that IP addresses within primary subnets, which are not yet assigned to resources, are not available for your use. If you attempt to use unassigned IP addresses from primary subnets, these subnets are inevitably assigned to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a primary subnet, which is not assigned during fulfillment of other products.
 
@@ -76,6 +76,7 @@ Here is an example of the IP addresses provided by the subnet 10.0.0.0/29:
 10.0.0.6
 10.0.0.7
 ```
+{:codeblock}
 
 #### Static subnets
 {:#static-subnets}
@@ -92,6 +93,7 @@ A secondary static subnet provides a single destination with access to all IP ad
 10.0.0.6 - Usable by device
 10.0.0.7 - Usable by device
 ```
+{:codeblock}
 
 Thus, if a server has IP address 10.0.0.13, and you routed 10.0.0.0/30 statically to 10.0.0.13, that server can now bind four more IP addresses, receiving traffic on each individually. It is important to understand that Network Address Translation (NAT) is not done for any of the addresses provided. Each address can be used natively on servers, and thus each can be used for discrete purposes.
 
@@ -127,6 +129,7 @@ A secondary "portable" subnet provides its IP addresses to all resources on a VL
 10.0.0.6 - Usable by devices
 10.0.0.7 - Broadcast
 ```
+{:codeblock}
 
 | **Availability** | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |

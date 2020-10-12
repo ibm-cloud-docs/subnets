@@ -3,7 +3,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-06"
 
-keywords: Ms IP addresses, Use secondary subnets, own virtual machines
+keywords: 
 
 subcollection: subnets
 
@@ -27,15 +27,12 @@ subcollection: subnets
 # Using secondary subnets on self-hosted VMs
 {:#use-secondary-subnets-self-hosted-vms}
 
-When hosting your own virtual machines, and wanting those virtual machines to
-be first class citizens on the {{site.data.keyword.BluSoftlayer_notm}} network,
-it is necessary to use secondary subnets. Here, we discuss a flexible way
-to provide your VMs IP addresses by using one or more virtual machine hosts, whether
-participating in clustered configurations or not.
+When hosting your own virtual machines, and wanting those virtual machines to be first class citizens on the {{site.data.keyword.BluSoftlayer_notm}} network, it is necessary to use secondary subnets. The following scenario shows a flexible way to provide your VMs IP addresses by using one or more virtual machine hosts, whether participating in clustered configurations or not.
+{:shortdesc}
 
-Throughout the course of this scenario, refer to [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips) for more information regarding the types of subnets described.
+For more information regarding the types of subnets described, see [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips).
 
-So let's say you have two bare metal servers, named **`aunt`** and **`uncle`**. Both will be host to your own virtual machines, and each already has their own IP addresses assigned from a primary subnet. You need additional IP addresses for your virtual machines. You can use any type of secondary subnet to achieve that, but we recommend using a secondary portable subnet as the source of addresses used by your VMs. A portable subnet provides both **`aunt`** and **`uncle`** access to the IP addresses defined by the subnet. This way, you can share those IP addresses across both servers, and if you use migration techniques for your VMs, can transfer VMs across those servers seamlessly.
+So let's say you have two bare metal servers, named **`aunt`** and **`uncle`**. Both are host to your own virtual machines, and each already has their own IP addresses assigned from a primary subnet. You need additional IP addresses for your virtual machines. You can use any type of secondary subnet to achieve that, but it is recommended to use a secondary portable subnet as the source of addresses used by your VMs. A portable subnet provides both **`aunt`** and **`uncle`** access to the IP addresses defined by the subnet. This way, you can share those IP addresses across both servers, and if you use migration techniques for your VMs, can transfer VMs across those servers seamlessly.
 
 Now let's say you've created two virtual machines, **`VPS1`** and **`VPS2`**, purchased portable subnet `129.42.0.0/29`, and assigned two addresses from it to your virtual machines. The IP address utilization looks something like this:
 
@@ -81,4 +78,4 @@ You purchase a static subnet and receive `129.42.0.100/30`. During the purchase,
 ```
 {:pre}
 
-To recap, we used a portable subnet to make IP addresses available to all virtual machine hosts, and then made additional IP addresses available to a virtual machine by using a static subnet. You can use addresses out of the original portable subnet, or add another portable subnet. This scenario illustrates that not only is it OK to route static subnets to IP addresses on portable subnets, but it is efficient and useful to do so.
+To recap, this scenario used a portable subnet to make IP addresses available to all virtual machine hosts, and then made additional IP addresses available to a virtual machine by using a static subnet. You can use addresses out of the original portable subnet, or add another portable subnet. This scenario illustrates that not only is it OK to route static subnets to IP addresses on portable subnets, but it is efficient and useful to do so.

@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-07-23"
 
-keywords: subnets, regional internet registry, rir registration
+keywords: 
 
 subcollection: subnets
 

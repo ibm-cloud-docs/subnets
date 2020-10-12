@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-07"
 
-keywords: IP address notes, IP address, notes section of the screen
+keywords: 
 
 subcollection: subnets
 
@@ -26,10 +26,13 @@ subcollection: subnets
 {: help}
 {: support}
 
+Subnets and IP address screens each have editable **Notes** sections where you can enter details regarding the subnet or IP address.
+{:shortdesc}
+
 ## Notes for a subnet
 {:#edit-notes-subnet}
 
-The **Subnets** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} displays all subnets that are associated with the account, and it shows all corresponding details regarding each subnet, including the network, VLAN, location, and notes. The **Notes** section of the screen is editable. It can be updated by any user who has permission to interact with subnets. We recommend keeping the **Notes** section updated with details about the subnet, which can include the intended use for the subnet and any other pertinent information to assist users. Follow the steps in this article to edit notes for a subnet.
+The **Subnets** screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} displays all subnets that are associated with the account, and it shows all corresponding details regarding each subnet, including the network, VLAN, location, and notes. The **Notes** section of the screen is editable. It can be updated by any user who has permission to interact with subnets. We recommend keeping the **Notes** section updated with details about the subnet, which can include the intended use for the subnet and any other pertinent information to assist users. Follow these steps to edit notes for a subnet.
 
 * Navigate to the **Subnets** screen in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. Refer to [Viewing subnet details](/docs/subnets?topic=subnets-view-subnet-details#view-subnet-details).
 * Click anywhere within the **Notes** column for the subnet to open the field for edits.

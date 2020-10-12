@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-04-01"
 
-keywords: support ticket, questions, IBM support ticket
+keywords: 
 
 subcollection: subnets
 
