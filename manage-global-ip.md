@@ -28,6 +28,9 @@ subcollection: subnets
 You can manage your global IP addresses in the **Subnets** screen.
 {:shortdesc}
 
+You must have the Classic infrastructure permission of **Manage Network Subnet Routes** to change the routing of global IP addresses.
+{:note}
+
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
