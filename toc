@@ -7,23 +7,23 @@ Subnets and IPs
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    about-global-ip.md
+    pricing.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    edit-notes.md
+    order-subnets.md  
     subnets-screen.md
-    subnet-details.md    
+    subnet-details.md
+    edit-notes.md
     route-subnet.md
     use-secondary-self-hosted-vms.md
+    cancel-subnets.md
     rir-tool.md
 
     {: .topicgroup}
     Managing global IPs
         manage-global-ip.md
-        display-global-ip-screen.md
         route-global-ip-to-device.md
-        unroute-global-ip.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

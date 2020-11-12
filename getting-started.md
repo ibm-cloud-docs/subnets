@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-12"
+  years: 1994, 2020
+lastupdated: "2020-10-27"
 
 keywords: subnets
 
@@ -29,40 +29,41 @@ subcollection: subnets
 # Getting started with subnets and IPs
 {: #getting-started}
 
-Subnets are an important part of how you use the internet, and that's also true when you use {{site.data.keyword.cloud}}. IBM has specific terminology for the types, and use, of subnets found on our platform. Each subnet provides IP addresses to resources in different ways. You come across the following types of subnets, and by knowing more about each type of subnet, you can understand how best to use them in your cloud infrastructure.
+IBM has three types of subnets, with each subnet providing IP addresses to resources in different ways. The following topic describes the capabilities and best practices for each subnet type.
 {:shortdesc}
 
-  * Primary subnets - Assigned to meet the IP addressing needs of other products, such as bare metal server and virtual server instances. These subnets are automatically assigned and removed. Review the limitations of [primary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) for information on their proper use.
+  * Primary subnets - Automatically assigned to meet the IP addressing needs of other services, such as bare metal servers and virtual server instances. These subnets are automatically assigned and removed by IBM.
   * Secondary subnets - Purchased and routed by you, and cancelled when no longer needed. There are two subtypes:
     * Portable - IP addresses are available to all resources on a VLAN.
     * Static - IP addresses are available to the resource identified as the routing endpoint.
   * Global IP addresses - Unique routing behavior that uses {{site.data.keyword.cloud}}'s backbone, which provides IP addresses to the resource identified as the routing endpoint.
 
-Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips) to review aspects such as IPv4 versus IPv6 and public versus private network availability.
+Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips) to learn about aspects such as IPv4 versus IPv6 and public versus private network availability.
 
-To understand subnets and subnetting more generally, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){:external}.
-Additionally, subnets are referred to in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:external}.
+## Before you begin
+{:#before-you-begin}
 
+1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra) or [SLI API](https://sldn.softlayer.com/tags/permissions/){:external}.
+1. Determine what [type of secondary subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets) you need.
+  
+## Ordering secondary subnets
+{:#getting-started-order-secondary-subnets}
 
-## Ordering subnets
-{:#ordering-subnets}
+Follow these steps to order a secondary subnet which provides more IP addresses:
 
-Follow these steps to order subnets, which provide more IP addresses:
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > Subnets**.
+1. Click **Create subnet**. The Secondary subnets page appears. 
+1. Accept the default parameters, review the summary, read and agree to the Master Service Agreement. 
+1. Click **Create**.
 
-  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
-  1. Select **Network > IP Management > Subnets**.
-  1. Click **Order IP addresses**.
-  1. To start the ordering process, select either the Public or Private type of subnet.
-  1. Choose between IPv4 or IPv6 options.
-  1. To choose static or global IPs, click the corresponding box. For IPv4, use the menu list available in the static or portable options to choose how many addresses that you want.
-  1. Select the VLAN to establish where the new IP addresses are routed.
-  1. Complete the required information, and click **Create**.
+See [Ordering secondary subnets and IPs](/docs/subnets?topic=subnets-order-subnets) for details about ordering different types of subnets.
 
+## Next steps
+{:#getting-started-next}
 
-After a subnet is purchased, you cannot change the type and routing destination. You must order a new subnet to acquire a different type or routing endpoint.
+A new subnet with your configuration appears on your account within a few minutes and is viewable in the [subnets list page](https://{DomainName}/classic/network/subnet). For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
 
-### What happens next
-{:#ordering-subnets-next}
+After ordering a secondary subnet, you cannot change the type or routing destination; you must order a new subnet to acquire a different type or routing endpoint. Global IP addresses _are_ routable after ordering. 
 
-Barring any necessary approval processes for your account status, a new subnet with your configuration appears on your account within a few moments.

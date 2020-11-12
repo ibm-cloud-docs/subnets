@@ -1,112 +1,131 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-02-28"
+  years: 1994, 2020
+lastupdated: "2020-11-09"
 
-keywords: 
+keywords:
 
 subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc} 
+{:new_window: target="_blank"} 
+{:codeblock: .codeblock}
+{:pre: .pre} 
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:table: .aria-labeledby="caption”}
+{:generic: data-hd-programlang="generic”}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Managing global IP addresses
+# Working with global IP addresses
+{:#work-with-global-ip-addresses}
+
+You can manage your global IP addresses in the **Subnets** page.
+{:shortdesc}
+
+## Prerequisites
+{: #global-ip-prereqs}
+
+You must have the the following Classic infrastructure permissions to change the routing of global IP addresses:
+
+  - **Manage Network Subnet Routes** 
+  - **Allow Access To All Hardware**
+  - **Allow Access To All Virtual Servers**
+
+## Managing global IP addresses
 {:#manage-global-ip-addresses}
 {: help}
 {: support}
 
-You can manage your global IP addresses in the **Subnets** screen.
-{:shortdesc}
-
-You must have the Classic infrastructure permission of **Manage Network Subnet Routes** to change the routing of global IP addresses.
-{:note}
+To manage global IP addresses, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
-1. Select **Network > IP Management > Subnets**.
-1. In the menu list, select **Global IPv4** (or IPv6) to filter the subnet list to show only the global IPs.
-1. Click the global IP you want to manage.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
+1. Expand the **Filter subnets** section, and use the **Type** menu list to select **Global** to filter the subnet list to show only the global IPs.
+1. Click overflow menu ![overflow menu](images/overflow.png) of the global IP you want to manage.
 
    A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static
   IP address offering can be routed only to an IP address within the same data center, but global IP addresses do not share
   this restriction.
   {: note}
 
-1. On the IP address management page, enter the IP address of the server to which you want to route the global IP address, and enter any applicable notes, then select **Update**.
+1. Select the operation you want to perform from the overflow menu. You can [edit notes](/docs/subnets?topic=subnets-edit-notes-subnet-ip), [route or unroute](/docs/subnets?topic=subnets-route-global-ip-address-device) the global IP address, or [cancel the subnet](/docs/subnets?topic=subnets-canceling-subnets).
+
+You might notice that some entries do not have a value for **Target**, which indicates that the global IP address is not currently routed, and thus is not in service.
 
 ## Adding a global IP to your server
 {:#add-global-ip-server}
 
 Before your server accepts traffic for the global IP, that IP must be properly added to the system. Each system requires slightly different commands, as shown in the following sections.
 
-### For Linux&reg; servers:
+### For Linux servers
 {:#add-global-ip-server-linux}
 
 **Red Hat/CentOS**
 
-1. Edit (vim or nano) `/etc/sysconfig/network-scripts/ifcfg-eth1:1`
+Edit (vim or nano) `/etc/sysconfig/network-scripts/ifcfg-eth1:1`
 
-* Add the following lines:
+Add the following lines:
+
 ```
-      DEVICE=eth1
-      IPADDR=[Global IP address]
-      NETMASK=255.255.255.255
-      NETWORK=[Network of the Primary IP Block]
-      ONBOOT=yes
+DEVICE=eth1
+IPADDR=[Global IP address]
+NETMASK=255.255.255.255
+NETWORK=[Network of the Primary IP Block]
+ONBOOT=yes
 ```
-{:pre}
+{:codeblock}
 
 **Debian/Ubuntu**
 
-1. Edit `/etc/network/interfaces`
+Edit `/etc/network/interfaces`
 
-* Add the following lines:
+Add the following lines:
 
 ```
-      post-up ip addr add [Global IP address]/32 dev eth1
-      post-down ip addr del [Global IP address]/32 dev eth1
+post-up ip addr add [Global IP address]/32 dev eth1
+post-down ip addr del [Global IP address]/32 dev eth1
 ```
-{:pre}
+{:codeblock}
 
 If your system doesn't work properly, add the following lines instead, replacing the # with the next number available.
 
 ```
-        auto eth1:#
-
-        iface eth1:# inet static
-
-        address [Global IP address]
-
-        netmask 255.255.255.255
-
-        gateway [Server Primary Public Gateway]
+auto eth1:#
+iface eth1:# inet static
+address [Global IP address]
+netmask 255.255.255.255
+gateway [Server Primary Public Gateway]
 ```
-{:pre}
+{:codeblock}
 
 ### For Windows servers
 {:#add-global-ip-server-windows}
 
 1. Browse to **Start > Control Panel > Network Connections > Local Area Connection (Public) (properties)**.
-* Select **Internet Protocol (TCP/IP)** and click **Properties > Advanced**.
-* Select **Add** in the IP addresses section and enter the IP address and subnet mask.
-* After this task is complete, click **OK** to return to the desktop.
+1. Select **Internet Protocol (TCP/IP)** and click **Properties > Advanced**.
+1. Select **Add** in the IP addresses section and enter the IP address and subnet mask.
+1. After this task is complete, click **OK** to return to the desktop.
 
 To verify that your settings took effect, open a DOS prompt by browsing to **Start > Run > "cmd"** and run the command:
 
 ```
-        > ipconfig /all
+ipconfig /all
 ```
-{:pre}
+{:codeblock}
 
 **Notes:**
 
@@ -116,3 +135,8 @@ To verify that your settings took effect, open a DOS prompt by browsing to **Sta
 * Global IPs do not work for local load balancers.
 * Global IPs are distributed from a unique subnet; existing customer IPs cannot be converted or used as global IPs.
 * By itself, global IPs are not an automatic failover solution because they lack health checks. However, a global IP address can be used as a component for a failover environment, if you want to circumvent DNS propagation.
+
+### Resource limit
+{:#global-ip-resource-limit}
+
+An account can have only five global IP addresses per IP version. For instance, five IPv4 global IP addresses, and five IPv6 global IP addresses.
