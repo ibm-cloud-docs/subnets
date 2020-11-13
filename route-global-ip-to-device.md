@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-10-27"
+lastupdated: "2020-11-12"
 
 keywords:
 
@@ -35,8 +35,8 @@ Follow these steps to route a global IP address to a device, such as a bare meta
 
 1. Go to the Subnets page on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
 1. Select the global IP subnet you want to route.
-1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Route Global IP**.
-1. In the Global IP Routing side panel, begin typing the IP address of the device that you want the global IP to route to in the **Search for IP Address** field. This field auto-completes based on your input. It displays any device that is associated with your account.
+1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Route global IP**.
+1. In the Global IP Routing side panel, begin typing the IP address of the device that you want the global IP to route to in the **Search for IP address** field. This field auto-completes based on your input. It displays any device that is associated with your account.
 
    The menu is not an exhaustive list of available IP addresses. Manually enter the IP address that you want if it is not available in the list.
    {:note}
@@ -56,7 +56,7 @@ Global IP addresses can be manually unrouted by the user at any time. Follow the
 
 1. Go to the Subnets page in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
 1. Select the global IP address you want to unroute.
-1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Unroute Global IP**.
+1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Unroute global IP**.
 1. In the Unroute Global Subnet modal that appears, click **Confirm** to unroute the global IP, or click **Cancel** to return to the Subnets page.
 
 After you unroute a global IP from a device, the global IP is no longer associated with that device. After the global IP unroute process is complete, that global IP address can be rerouted to any other device on the account.

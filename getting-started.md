@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-10-27"
+lastupdated: "2020-11-12"
 
 keywords: subnets
 
@@ -54,8 +54,9 @@ Follow these steps to order a secondary subnet which provides more IP addresses:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
-1. Click **Create subnet**. The Secondary subnets page appears. 
-1. Accept the default parameters, review the summary, read and agree to the Master Service Agreement. 
+1. Click **Create subnet**. The Secondary subnets page appears.
+1. Select the location, network, protocol, size, and routing options to meet your needs. 
+1. Review the summary, read and agree to the Master Service Agreement. 
 1. Click **Create**.
 
 See [Ordering secondary subnets and IPs](/docs/subnets?topic=subnets-order-subnets) for details about ordering different types of subnets.
@@ -63,7 +64,7 @@ See [Ordering secondary subnets and IPs](/docs/subnets?topic=subnets-order-subne
 ## Next steps
 {:#getting-started-next}
 
-A new subnet with your configuration appears on your account within a few minutes and is viewable in the [subnets list page](https://{DomainName}/classic/network/subnet). For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
+A new subnet with your configuration appears on your account within a few minutes and is viewable in the [subnets list page](https://{DomainName}/networking/subnets). For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
 
 After ordering a secondary subnet, you cannot change the type or routing destination; you must order a new subnet to acquire a different type or routing endpoint. Global IP addresses _are_ routable after ordering. 
 
