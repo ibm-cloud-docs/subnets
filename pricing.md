@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-01-11"
+  years: 2020, 2021
+lastupdated: "2021-01-14"
 
 keywords: pricing
 
@@ -29,7 +29,7 @@ subcollection: subnets
 # Pricing for {{site.data.keyword.cloud_notm}} subnets
 {: #pricing-for-ibm-cloud-subnets}
 
-Pricing for {{site.data.keyword.cloud}} subnets is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
+Pricing for the various {{site.data.keyword.cloud}} subnet options is summarized in the following monthly pricing table.
 {:shortdesc}
 
 Subnets pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
@@ -52,4 +52,8 @@ The following table lists the pricing for secondary subnets.
 | /26 - 64              | $128              | $0                 | $64    | N/A    |
 | /25 - 128             | $256              | $0                 | $128   | N/A    |
 | /24 - 256             | $512              | $0                 | $256   | N/A    |
-| /64 - 264             | N/A               | N/A                | $5     | $20    |
+| /64 - 2<sup>64</sup>  | $10               | N/A                | $5     | $20    |
+{: caption="Table 1. Pricing for secondary subnets" caption-side="bottom"}
+
+
+For more information, see [Monthly bandwidth pricing packages](https://www.ibm.com/cloud/bandwidth){:new_window}.

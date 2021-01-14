@@ -84,7 +84,7 @@ It takes approximately five minutes for a global IP to appear after it is ordere
 {: #faq-global-ip-convert-static-global}
 {: faq}
 
-No. {{site.data.keyword.cloud_notm} requires all global IP addresses to be newly provisioned IPs, so we don’t allow pre-existing IP addresses to be converted into global IPs.
+No. {{site.data.keyword.cloud_notm}} requires all global IP addresses to be newly provisioned IPs, so we don’t allow pre-existing IP addresses to be converted into global IPs.
 
 ## How long does it take for my global IP to associate to an instance?
 {: #faq-global-ip-associate-instance}
@@ -108,4 +108,4 @@ Because of incompatibility between IP address styles, you cannot use IPv4 and IP
 {: #faq-global-ip-how-much}
 {: faq}
 
-For global IP pricing, see the product breakdowns on our main site. Scroll down to IPv4 addresses and IPv6 addresses for global IP pricing for each type of address.
+For global IP pricing, see [Pricing for IBM Cloud Subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
