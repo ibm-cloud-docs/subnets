@@ -55,5 +55,3 @@ The following table lists the pricing for secondary subnets.
 | /64 - 2<sup>64</sup>  | $10               | N/A                | $5     | $20    |
 {: caption="Table 1. Pricing for secondary subnets" caption-side="bottom"}
 
-
-For more information, see [Monthly bandwidth pricing packages](https://www.ibm.com/cloud/bandwidth){:new_window}.
