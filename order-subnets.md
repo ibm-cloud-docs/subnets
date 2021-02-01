@@ -65,7 +65,7 @@ Follow these steps to order secondary subnets, which provide more IP addresses:
 ## Next steps
 {:#order-next}
 
-A new subnet with your configuration appears on your account within a few minutes and is viewable in the [subnets list page](https://{{DomainName}}/classic/network/subnets). For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
+A new subnet with your configuration appears on your account within a few minutes. For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
 
 After ordering a secondary subnet, you cannot change the type or routing destination; you must order a new subnet to acquire a different type or routing endpoint. Global IP addresses _are_ routable after ordering. 
 
