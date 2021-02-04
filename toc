@@ -24,6 +24,8 @@ Subnets and IPs
     Managing global IPs
         manage-global-ip.md
         route-global-ip-to-device.md
+        
+    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
