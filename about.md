@@ -169,11 +169,6 @@ The following considerations are product-specific, and should be noted when orde
 
 By default, portable subnets are not protected by firewalls. If you need this feature, discuss it with your IBM Sales representative. Secondary subnets larger than `/29` cannot be routed through this firewall offering.
 
-### Transferring portable subnet IP addresses between servers
-{:#transferring-portable-subnet-ip-between-servers}
-
-When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows IBM's routers to update their ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
-
 ### Virtual Router Appliance
 {:#virtual-router-appliances-subnets}
 

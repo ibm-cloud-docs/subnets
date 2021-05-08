@@ -44,9 +44,6 @@ Follow these steps to route a global IP address to a device, such as a bare meta
 1. Select a target IP address from the list menu.
 1. Click **Update** to complete the route, or select **Cancel** to cancel the action and return to the **Subnets** page.
 
-You cannot route global IP addresses to a primary subnet IP address.
-{:important}
-
 When you initiate the global IP subnet route, the process begins. Routes generally take less than one minute to complete. 
 
 ## Unrouting a global IP address from a device

@@ -64,7 +64,6 @@ Purchase a secondary subnet. After you have a subnet that is routed to the IP ad
   * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-bm-assigning-and-binding-ip-addresses#bm-assign-ip-address)
   * [Virtual Server Instance IP address assignment](/docs/virtual-servers?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
 
-
 ## What does "Reserved for HSRP" when I look at a subnet's IP addresses mean?
 {: #subnets-faq-reserved-hsrp-meaning}
 {: faq}
@@ -79,33 +78,37 @@ In some locations, {{site.data.keyword.cloud_notm}} has routers using a techniqu
 
 It takes approximately five minutes for a global IP to appear after it is ordered.
 
-
-## Can I convert one of my pre-existing static IPs to a global IP?
+## Can I convert one of my pre-existing static IP addresses to a global IP?
 {: #faq-global-ip-convert-static-global}
 {: faq}
 
-No. {{site.data.keyword.cloud_notm}} requires all global IP addresses to be newly provisioned IPs, so we don’t allow pre-existing IP addresses to be converted into global IPs.
+No. {{site.data.keyword.cloud_notm}} requires all global IP addresses to be newly provisioned IP addresses, so we don’t allow pre-existing IP addresses to be converted into global IP addresses.
 
 ## How long does it take for my global IP to associate to an instance?
 {: #faq-global-ip-associate-instance}
 {: faq}
 
-The time that it takes for your global IP to associate depends on if you are associating a global IP for the first time, or if you are transferring it to a new instance. For new global IPs, it takes approximately five minutes before the address can be linked to an instance. When transferring an existing global IP between instances, it takes less than one minute.
+The time that it takes for your global IP to associate depends on if you are associating a global IP for the first time, or if you are transferring it to a new instance. For new global IP addresses, it takes approximately five minutes before the address can be linked to an instance. When transferring an existing global IP between instances, it takes less than one minute.
 
-## What types of subnets are available with global IPs?
+## What types of subnets are available with global IP addresses?
 {: #faq-global-ip-subnet-types}
 {: faq}
 
 We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses. Our global IPv4 addresses are available as single /32 addresses, while our global IPv6 addresses are available as single /64 addresses.
 
-## Can IPv4 and IPv6 global IPs be used interchangeably?
+## Can IPv4 and IPv6 global IP addresses be used interchangeably?
 {: #faq-global-ip-ipv4-ipv6-interchangeably}
 {: faq}
 
-Because of incompatibility between IP address styles, you cannot use IPv4 and IPv6 global IPs interchangeably.
+Because of incompatibility between IP address styles, you cannot use IPv4 and IPv6 global IP addresses interchangeably.
 
 ## How much does it cost to add a global IP to my account?
 {: #faq-global-ip-how-much}
 {: faq}
 
 For global IP pricing, see [Pricing for IBM Cloud Subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
+
+### Can I Transfer portable subnet IP addresses between servers?
+{:#transferring-portable-subnet-ip-between-servers}
+
+Yes. When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows IBM's routers to update the ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
