@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-10-08"
+  years: 1994, 2021
+lastupdated: "2021-05-07"
 
 keywords:
 
@@ -52,7 +52,9 @@ It is important to note that submission of the order **does not guarantee** that
 {: faq}
 {: support}
 
-We automatically assign primary subnets to make more IP addresses available to fulfill your compute purchases. However, if you need more IP addresses for local virtual machines or segregating applications, you can order more secondary subnets. 
+We automatically assign primary subnets to make more IP addresses available to fulfill your compute purchases. If you are out of primary subnet space, more primary subnet space is added automatically for you when you order more devices without specifying a specific subnet.
+
+If you are out of secondary subnet space, such as for local virtual machines, you can order more secondary subnets.
 
 ## How do I assign more IP addresses to a compute resource?
 {: #subnets-faq-assign-more-ip-addresses-to-compute-resource}
@@ -94,7 +96,7 @@ The time that it takes for your global IP to associate depends on if you are ass
 {: #faq-global-ip-subnet-types}
 {: faq}
 
-We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses. Our global IPv4 addresses are available as single /32 addresses, while our global IPv6 addresses are available as single /64 addresses.
+We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses. Our global IPv4 addresses are available as single /32 addresses, while our global IPv6 addresses are available as single /128 addresses.
 
 ## Can IPv4 and IPv6 global IP addresses be used interchangeably?
 {: #faq-global-ip-ipv4-ipv6-interchangeably}
