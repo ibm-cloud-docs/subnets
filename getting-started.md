@@ -43,7 +43,7 @@ Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnet
 ## Before you begin
 {:#before-you-begin}
 
-1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra) or [SLI API](https://sldn.softlayer.com/tags/permissions/){:external}.
+1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
 1. Determine what [type of secondary subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets) you need.
   
 ## Ordering secondary subnets
