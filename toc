@@ -1,13 +1,14 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="subnets" category="network_classic" audience="service" href="/docs/subnets?topic=subnets-getting-started" console-page="/classic/network/subnets" product-page="https://www.ibm.com/cloud/network" path="subnets"}
+{: .toc subcollection="subnets" category="network_classic" audience="service" href="/docs/subnets" console-page="/classic/network/subnets" product-page="https://www.ibm.com/cloud/network" path="subnets"}
 Subnets and IPs
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
     pricing.md
+    release-notes.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -25,7 +26,7 @@ Subnets and IPs
         manage-global-ip.md
         route-global-ip-to-device.md
         
-    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
+    [Terraform](https://{DomainName}/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

@@ -1,0 +1,41 @@
+{
+    "title": "Subnets and IPs docs",
+    "lastupdated": "2021-07-07",
+    "introduction": "IBM has three types of subnets (Primary, Secondary, and Global IP), with each subnet providing IP addresses to resources in different ways.",
+    "section_devtools": {
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet"
+    },
+    "section_recommended": [
+      {
+        "title": "Getting started with subnets and IPs",
+        "description": "Get started setting up subnets and IPs.",
+        "href": "/docs/subnets?topic=subnets-getting-started"
+      },
+      {
+        "title": "About subnets and IPs",
+        "description": "Learn specific terminology for the types, and uses, of subnets. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.",
+        "href": "/docs/subnets?topic=subnets-about-subnets-and-ips"
+      },
+      {
+        "title": "Ordering secondary subnets and global IP addresses",
+        "description": "Secondary subnets provide additional, independent IP addresses for your compute resources and are available until canceled.",
+        "href": "/docs/subnets?topic=subnets-order-subnets"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/home"
+    },
+    "section_updates": {
+      "view_more": "/docs/subnets?topic=subnets-release-notes-subnets",
+      "tiles": [
+        {
+          "date": "27 May 2021",
+          "title": "Remove obsolete links",
+          "description": "Removed obsolete links from the getting started and ordering topics."
+        }
+      ]
+    }
+  }
