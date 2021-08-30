@@ -28,12 +28,12 @@ subcollection: subnets
 {:support: data-reuse='support'}
 
 # Viewing subnet details
-{:#view-subnet-details}
+{: #view-subnet-details}
 {: help}
 {: support}
 
 The **Subnet Details** page displays all IP addresses associated with the subnet. Take the following steps to display subnet details.
-{:shortdesc}
+{: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
@@ -48,7 +48,7 @@ The **Subnet Details** page displays all IP addresses associated with the subnet
 You can use the **Search all columns** box to narrow the IP addresses displayed. You can also use the overflow menu ![overflow menu](images/overflow.png) to [edit notes](/docs/subnets?topic=subnets-edit-notes-subnet-ip) on the IP address. 
 
 ### Editing reverse DNS
-{:#edit-reverse-dns}
+{: #edit-reverse-dns}
 
 For any IP address on a public subnet, you can adjust the DNS settings from the overflow menu.  
 

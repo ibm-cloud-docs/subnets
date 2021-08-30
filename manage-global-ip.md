@@ -30,22 +30,22 @@ subcollection: subnets
 {:support: data-reuse='support'}
 
 # Working with global IP addresses
-{:#work-with-global-ip-addresses}
+{: #work-with-global-ip-addresses}
 
 You can manage your global IP addresses in the **Subnets** page.
-{:shortdesc}
+{: shortdesc}
 
 ## Prerequisites
 {: #global-ip-prereqs}
 
 You must have the following Classic infrastructure permissions to change the routing of global IP addresses:
 
-  - **Manage Network Subnet Routes** 
-  - **Allow Access To All Hardware**
-  - **Allow Access To All Virtual Servers**
+    - **Manage Network Subnet Routes** 
+    - **Allow Access To All Hardware**
+    - **Allow Access To All Virtual Servers**
 
 ## Managing global IP addresses
-{:#manage-global-ip-addresses}
+{: #manage-global-ip-addresses}
 {: help}
 {: support}
 
@@ -57,22 +57,20 @@ To manage global IP addresses, follow these steps:
 1. Expand the **Filter subnets** section, and use the **Type** menu list to select **Global** to filter the subnet list to show only the global IP addresses.
 1. Click overflow menu ![overflow menu](images/overflow.png) of the global IP you want to manage.
 
-   A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static
-  IP address offering can be routed only to an IP address within the same data center, but global IP addresses do not share
-  this restriction.
-  {: note}
+     A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static IP address offering can be routed only to an IP address within the same data center, but global IP addresses do not share this restriction.
+     {: note}
 
 1. Select the operation you want to perform from the overflow menu. You can [edit notes](/docs/subnets?topic=subnets-edit-notes-subnet-ip), [route or unroute](/docs/subnets?topic=subnets-route-global-ip-address-device) the global IP address, or [cancel the subnet](/docs/subnets?topic=subnets-canceling-subnets).
 
 You might notice that some entries do not have a value for **Target**, which indicates that the global IP address is not currently routed, and thus is not in service.
 
 ## Adding a global IP to your server
-{:#add-global-ip-server}
+{: #add-global-ip-server}
 
 Before your server accepts traffic for the global IP, that IP must be properly added to the system. Each system requires slightly different commands, as shown in the following sections.
 
 ### For Linux servers
-{:#add-global-ip-server-linux}
+{: #add-global-ip-server-linux}
 
 **Red Hat/CentOS**
 
@@ -87,7 +85,7 @@ NETMASK=255.255.255.255
 NETWORK=[Network of the Primary IP Block]
 ONBOOT=yes
 ```
-{:codeblock}
+{: codeblock}
 
 **Debian/Ubuntu**
 
@@ -99,7 +97,7 @@ Add the following lines:
 post-up ip addr add [Global IP address]/32 dev eth1
 post-down ip addr del [Global IP address]/32 dev eth1
 ```
-{:codeblock}
+{: codeblock}
 
 If your system doesn't work properly, add the following lines instead, replacing the # with the next number available.
 
@@ -110,10 +108,10 @@ address [Global IP address]
 netmask 255.255.255.255
 gateway [Server Primary Public Gateway]
 ```
-{:codeblock}
+{: codeblock}
 
 ### For Windows servers
-{:#add-global-ip-server-windows}
+{: #add-global-ip-server-windows}
 
 1. Browse to **Start > Control Panel > Network Connections > Local Area Connection (Public) (properties)**.
 1. Select **Internet Protocol (TCP/IP)** and click **Properties > Advanced**.
@@ -125,7 +123,7 @@ To verify that your settings took effect, open a DOS prompt by browsing to **Sta
 ```
 ipconfig /all
 ```
-{:codeblock}
+{: codeblock}
 
 **Notes:**
 
@@ -137,6 +135,6 @@ ipconfig /all
 * By itself, global IP addresses are not an automatic failover solution because they lack health checks. However, a global IP address can be used as a component for a failover environment, if you want to circumvent DNS propagation.
 
 ### Resource limit
-{:#global-ip-resource-limit}
+{: #global-ip-resource-limit}
 
 An account can have only five global IP addresses per IP version. For instance, five IPv4 global IP addresses, and five IPv6 global IP addresses.

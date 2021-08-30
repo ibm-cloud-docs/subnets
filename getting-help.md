@@ -10,7 +10,7 @@ subcollection: subnets
 
 ---
 
-
+{:external: target="_blank" .external}
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
@@ -22,8 +22,8 @@ subcollection: subnets
 {: #gettinghelp-subnets}
 
 If you have problems or questions when you use subnets, get help by searching for information or by asking questions a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}.
-{:shortdesc}
+{: shortdesc}
 
-If you have technical questions about subnets, post your question on [Stack Overflow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://stackoverflow.com/search?q=subnets+ibm-cloud){:new_window} and tag your question with "subnets" and "ibm-cloud".
+If you have technical questions about subnets, post your question on [Stack Overflow](https://stackoverflow.com/search?q=subnets+ibm-cloud){: external} and tag your question with "subnets" and "ibm-cloud".
 
 For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support).

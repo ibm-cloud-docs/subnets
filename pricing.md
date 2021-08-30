@@ -30,7 +30,7 @@ subcollection: subnets
 {: #pricing-for-ibm-cloud-subnets}
 
 Pricing for the various {{site.data.keyword.cloud}} subnet options is summarized in the following monthly pricing table.
-{:shortdesc}
+{: shortdesc}
 
 Subnets pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
 {: important}

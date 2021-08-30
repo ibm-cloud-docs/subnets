@@ -32,7 +32,7 @@ subcollection: subnets
 {: #release-notes-subnets}
 
 Use these release notes to learn about the latest updates to subnets and IPs that are grouped by date.
-{:shortdesc}
+{: shortdesc}
 
 ## 27 May 2021
 {: #27-may-2021}

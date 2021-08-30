@@ -22,15 +22,15 @@ subcollection: subnets
 {:support: data-reuse='support'}
 
 # Editing notes for a subnet or an IP address
-{:#edit-notes-subnet-ip}
+{: #edit-notes-subnet-ip}
 {: help}
 {: support}
 
 Subnets and IP addresses each have an editable **Note** section where you can enter details regarding the subnet or IP address.
-{:shortdesc}
+{: shortdesc}
 
 ## Notes for a subnet
-{:#edit-notes-subnet}
+{: #edit-notes-subnet}
 
 The **Subnets** page displays all subnets that are associated with the account. It also shows all corresponding details regarding each subnet, including the network, VLAN, location, and notes. The **Note** section of the page is editable. It can be updated by any user who has permission to interact with subnets. It is recommended that you keep the **Note** section updated with details about the subnet, which can include the intended use for the subnet and any other pertinent information. 
 
@@ -41,7 +41,7 @@ Follow these steps to edit notes for a subnet:
 1. Click **Update** to save the edits.
 
 ## Notes for an IP address
-{:#edit-notes-ip}
+{: #edit-notes-ip}
 
 Follow these steps to edit notes for an IP address:
 

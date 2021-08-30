@@ -14,7 +14,7 @@ subcollection: subnets
 {:new_window: target="_blank"}
 
 # Re-routing secondary subnets
-{:#re-routing-secondary-subnets}
+{: #re-routing-secondary-subnets}
 
 Secondary subnets cannot be rerouted after ordering. To get a different type of subnet, you must purchase a new secondary subnet and cancel any existing secondary subnet if it is no longer needed.
-{:shortdesc}
+{: shortdesc}

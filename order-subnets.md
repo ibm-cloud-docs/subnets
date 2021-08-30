@@ -30,17 +30,17 @@ subcollection: subnets
 {: #order-subnets}
 
 Secondary subnets provide additional, independent IP addresses for your compute resources and are available until canceled.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
-{:#before-you-order}
+{: #before-you-order}
 
 1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
 1. Determine what [type of secondary subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets) you need.
   
   
 ## Ordering secondary subnets
-{:#ordering-secondary-subnets}
+{: #ordering-secondary-subnets}
 
 Follow these steps to order secondary subnets, which provide more IP addresses:
 
@@ -63,7 +63,7 @@ Follow these steps to order secondary subnets, which provide more IP addresses:
 1. Review the summary, read and agree to the Master Service Agreement, then click **Create**.
 
 ## Next steps
-{:#order-next}
+{: #order-next}
 
 A new subnet with your configuration appears on your account within a few minutes. For information on how to manage global IP addresses, see [Working with global IP addresses](/docs/subnets?topic=subnets-work-with-global-ip-addresses).
 

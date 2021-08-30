@@ -31,7 +31,7 @@ subcollection: subnets
 {: #rir}
 
 The Regional Internet Registry (RIR) registration process associates personal or business identifiable information with an assigned subnet resource. By registering subnets, you affirm your presence on the internet, making data publicly available to a respective registrar and accessible through `whois` and `rwhois` services in association with your individual, or ranges of, assigned public IP addresses. The {{site.data.keyword.cloud_notm}} RIR Registration pages enable management of subnet registrations and the person records associated with them.
-{:shortdesc}
+{: shortdesc}
 
 ## Registering a subnet with a RIR
 {: #register-subnet-rir}
@@ -47,10 +47,10 @@ Any public subnet owned by {{site.data.keyword.cloud_notm}} which has been assig
 1. Select Person Record information from the list. For more information, see [Creating an RIR registration with person details](#creating-rir-registration-person-details).
 1. Click **Register** to create the RIR Registration.
    The status of the device shows as **Registering** until the registration is complete. Registration times are not controlled internally, and they can vary based on the region in which the subnet is located.
-{:note}
+{: note}
 
 ## Updating the registration information for a registered subnet
-{:#update-registration-information-registered-subnet}
+{: #update-registration-information-registered-subnet}
 {: help}
 {: support}
 
@@ -73,7 +73,7 @@ After you confirm the update, the subnet's status appears as **Registering** unt
 Several person records can be maintained on your account for use across multiple subnet registrations. A subnet registration must be associated to a single person record before attempting to inform the registrar of the associated network assignment. If invalid or poorly formatted data is present in the chosen person record, according to the targeted registrar, the registration request is rejected.
 
 Registrar entities maintain different rules for formatting personal data, so it is possible for a person record to be successfully registered with one registrar and to be rejected by another.
-{:note}
+{: note}
 
 ### API endpoint validation rules
 {: #validations}
@@ -117,7 +117,7 @@ The following sections outline the various validation measures applied to person
 #### Country
 {: #country}
 * Country is required.
-* Country code must equal 2 characters, in compliance with [ISO 3166-1](https://www.nro.net/list-of-country-codes-and-rirs-ordered-by-country-code){:external}.
+* Country code must equal 2 characters, in compliance with [ISO 3166-1](https://www.nro.net/list-of-country-codes-and-rirs-ordered-by-country-code){: external}.
 
 #### State
 {: #state}
@@ -128,14 +128,14 @@ The following sections outline the various validation measures applied to person
 * Phone is required.
 * Only the following are valid for this field: a-z A-Z 0-9 `(` `)` `+` `.` `-` and space.
 * Contact telephone number. Can take one of the forms:
-  * `+<integer-list>`
-    * Examples - `+012-3456`, `+12345689457920`
-  * `+<integer-list> (<integer-list> )<integer-list>`
-    * Example - `+01 (234)567-8901`
-  * `+<integer-list> ext.<integer-list>`
-    * Example - `+012-345-6789 ext.123`
-  * `+<integer-list> ( integer-list ) <integer-list> ext. <integer-list>`
-    * Example - `+012 (345) 678-9012 ext. 123`
+    * `+<integer-list>`
+        * Examples - `+012-3456`, `+12345689457920`
+    * `+<integer-list> (<integer-list> )<integer-list>`
+        * Example - `+01 (234)567-8901`
+    * `+<integer-list> ext.<integer-list>`
+        * Example - `+012-345-6789 ext.123`
+    * `+<integer-list> ( integer-list ) <integer-list> ext. <integer-list>`
+        * Example - `+012 (345) 678-9012 ext. 123`
 
 #### Email
 {: #email}

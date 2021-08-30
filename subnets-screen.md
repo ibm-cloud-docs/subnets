@@ -21,12 +21,12 @@ subcollection: subnets
 {:support: data-reuse='support'}
 
 # Viewing all subnets
-{:#view-all-subnets}
+{: #view-all-subnets}
 {: help}
 {: support}
 
 The **Subnets** page lists each subnet that is associated with the account, along with specific information about the subnet, including its network, type, VLAN, location, target, and total number of IP addresses. Follow these steps to view the **Subnets** page.
-{:shortdesc}
+{: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
@@ -40,26 +40,26 @@ The list of subnets can be filtered to narrow the subnets displayed at any time.
 
 1. Expand the **Filter subnets** section to display the filter options.
 1. Select an item from the menu list. Filter options include:
-  * Subnet
-  * Network
-  * Type
-  * VLAN
-  * Location
-  * Target
-  * Note
+    * Subnet
+    * Network
+    * Type
+    * VLAN
+    * Location
+    * Target
+    * Note
 1. Click **Filter** to apply the selected filters to the display.
 
 After filtering, all subnets that correspond with the parameters set by the filter are displayed on the Subnets page. To clear all parameters set by the filter, click **Clear**.
-{:tip}
+{: tip}
 
 The search bar acts on the filtered results. If you have no filters selected, it searches all.
 
 Click **Download CSV** to download a comma-separated value file of your filtered results. 
 
 The CSV file only contains the information that is filtered. If you have no filters applied, the CSV file contains the entire data set.
-{:note}
+{: note}
 
 ## Other actions available
-{:#view-all-subnets-next}
+{: #view-all-subnets-next}
 
 On the **Subnets** page, each subnet that is associated with the account is displayed within the list of subnets. From this page, you can view a subnet or VLAN's details, edit notes for a subnet, or order more IP addresses.

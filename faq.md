@@ -19,7 +19,7 @@ subcollection: subnets
 {: #faq}
 
 Have a question about subnets or global IPs? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
-{:shortdesc}
+{: shortdesc}
 
 ## What does "Primary IP for future server only" mean when I look at a subnet's IP addresses?
 {: #subnets-faq-primary-ip-future-server-only}
@@ -63,8 +63,8 @@ If you are out of secondary subnet space, such as for local virtual machines, yo
 
 Purchase a secondary subnet. After you have a subnet that is routed to the IP address or VLAN you want, you'll want to refer to the specific compute documentation for how to set up your new IP addresses:
 
-  * [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-bm-assigning-and-binding-ip-addresses#bm-assign-ip-address)
-  * [Virtual Server Instance IP address assignment](/docs/virtual-servers?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
+* [Bare Metal Server IP address assignment](/docs/bare-metal?topic=bare-metal-bm-assigning-and-binding-ip-addresses#bm-assign-ip-address)
+* [Virtual Server Instance IP address assignment](/docs/virtual-servers?topic=virtual-servers-assigning-server-ip-addresses#assigning-server-ip-addresses)
 
 ## What does "Reserved for HSRP" when I look at a subnet's IP addresses mean?
 {: #subnets-faq-reserved-hsrp-meaning}
@@ -110,7 +110,8 @@ Because of incompatibility between IP address styles, you cannot use IPv4 and IP
 
 For global IP pricing, see [Pricing for IBM Cloud Subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
 
-### Can I Transfer portable subnet IP addresses between servers?
-{:#transferring-portable-subnet-ip-between-servers}
+## Can I Transfer portable subnet IP addresses between servers?
+{: #transferring-portable-subnet-ip-between-servers}
+{: faq}
 
 Yes. When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows IBM's routers to update the ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
