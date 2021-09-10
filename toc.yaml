@@ -1,0 +1,56 @@
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: subnets
+    version: 2
+    category: network_classic
+    audience: service
+    href: /docs/subnets
+    console-page: /classic/network/subnets
+    product-page: https://www.ibm.com/cloud/network
+    path: subnets
+    label: Subnets and IPs
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries: 
+  - navgroup: 
+      id: learn
+      topics:
+      - getting-started.md
+      - about.md
+      - pricing.md
+
+  - navgroup: 
+      id: howto
+      topics:
+      - order-subnets.md
+      - subnets-screen.md
+      - subnet-details.md
+      - edit-notes.md
+      - route-subnet.md
+      - use-secondary-self-hosted-vms.md
+      - cancel-subnets.md
+      - rir-tool.md
+      - topicgroup: 
+          label: Managing global IPs
+          topics: 
+          - manage-global-ip.md
+          - route-global-ip-to-device.md
+      - terraform.md
+
+#  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
+#  Links to your command line reference docs should be included in the Reference navigation group.
+  - navgroup:
+      id: reference
+      topics: 
+      - link: 
+        label: Terraform reference
+        href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet
+
+  - navgroup:
+      id: help
+      topics: 
+      - faq.md
+      - getting-help.md 
+      - release-notes.md
