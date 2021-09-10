@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-10-28"
 
-keywords: 
+keywords:
 
 subcollection: subnets
 
@@ -43,7 +43,7 @@ IP addresses in primary subnets cannot be reserved.
 
 Secondary subnets provide additional, independent IP addresses for your compute resources, and are well suited for use as external application or service addresses. Secondary subnet IP addresses are managed independently of other resources and are yours until canceled.
 
-Secondary subnets can be provisioned local to the data center or global. 
+Secondary subnets can be provisioned local to the data center or global.
 
 ### Features and use cases
 
@@ -146,9 +146,9 @@ A global IP address is a specialized secondary static subnet that can be routed 
 
 Global IP addresses are available as either an IPv4 /32 subnet (a single IP address), or an IPv6 /64 subnet. Each version can be routed only to a destination IP address of matching version (no address translation is performed). Acceptable routing targets include public primary IP addresses in use by your servers and any public secondary portable subnet IP addresses. The unique capabilities of a global IP address are:
 
-  * Global, on-demand routing to IP addresses on an account
-  * Global IP address internet announcement by all {{site.data.keyword.cloud}} edge routers
-  
+   * Global, on-demand routing to IP addresses on an account
+   * Global IP address internet announcement by all {{site.data.keyword.cloud}} edge routers
+
 As result, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses the IBM Cloud dedicated, global backbone to reach the destination you configured.
 
 Global IP addresses provide the flexibility to shift workloads between servers, even across geographically disparate data centers. Global IP addresses also provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is well suited for transitioning workloads across disaster recovery sites, or seamlessly migrating to a new deployment in a geographic area that can serve your audience better.
