@@ -32,11 +32,11 @@ subcollection: subnets
 IBM has three types of subnets, with each subnet providing IP addresses to resources in different ways. The following topic describes the capabilities and best practices for each subnet type.
 {: shortdesc}
 
-   * Primary subnets - Automatically assigned to meet the IP addressing needs of other services, such as bare metal servers and virtual server instances. These subnets are automatically assigned and removed by IBM.
-   * Secondary subnets - Purchased and routed by you, and cancelled when no longer needed. There are two subtypes:
-     * Portable - IP addresses are available to all resources on a VLAN.
-     * Static - IP addresses are available to the resource identified as the routing endpoint.
-   * Global IP addresses - Unique routing behavior that uses {{site.data.keyword.cloud}}'s backbone, which provides IP addresses to the resource identified as the routing endpoint.
+* Primary subnets - Automatically assigned to meet the IP addressing needs of other services, such as bare metaservers and virtual server instances. These subnets are automatically assigned and removed by IBM.
+* Secondary subnets - Purchased and routed by you, and cancelled when no longer needed. There are two subtypes:
+    * Portable - IP addresses are available to all resources on a VLAN.
+    * Static - IP addresses are available to the resource identified as the routing endpoint.
+* Global IP addresses - Unique routing behavior that uses {{site.data.keyword.cloud}}'s backbone, which provides IP addresses to the resource identified as the routing endpoint.
 
 Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips) to learn about aspects such as IPv4 versus IPv6 and public versus private network availability.
 
@@ -45,7 +45,7 @@ Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnet
 
 1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
 1. Determine what [type of secondary subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets) you need.
-  
+
 ## Ordering secondary subnets
 {: #getting-started-order-secondary-subnets}
 

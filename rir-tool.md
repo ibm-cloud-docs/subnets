@@ -82,6 +82,7 @@ The following sections outline the various validation measures applied to person
 
 #### First Name
 {: #first-name}
+
 * First name is required.
 * It can contain a maximum of five words.
 * First name must not exceed 75 characters.
@@ -90,6 +91,7 @@ The following sections outline the various validation measures applied to person
 
 #### Last Name
 {: #last-name}
+
 * Last name is required.
 * It can contain a maximum of five words.
 * Last name must not exceed 75 characters.
@@ -98,33 +100,39 @@ The following sections outline the various validation measures applied to person
 
 #### Address
 {: #address}
+
 * Address is required.
 * Address must be 2 - 200 characters.
 * Only the following are valid for this field: a-z A-Z 0-9 `'` `#` `/` `&` `,` `.` `-` `:` and space.
 
 #### City
 {: #city}
+
 * City name is required.
 * City must be 2 - 50 characters.
 * Only the following are valid for this field: a-z A-Z 0-9 `.` `'` `-` and space.
 
 #### Postal code
 {: #postal-code}
+
 * Postal code is required for certain locales.
 * Postal code cannot exceed 15 characters.
 * Only the following are valid for this field: a-z A-Z 0-9 `-` and space.
 
 #### Country
 {: #country}
+
 * Country is required.
 * Country code must equal 2 characters, in compliance with [ISO 3166-1](https://www.nro.net/list-of-country-codes-and-rirs-ordered-by-country-code){: external}.
 
 #### State
 {: #state}
+
 * State is required for certain locales.
 
 #### Phone
 {: #phone}
+
 * Phone is required.
 * Only the following are valid for this field: a-z A-Z 0-9 `(` `)` `+` `.` `-` and space.
 * Contact telephone number. Can take one of the forms:
@@ -139,4 +147,5 @@ The following sections outline the various validation measures applied to person
 
 #### Email
 {: #email}
+
 A valid email address is required.
