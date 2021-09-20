@@ -52,7 +52,7 @@ Secondary subnets have the following features:
 - Data center and globally routable public IPv4 and IPv6 IP addresses
 - Data center routable private IPv4 IP addresses
 - IPv4 /32 to /24 and IPv6 /64 blocks available
--  Provide unique IP addresses to virtual machines capable of portability across hosts
+- Provide unique IP addresses to virtual machines capable of portability across hosts
 - Address your services individually, maintaining a stable IP address when migrating to new compute resources
 - High availability configurations, which use virtual/floating IP address protocols
 - Route to a disaster recovery site in any data center that uses a global IP

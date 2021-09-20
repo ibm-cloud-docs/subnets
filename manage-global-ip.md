@@ -40,9 +40,9 @@ You can manage your global IP addresses in the **Subnets** page.
 
 You must have the following Classic infrastructure permissions to change the routing of global IP addresses:
 
-    - **Manage Network Subnet Routes** 
-    - **Allow Access To All Hardware**
-    - **Allow Access To All Virtual Servers**
+- **Manage Network Subnet Routes** 
+- **Allow Access To All Hardware**
+- **Allow Access To All Virtual Servers**
 
 ## Managing global IP addresses
 {: #manage-global-ip-addresses}
@@ -72,7 +72,10 @@ Before your server accepts traffic for the global IP, that IP must be properly a
 ### For Linux servers
 {: #add-global-ip-server-linux}
 
-**Red Hat/CentOS**
+The following instructions are for different versions of Linux servers.
+
+#### Red Hat/CentOS
+{: #redhat}
 
 Edit (vim or nano) `/etc/sysconfig/network-scripts/ifcfg-eth1:1`
 
@@ -87,7 +90,8 @@ ONBOOT=yes
 ```
 {: codeblock}
 
-**Debian/Ubuntu**
+#### Debian/Ubuntu
+{: #ubuntu}
 
 Edit `/etc/network/interfaces`
 
