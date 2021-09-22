@@ -32,7 +32,7 @@ subcollection: subnets
 IBM has three types of subnets, with each subnet providing IP addresses to resources in different ways. The following topic describes the capabilities and best practices for each subnet type.
 {: shortdesc}
 
-* Primary subnets - Automatically assigned to meet the IP addressing needs of other services, such as bare metaservers and virtual server instances. These subnets are automatically assigned and removed by IBM.
+* Primary subnets - Automatically assigned to meet the IP addressing needs of other services, such as bare metal servers and virtual server instances. These subnets are automatically assigned and removed by IBM.
 * Secondary subnets - Purchased and routed by you, and cancelled when no longer needed. There are two subtypes:
     * Portable - IP addresses are available to all resources on a VLAN.
     * Static - IP addresses are available to the resource identified as the routing endpoint.
