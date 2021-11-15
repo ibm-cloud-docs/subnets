@@ -10,10 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:faq: data-hd-content-type='faq'}
-{:new_window: target="_blank"}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs
 {: #faq}

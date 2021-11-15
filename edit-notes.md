@@ -10,16 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Editing notes for a subnet or an IP address
 {: #edit-notes-subnet-ip}
@@ -36,7 +27,7 @@ The **Subnets** page displays all subnets that are associated with the account. 
 
 Follow these steps to edit notes for a subnet:
 
-1. Navigate to the **Subnets** page in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
+1. Navigate to the **Subnets** page in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet and select **Edit note** to enter your text.
 1. Click **Update** to save the edits.
 
@@ -45,7 +36,7 @@ Follow these steps to edit notes for a subnet:
 
 Follow these steps to edit notes for an IP address:
 
-1. Navigate to the **Subnets** page in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}. From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
+1. Navigate to the **Subnets** page in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). From the **Classic Infrastructure** menu, select **Network > IP Management > Subnets**.
 1. Click the subnet link to display the list of IP addresses in the subnet.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the IP address you want to enter notes for, and select **Edit note** to enter your text. 
 1. Click **Update** to save the edits.

@@ -10,22 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:table: .aria-labeledby="caption"}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Registering with the Regional Internet Registry
 {: #rir}
@@ -40,7 +25,7 @@ The Regional Internet Registry (RIR) registration process associates personal or
 
 Any public subnet owned by {{site.data.keyword.cloud_notm}} which has been assigned to your account can be registered with its respective registrar. Navigate to the RIR Registration page and use the following steps to register a subnet.
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > RIR Registration**.
 1. Select **Create Registration** from the **Actions** list for the wanted subnet. A **Register Subnet** window appears.
@@ -56,7 +41,7 @@ Any public subnet owned by {{site.data.keyword.cloud_notm}} which has been assig
 
 After a subnet completes its initial RIR registration, you can update the registration information for the subnet. Follow these steps to update the RIR registration for a subnet.
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > RIR Registration**.
 1. Select **Edit Registration** from the **Actions** list. An **Update Subnet** window appears, displaying the current registration information.

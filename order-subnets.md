@@ -10,20 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Ordering secondary subnets and global IP addresses
@@ -37,14 +24,13 @@ Secondary subnets provide additional, independent IP addresses for your compute 
 
 1. Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
 1. Determine what [type of secondary subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#secondary-subnets) you need.
-  
-  
+
 ## Ordering secondary subnets
 {: #ordering-secondary-subnets}
 
 Follow these steps to order secondary subnets, which provide more IP addresses:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** and scroll to the **Network** section of the expanded menu.
 1. Select **IP Management > Subnets**.
 1. Click **Order IP addresses**. The Secondary subnets page appears. 
@@ -57,9 +43,9 @@ Follow these steps to order secondary subnets, which provide more IP addresses:
    * Choose a routing option. The selection options can be restricted, based on previously chosen options.
 1. In the Endpoint section:
    * Select the destination for the subnet routing. Selections made in the previous sections determine what IP addresses or VLANs are available for your secondary subnet. Use the table's search bar to search within these results.
-     * For unrouted subnets, no destination is needed.
-     * For static subnets, the endpoint table is populated with subnets. Expand the subnet row to see a list of IP addresses that are available to route your new subnet to. 
-     * For portable subnets, a table of selectable VLANs appears.
+      * For unrouted subnets, no destination is needed.
+      * For static subnets, the endpoint table is populated with subnets. Expand the subnet row to see a list of IP addresses that are available to route your new subnet to. 
+      * For portable subnets, a table of selectable VLANs appears.
 1. Review the summary, read and agree to the Master Service Agreement, then click **Create**.
 
 ## Next steps

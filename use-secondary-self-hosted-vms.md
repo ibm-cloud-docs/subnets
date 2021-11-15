@@ -9,20 +9,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Using secondary subnets on self-hosted VMs
 {: #use-secondary-subnets-self-hosted-vms}
@@ -36,7 +23,7 @@ Now let's say you've created two virtual machines, **`VPS1`** and **`VPS2`**, pu
 
 `129.42.0.0/29` - Secondary portable subnet
 
-```
+```sh
 129.42.0.0 – Network
 129.42.0.1 – Gateway
 129.42.0.2 –
@@ -54,7 +41,7 @@ You can purchase a static subnet and receive `129.42.0.100/30`. You can route th
 
 `129.42.0.0/29` - Secondary portable subnet
 
-```
+```sh
 129.42.0.0 – Network
 129.42.0.1 – Gateway
 129.42.0.2 –
@@ -68,7 +55,7 @@ You can purchase a static subnet and receive `129.42.0.100/30`. You can route th
 
 `129.42.0.100/30` - Secondary static subnet
 
-```
+```sh
 129.42.0.100 – 129.42.0.3 (VPS1)
 129.42.0.101 – 129.42.0.3 (VPS1)
 129.42.0.102 – 129.42.0.3 (VPS1)

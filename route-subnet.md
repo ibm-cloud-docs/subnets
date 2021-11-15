@@ -10,8 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Re-routing secondary subnets
 {: #re-routing-secondary-subnets}

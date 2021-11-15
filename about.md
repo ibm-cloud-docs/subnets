@@ -10,14 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # About subnets and IPs
 {: #about-subnets-and-ips}
@@ -46,6 +39,7 @@ Secondary subnets provide additional, independent IP addresses for your compute 
 Secondary subnets can be provisioned local to the data center or global.
 
 ### Features and use cases
+{: #features-use-cases}
 
 Secondary subnets have the following features:
 
@@ -68,7 +62,7 @@ IBM offers different routing options for secondary subnets. To help illustrate t
 
 Available IP addresses provided by the subnet `10.0.0.0/29`:
 
-```
+```sh
 10.0.0.0
 10.0.0.1
 10.0.0.2
@@ -85,7 +79,7 @@ Available IP addresses provided by the subnet `10.0.0.0/29`:
 
 A secondary static subnet provides a single destination with access to all IP addresses defined by that subnet. One benefit of using a static subnet is that the destination device is able to use all IP addresses defined; not suffering the usual network, gateway, and broadcast address usage penalty. So, using the example subnet `10.0.0.0/29`, all addresses are usable:
 
-```
+```sh
 10.0.0.0 - Usable by device
 10.0.0.1 - Usable by device
 10.0.0.2 - Usable by device
@@ -115,13 +109,14 @@ The following IP addresses are _not_ eligible as route targets for static subnet
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  |  No  | No   |
+{: caption="Table 1. Static IP address availability" caption-side="bottom"}
 
 ### Portable subnet
 {: #portable-subnet}
 
 A secondary portable subnet provides its IP addresses to all resources on a VLAN. Therefore, any compute resource on the same VLAN can use any address that is provided by the subnet. This behavior is useful for floating addresses across multiple resources, and decouples the subnet from any particular resource. In a portable subnet, not all IP addresses defined by the subnet are usable by devices. Networking mechanics require some of the IP addresses to be consumed. These consumed addresses are referred to as the broadcast, network, and gateway IP addresses. Notice the addresses, which are available in the example:
 
-```
+```sh
 10.0.0.0 - Network
 10.0.0.1 - Gateway
 10.0.0.2 - Usable by devices
@@ -137,6 +132,7 @@ A secondary portable subnet provides its IP addresses to all resources on a VLAN
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  | Yes  | No   |
+{: caption="Table 2. Broadcast, network, and gateway IP address availability" caption-side="bottom"}
 
 
 ### Global IP addresses
@@ -157,6 +153,7 @@ Global IP addresses provide the flexibility to shift workloads between servers, 
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  | No   | No   |
+{: caption="Table 3. Global IP address availability" caption-side="bottom"}
 
 
 ## Product-specific considerations when ordering subnets

@@ -10,21 +10,7 @@ subcollection: subnets
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Pricing for {{site.data.keyword.cloud_notm}} subnets
 {: #pricing-for-ibm-cloud-subnets}
@@ -34,7 +20,6 @@ Pricing for the various {{site.data.keyword.cloud}} subnet options is summarized
 
 Subnets pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
 {: important}
-
 
 ## Pricing for secondary subnets
 {: #pricing-for-subnet-port-charges}
@@ -54,4 +39,3 @@ The following table lists the pricing for secondary subnets.
 | /24 - 256             | $512              | $0                 | $256   | N/A    |
 | /64 - 2<sup>64</sup>  | $10               | N/A                | $5     | $20    |
 {: caption="Table 1. Pricing for secondary subnets" caption-side="bottom"}
-

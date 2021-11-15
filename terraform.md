@@ -8,15 +8,7 @@ subcollection: subnets
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:note: .note}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Setting up Terraform for subnets
 {: #terraform-setup-subnets}
@@ -60,21 +52,21 @@ To install Terraform and configure resources for subnets:
 
 1. Initialize the Terraform CLI.
 
-   ```
+   ```terraform
    terraform init
    ```
    {: pre}
 
 1. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the subnet resource in your account.
 
-   ```
+   ```terraform
    terraform plan
    ```
    {: pre}
 
 1. Create the subnet resource in {{site.data.keyword.cloud_notm}}.
 
-   ```
+   ```terraform
    terraform apply
    ```
    {: pre}

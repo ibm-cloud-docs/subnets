@@ -10,18 +10,12 @@ subcollection: subnets
 
 ---
 
-{:external: target="_blank" .external}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
 {: #gettinghelp-subnets}
 
-If you have problems or questions when you use subnets, get help by searching for information or by asking questions a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window}.
+If you have problems or questions when you use subnets, get help by searching for information or by asking questions a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/).
 {: shortdesc}
 
 If you have technical questions about subnets, post your question on [Stack Overflow](https://stackoverflow.com/search?q=subnets+ibm-cloud){: external} and tag your question with "subnets" and "ibm-cloud".
