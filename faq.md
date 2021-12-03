@@ -105,7 +105,7 @@ Because of incompatibility between IP address styles, you cannot use IPv4 and IP
 {: #faq-global-ip-how-much}
 {: faq}
 
-For global IP pricing, see [Pricing for IBM Cloud Subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
+For global IP pricing, see [Pricing for IBM Cloud subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
 
 ## Can I Transfer portable subnet IP addresses between servers?
 {: #transferring-portable-subnet-ip-between-servers}
