@@ -18,6 +18,8 @@ Use these release notes to learn about the latest updates to subnets and IPs tha
 {: shortdesc}
 
 ## 27 May 2021
-{: #27-may-2021}
+{: #subnets-27-may2721}
+{: release-note}
 
-Removed obsolete links from the getting started and ordering topics.  
+Link remediation
+:   Removed obsolete links from the getting started and ordering topics.  
