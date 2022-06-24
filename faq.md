@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-05-07"
+  years: 1994, 2022
+lastupdated: "2022-06-23"
 
 keywords:
 
@@ -70,6 +70,18 @@ Purchase a secondary subnet. After you have a subnet that is routed to the IP ad
 
 In some locations, {{site.data.keyword.cloud_notm}} has routers using a technique that is known as Hot Router Standby Protocol (HSRP). Specifically, the way it's used impacts the IP addresses available to secondary portable subnets, meaning that you lose access to two more addresses in these locations. "Reserved for HSRP" indicates these IP addresses are reserved to fulfill the needs of HSRP. You might even have subnets on the same router, some with and some without, such reservations. As with any IP conflict, do not attempt to use these addresses or you risk affecting traffic on the entire subnet.
 
+## Can I order secondary subnets that are unrouted?
+{: #faq-order-unrouted-secondary}
+{: faq}
+
+Yes. When ordering a secondary subnet, you can choose **Unrouted** as the routing type. The unrouted secondary subnet delivered is bound to the single data center you chose when ordering and will be unusable until routed by you. Unrouted secondary subnets are billed the same as routed secondary subnets, and re-routing by you has no effect on billing.
+
+## Can I re-route static or portable secondary subnets on my account?
+{: #faq-re-route-secondary-subnets}
+{: faq}
+
+Yes. Unrouted, static, and portable secondary subnets on your account can be re-routed by you. See [Re-routing secondary subnets](/docs/subnets?topic=subnets-re-routing-secondary-subnets) for more information on how to re-route your secondary subnets, and the limitations that exist when doing so.
+
 ## How long does it take for my new global IP to appear on my account after it's ordered?
 {: #faq-global-ip-new-appear}
 {: faq}
@@ -93,7 +105,7 @@ The time that it takes for your global IP to associate depends on if you are ass
 {: #faq-global-ip-subnet-types}
 {: faq}
 
-We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses. Our global IPv4 addresses are available as single /32 addresses, while our global IPv6 addresses are available as single /128 addresses.
+We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses. Our global IPv4 addresses are available as single /32 addresses, while our global IPv6 addresses are available as single /64 addresses.
 
 ## Can IPv4 and IPv6 global IP addresses be used interchangeably?
 {: #faq-global-ip-ipv4-ipv6-interchangeably}

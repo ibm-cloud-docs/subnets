@@ -26,16 +26,16 @@ Subnets pricing does NOT include any additional charges by service providers to 
 
 The following table lists the pricing for secondary subnets.
 
-| CIDR / # of addresses | Portable (public) | Portable (private) | Static | Global |
-|-----------------------|-------------------|--------------------|--------|--------|
-| /32 - 1               | N/A               | N/A                | $1     | $20    |
-| /31 - 2               | N/A               | N/A                | $2     | N/A    |
-| /30 - 4               | $8                | $0                 | $4     | N/A    |
-| /29 - 8               | $16               | $0                 | $8     | N/A    |
-| /28 - 16              | $32               | $0                 | $16    | N/A    |
-| /27 - 32              | $64               | $0                 | $32    | N/A    |
-| /26 - 64              | $128              | $0                 | $64    | N/A    |
-| /25 - 128             | $256              | $0                 | $128   | N/A    |
-| /24 - 256             | $512              | $0                 | $256   | N/A    |
-| /64 - 2<sup>64</sup>  | $10               | N/A                | $5     | $20    |
+| CIDR / # of addresses | Public            | Private            | Global |
+|-----------------------|-------------------|--------------------|--------|
+| /32 - 1               | $2                | $0                 | $20    |
+| /31 - 2               | $4                | $0                 | N/A    |
+| /30 - 4               | $8                | $0                 | N/A    |
+| /29 - 8               | $16               | $0                 | N/A    |
+| /28 - 16              | $32               | $0                 | N/A    |
+| /27 - 32              | $64               | $0                 | N/A    |
+| /26 - 64              | $128              | $0                 | N/A    |
+| /25 - 128             | $256              | $0                 | N/A    |
+| /24 - 256             | $512              | $0                 | N/A    |
+| /64 - 2<sup>64</sup>  | $10               | N/A                | $20    |
 {: caption="Table 1. Pricing for secondary subnets" caption-side="bottom"}

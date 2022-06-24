@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-11-09"
+lastupdated: "2022-05-04"
 
 keywords:
 
@@ -37,7 +37,7 @@ To manage global IP addresses, follow these steps:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the menu icon ![menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
-1. Expand the **Filter subnets** section, and use the **Type** menu list to select **Global** to filter the subnet list to show only the global IP addresses.
+1. Find the global IP address you want to manage. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
 1. Click the overflow menu ![overflow menu](images/overflow.png) of the global IP you want to manage.
 
     A global IP is a static IP address that can be routed to any server within the IBM Cloud network. The current static IP address offering can be routed only to an IP address within the same data center, but global IP addresses do not share this restriction.
@@ -45,7 +45,8 @@ To manage global IP addresses, follow these steps:
 
 1. Select the operation you want to perform from the overflow menu. You can [edit notes](/docs/subnets?topic=subnets-edit-notes-subnet-ip), [route or unroute](/docs/subnets?topic=subnets-route-global-ip-address-device) the global IP address, or [cancel the subnet](/docs/subnets?topic=subnets-canceling-subnets).
 
-You might notice that some entries do not have a value for **Target**, which indicates that the global IP address is not currently routed, and thus is not in service.
+
+You might notice that one or more of your global IP addresses do not have a value for **Target**. This indicates that the global IP address is not currently routed, and thus is not in service.
 
 ## Adding a global IP to your server
 {: #add-global-ip-server}
@@ -60,7 +61,7 @@ The following instructions are for different versions of Linux servers.
 #### Red Hat/CentOS
 {: #redhat}
 
-Edit (vim or nano) `/etc/sysconfig/network-scripts/ifcfg-eth1:1`
+Edit `/etc/sysconfig/network-scripts/ifcfg-eth1:1`
 
 Add the following lines:
 
@@ -97,6 +98,7 @@ gateway [Server Primary Public Gateway]
 ```
 {: codeblock}
 
+
 ### For Windows servers
 {: #add-global-ip-server-windows}
 
@@ -112,8 +114,8 @@ ipconfig /all
 ```
 {: codeblock}
 
-**Notes:**
 
+**Notes:**
 * If you already have an `eth1:1` file on your server as in the example, increment the last digit to the next available integer.
 * Modification of a global IP address to a new server or VSI requires up to five minutes to take effect.
 * Within the IBM Cloud network, the route change takes less than one minute to update.
@@ -121,7 +123,7 @@ ipconfig /all
 * Global IP addresses are distributed from a unique subnet; existing customer IP addresses cannot be converted or used as global IP addresses.
 * By itself, global IP addresses are not an automatic failover solution because they lack health checks. However, a global IP address can be used as a component for a failover environment, if you want to circumvent DNS propagation.
 
-### Resource limit
+## Resource limit
 {: #global-ip-resource-limit}
 
 An account can have only five global IP addresses per IP version. For instance, five IPv4 global IP addresses, and five IPv6 global IP addresses.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2022-05-04"
 
 keywords:
 
@@ -23,15 +23,16 @@ The Regional Internet Registry (RIR) registration process associates personal or
 {: help}
 {: support}
 
-Any public subnet owned by {{site.data.keyword.cloud_notm}} which has been assigned to your account can be registered with its respective registrar. Navigate to the RIR Registration page and use the following steps to register a subnet.
+Any public subnet owned by {{site.data.keyword.cloud_notm}} which has been assigned to your account can be registered with its respective registrar. Navigate to the **RIR Registration** page and take the following steps to register a subnet.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > RIR Registration**.
-1. Select **Create Registration** from the **Actions** list for the wanted subnet. A **Register Subnet** window appears.
-1. Select Person Record information from the list. For more information, see [Creating an RIR registration with person details](#creating-rir-registration-person-details).
-1. Click **Register** to create the RIR Registration.
-   The status of the device shows as **Registering** until the registration is complete. Registration times are not controlled internally, and they can vary based on the region in which the subnet is located.
+1. Select **Create Registration** from the **Actions** list for a particular subnet. A **Register Subnet** window appears.
+1. Select the Person Record you want to use for the registration. For more information, see [Creating an RIR registration with person details](#creating-rir-registration-person-details).
+1. Click **Register** to create the RIR registration. The status of the registration is **Pending** until the registration is complete, at which point the status changes to **Complete**.
+
+Registration times are not controlled internally, and they can vary based on the region in which the subnet is located.
 {: note}
 
 ## Updating the registration information for a registered subnet
@@ -44,11 +45,12 @@ After a subnet completes its initial RIR registration, you can update the regist
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > RIR Registration**.
-1. Select **Edit Registration** from the **Actions** list. An **Update Subnet** window appears, displaying the current registration information.
-1. Select Person Record information from the list. For more information, see [Creating an RIR registration with person details](#creating-rir-registration-person-details).
-1. Click **Register** to complete the update, or select **Cancel** to cancel the action.
+1. Select **Edit Registration** from the **Actions** list for a registered subnet. An **Update Subnet** window appears, displaying the current registration information.
+1. Select the Person Record you would like to use for the registration. For more information, see [Creating an RIR registration with person details](#creating-rir-registration-person-details).
+1. Click **Register** to update the RIR registration. The status of the registration is **Pending** until the registration update is complete, at which point the status changes to **Complete**.
 
-After you confirm the update, the subnet's status appears as **Registering** until the update is completed by the RIR. Update times can vary based on the subnet's region.
+Registration update times are not controlled internally, and they can vary based on the region in which the subnet is located.
+{: note}
 
 ## Creating an RIR registration with person details
 {: #creating-rir-registration-person-details}
@@ -60,7 +62,7 @@ Several person records can be maintained on your account for use across multiple
 Registrar entities maintain different rules for formatting personal data, so it is possible for a person record to be successfully registered with one registrar and to be rejected by another.
 {: note}
 
-### API endpoint validation rules
+### Person record validation rules
 {: #validations}
 
 The following sections outline the various validation measures applied to person detail records and their properties when attempting to create or modify subnet registrations.
@@ -133,4 +135,4 @@ The following sections outline the various validation measures applied to person
 #### Email
 {: #email}
 
-A valid email address is required.
+* A valid email address is required.
