@@ -25,14 +25,12 @@ Have a question about subnets or global IPs? Review frequently asked questions, 
 
 Primary subnets are assigned and removed as needed by {{site.data.keyword.cloud_notm}} for other resources you order, such as bare metal servers or virtual server instances. IP addresses are not assigned one at a time. We assign a subnet, meaning that there is sometimes additional room for future resources. This designation is stating that these addresses will be used by future resources. See [Can I use the other IP addresses that are defined by the primary subnets I see?](#subnets-faq-use-other-ip-addresses-primary-subnets) for reasons why you should not consider these usable IP addresses.
 
-
 ## Can I use the other IP addresses that are defined by the primary subnets I see?
 {: #subnets-faq-use-other-ip-addresses-primary-subnets}
 {: faq}
 {: support}
 
 No. We realize you see the primary subnets that are assigned by {{site.data.keyword.cloud_notm}} as any other subnet, but as described in [About subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips), primary subnets are what provide IP addresses to resources on demand. We assign and remove primary subnets as we require to fulfill other products. If you attempt to use unassigned IP addresses from primary subnets, we will inevitably assign them to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a primary subnet, which is not assigned during fulfillment of other products. It is recommended you use secondary subnets for all additional IP (application/service) address needs. Secondary subnets are much more flexible and are maintained on your account for as long as you own them.
-
 
 ## Is there a way to specify which subnet I want to use for my device when I order it?
 {: #subnets-faq-specify-which-subnet-on-order}
@@ -42,7 +40,6 @@ No. We realize you see the primary subnets that are assigned by {{site.data.keyw
 Yes, you can specify a certain subnet during the ordering process. When ordering a device, this option is available at the end of the order form. After selection of a private VLAN, a list of primary subnets that are routed to that VLAN is presented. You can select a subnet. The same process can be repeated for the public VLAN and subnet.
 
 It is important to note that submission of the order **does not guarantee** that an IP address is available in the requested subnet. If no addresses are available, you are contacted to determine a course of action. For the best {{site.data.keyword.cloud_notm}} experience, selection of a subnet is discouraged for typical uses.
-
 
 ## I ran out of IP addresses, now what?
 {: #subnets-faq-ran-out-of-addresses}
@@ -112,12 +109,6 @@ We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses
 {: faq}
 
 Because of incompatibility between IP address styles, you cannot use IPv4 and IPv6 global IP addresses interchangeably.
-
-## How much does it cost to add a global IP to my account?
-{: #faq-global-ip-how-much}
-{: faq}
-
-For global IP pricing, see [Pricing for IBM Cloud subnets](/docs/subnets?topic=subnets-pricing-for-ibm-cloud-subnets).
 
 ## Can I Transfer portable subnet IP addresses between servers?
 {: #transferring-portable-subnet-ip-between-servers}
