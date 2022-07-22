@@ -22,6 +22,13 @@
     "order a particular subnet when ordering a device"
     ],
  "subnets-faq-ran-out-of-addresses":[
+    "add IP",
+    "add IP address",
+    "to create additional IP",
+    "create additional IPs",
+    "need to get more IPs",
+    "order an IP",
+    "buy more IPs",
     "ran out of IP addresses",
     "need additional IP address",
     "need more IP addresses",
@@ -76,27 +83,5 @@
     "can I use both IPv4 and IPv6 global Ips",
     "use IPv4 and IPv6 global IPs interchangeably",
     "IPv4 and IPv6 global ips incompatible"    
-    ],
- "faq-what-is-global-ip":[
-    "what's Global IP",
-    "what can I do with a global IP",
-    "how to use a global ip",
-    "whats a Global IP for",
-    "define global IP"    
-    ],
- "faq-global-ip-how-many":[
-    "how many Global IP addresses can I order",
-    "can I order 10 global IP addresses",
-    "order over 5 global ip addresses",
-    "can I order as many global Ips as I need",
-    "order as many global Ips as I want"   
-    ],
- "faq-global-ip-how-much":[
-    "how much does it cost to add a Global IP ",
-    "how much is each global IP address",
-    "how much does a Global IP cost",
-    "the cost of a Global IP",
-    "global IP pricing",
-    "pricing for Global IP"
     ]
 }
