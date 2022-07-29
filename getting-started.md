@@ -32,7 +32,7 @@ Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnet
 Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
 
 ## Ordering secondary subnets
-{: #ordering-secondary-subnets}
+{: #intro-ordering-secondary-subnets}
 
 Take the following steps to order a secondary subnet.
 

@@ -58,9 +58,9 @@ You can route and unroute secondary subnets assigned to your account using the U
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet you want to re-route and select **Change route**.
 1. Select a **Routing** option. 
 1. Select a routing endpoint.
-  * For **Unrouted** secondary subnets, no routing endpoint is needed.
-  * For **Static** secondary subnets, a table of subnets is shown. Expand the subnet row(s) to see a list of IP addresses that are available to route your subnet to.
-  * For **Portable** secondary subnets, a table of VLANs is shown. Select the VLAN you want to route your subnet to.
+    * For **Unrouted** secondary subnets, no routing endpoint is needed.
+    * For **Static** secondary subnets, a table of subnets is shown. Expand the subnet row(s) to see a list of IP addresses that are available to route your subnet to.
+    * For **Portable** secondary subnets, a table of VLANs is shown. Select the VLAN you want to route your subnet to.
 1. Click **Change route**. A confirmation window will appear.
 1. Review the route change details and click **Confirm** to proceed with the route change.
 
