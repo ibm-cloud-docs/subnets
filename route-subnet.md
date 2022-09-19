@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-09-07"
 
 keywords: 
 
@@ -18,12 +18,16 @@ subcollection: subnets
 You can re-route the secondary subnets that are assigned to your account on the **Subnets** page. For instance, you can:
 {: shortdesc}
 
-* Order an unrouted secondary subnet and route it as a static secondary or portable secondary when needed
+* Route an unrouted secondary subnet as a static secondary or portable secondary when needed
 * Re-route a portable secondary subnet as a static secondary subnet
+* Re-route a portable secondary subnet to another VLAN in the same data center
 * Re-route a static secondary subnet as a portable secondary subnet
+* Re-route a static secondary subnet to another IP address within the same VLAN
 * Unroute a static or portable secondary subnet _without_ canceling it
 
-Unrouted secondary subnets remain billed and on your account until you cancel them. Re-routing secondary subnets has no effect on billing.
+Re-routing secondary subnets has no effect on billing. Unrouted secondary subnets remain billed and assigned to your account.
+
+Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnet-automatic-reclaim) for more details on this policy.
 {: note}
 
 ## Limitations when re-routing secondary subnets

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2022-05-04"
+lastupdated: "2022-09-02"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: subnets
 # Registering with the Regional Internet Registry
 {: #rir}
 
-The Regional Internet Registry (RIR) registration process associates personal or business identifiable information with an assigned subnet resource. By registering subnets, you affirm your presence on the internet, making data publicly available to a respective registrar and accessible through `whois` and `rwhois` services in association with your individual, or ranges of, assigned public IP addresses. The {{site.data.keyword.cloud_notm}} RIR Registration pages enable management of subnet registrations and the person records associated with them.
+The Regional Internet Registry (RIR) registration process associates personal or business identifiable information with an assigned subnet resource. By registering subnets, you affirm your presence on the internet, making data publicly available to a respective registrar and accessible through `whois` and `rwhois` services in association with your individual, or ranges of, assigned public IP addresses. The {{site.data.keyword.cloud}} RIR Registration pages enable management of subnet registrations and the person records associated with them.
 {: shortdesc}
 
 ## Registering a subnet with a RIR

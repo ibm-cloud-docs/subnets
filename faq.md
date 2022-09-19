@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-09-07"
 
 keywords:
 
@@ -73,6 +73,12 @@ In some locations, {{site.data.keyword.cloud_notm}} has routers using a techniqu
 
 Yes. When ordering a secondary subnet, you can choose **Unrouted** as the routing type. The unrouted secondary subnet delivered is bound to the single data center you chose when ordering and will be unusable until routed by you. Unrouted secondary subnets are billed the same as routed secondary subnets, and re-routing by you has no effect on billing.
 
+## How long can unrouted subnets remain unused on my account?
+{: #faq-unrouted-subnets-automatic-reclaim}
+{: faq}
+
+Starting **November 30, 2022**, secondary subnets that remain unrouted on your account for 60 days or more are subject to automatic cancellation of billing and reclaim of the subnet in order to maintain sufficient subnet availability for all customers.
+
 ## Can I re-route static or portable secondary subnets on my account?
 {: #faq-re-route-secondary-subnets}
 {: faq}
@@ -110,8 +116,8 @@ We currently offer global IP addresses as both IPv4 addresses and IPv6 addresses
 
 Because of incompatibility between IP address styles, you cannot use IPv4 and IPv6 global IP addresses interchangeably.
 
-## Can I Transfer portable subnet IP addresses between servers?
+## Can I transfer portable subnet IP addresses between servers?
 {: #transferring-portable-subnet-ip-between-servers}
 {: faq}
 
-Yes. When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows IBM's routers to update the ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
+Yes. When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows {{site.data.keyword.cloud_notm}}'s routers to update the ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.

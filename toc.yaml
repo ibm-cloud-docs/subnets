@@ -52,4 +52,5 @@ toc:
         id: help
         topics: 
         - faq.md
+        - network-protection.md
         - getting-help.md 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2022-05-04"
+lastupdated: "2022-09-02"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: subnets
 # Routing and unrouting a global IP address to a device
 {: #route-global-ip-address-device}
 
-Global IP addresses are manually routed by the user to any device that {{site.data.keyword.cloud_notm}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP.
+Global IP addresses are manually routed by the user to any device that {{site.data.keyword.cloud}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP.
 {: shortdesc}
 
 Follow these steps to route a global IP address to a device, such as a bare metal server, portable subnet address, gateway virtual IP, or virtual server instance.

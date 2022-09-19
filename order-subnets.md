@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2022-05-26"
+lastupdated: "2022-09-07"
 
 keywords:
 
@@ -16,8 +16,7 @@ subcollection: subnets
 # Ordering secondary subnets and global IP addresses
 {: #order-subnets}
 
-Secondary subnets provide additional, independent IP addresses for your compute resources and are available until canceled.
-{: shortdesc}
+Secondary subnets provide additional, independent IP addresses for your compute resources.
 
 ## Before you begin
 {: #before-you-order}

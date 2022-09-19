@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-05-26"
+lastupdated: "2022-09-07"
 
 keywords:
 
@@ -24,7 +24,7 @@ Additionally, subnets are referred to in [CIDR notation](https://en.wikipedia.or
 ## Primary subnets
 {: #primary-subnets}
 
-Primary subnets are assigned automatically and managed by {{site.data.keyword.cloud}}. IBM assigns and removes primary subnets as required to fulfill other services. IBM provides IP addresses to resources from primary subnets as needed. All servers are provisioned with at least one IP address from a primary subnet, commonly referred to as a primary IP address. Some services and options result in more than one primary IP addresses being assigned.
+Primary subnets are assigned automatically and managed by {{site.data.keyword.cloud_notm}}. IBM assigns and removes primary subnets as required to fulfill other services. IBM provides IP addresses to resources from primary subnets as needed. All servers are provisioned with at least one IP address from a primary subnet, commonly referred to as a primary IP address. Some services and options result in more than one primary IP addresses being assigned.
 
 IP addresses within primary subnets which are not yet assigned to resources are not available for use. Attempting to use unassigned IP addresses from primary subnets can lead to IP conflicts on the network and general service disruption. IBM reserves the right to block, or otherwise make unusable, any IP address on a primary subnet which is not assigned during fulfillment of other services. Use secondary subnets as your external facing service/application IP addresses.
 
@@ -34,9 +34,10 @@ IP addresses in primary subnets cannot be reserved.
 ## Secondary subnets
 {: #secondary-subnets}
 
-Secondary subnets provide additional, independent IP addresses for your compute resources, and are well suited for use as external application or service addresses. Secondary subnet IP addresses are managed independently of other resources and are yours until canceled.
+Secondary subnets provide additional, independent IP addresses for your compute resources, and are well suited for use as external application or service addresses. Secondary subnets can be local to the data center or global. Unlike primary subnets, secondary subnets are managed independently of other resources.
 
-Secondary subnets can be provisioned local to the data center or global.
+Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnet-automatic-reclaim) for more details on this policy.
+{: note}
 
 ### Features and use cases
 {: #features-use-cases}
@@ -50,9 +51,9 @@ Secondary subnets have the following features:
 - Address your services individually, maintaining a stable IP address when migrating to new compute resources
 - High availability configurations, which use virtual/floating IP address protocols
 - Route to a disaster recovery site in any data center that uses a global IP
-- Can be routed and unrouted on demand as application needs change
+- Can be routed and unrouted on demand as application needs change. For more information, see [Re-routing secondary subnets](/docs/subnets?topic=subnets-re-routing-secondary-subnets).
 
-Secondary subnets provide you with multiple IP addresses for many needs. Unlike primary subnets, these subnets are owned by you during your use, and are not removed unless you cancel them. Use secondary subnets when you need a stable IP address that does not depend on any specific compute device. Example uses include:
+Secondary subnets provide you with multiple IP addresses for many needs. Use secondary subnets when you need a stable IP address that does not depend on any specific compute device. Example uses include:
 
 - IP addresses that you can assign to your own, local, virtual machines
 - Multiple, distinct service IP addresses hosted by a single server allowing you to easily identify traffic (commonly used with web servers and TLS)
@@ -109,7 +110,7 @@ The following IP addresses are _not_ eligible as route targets for static subnet
 | Availability | IPv4 | IPv6 |
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
-| Private Network  |  No  | No   |
+| Private Network  | Yes  | No   |
 {: caption="Table 1. Static IP address availability" caption-side="bottom"}
 
 ### Portable subnets
@@ -144,9 +145,9 @@ A global IP address is a specialized secondary static subnet that can be routed 
 Global IP addresses are available as either an IPv4 /32 subnet (a single IP address), or an IPv6 /64 subnet. Each version can be routed only to a destination IP address of matching version (no address translation is performed). Acceptable routing targets include public primary IP addresses in use by your servers and any public secondary portable subnet IP addresses you own. The unique capabilities of a global IP address are:
 
 * Global, on-demand routing to IP addresses on your account
-* Global IP address internet announcement by all {{site.data.keyword.cloud}} edge routers
+* Global IP address internet announcement by all {{site.data.keyword.cloud_notm}} edge routers
 
-As result, your data takes the shortest path to the {{site.data.keyword.cloud}} network, and from there your traffic traverses the IBM Cloud dedicated, global backbone to reach the destination you configured.
+As result, your data takes the shortest path to the {{site.data.keyword.cloud_notm}} network, and from there your traffic traverses the {{site.data.keyword.cloud_notm}} dedicated, global backbone to reach the destination you configured.
 
 Global IP addresses provide the flexibility to shift workloads between servers, even across geographically disparate data centers. Global IP addresses also provide IP persistence by allowing for transitions without a need to adapt (for example, to avoid DNS caches). The global routing capability is well suited for transitioning workloads across disaster recovery sites, or seamlessly migrating to a new deployment in a geographic area that can serve your audience better.
 
