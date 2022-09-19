@@ -36,7 +36,7 @@ IP addresses in primary subnets cannot be reserved.
 
 Secondary subnets provide additional, independent IP addresses for your compute resources, and are well suited for use as external application or service addresses. Secondary subnets can be local to the data center or global. Unlike primary subnets, secondary subnets are managed independently of other resources.
 
-Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnet-automatic-reclaim) for more details on this policy.
+Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim) for more details on this policy.
 {: note}
 
 ### Features and use cases
