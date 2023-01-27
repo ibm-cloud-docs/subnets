@@ -15,9 +15,9 @@ subcollection: subnets
 # Getting help and support
 {: #gettinghelp-subnets}
 
-If you have problems or questions when you use subnets, get help by searching for information or by asking questions a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/).
+If you have problems or questions when you use subnets, get help by searching for information or by asking questions a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/unifiedsupport/cases/add){: external}.
 {: shortdesc}
 
-If you have technical questions about subnets, post your question on [Stack Overflow](https://stackoverflow.com/search?q=subnets+ibm-cloud){: external} and tag your question with "subnets" and "ibm-cloud".
+If you use the forum to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 
 For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support).
