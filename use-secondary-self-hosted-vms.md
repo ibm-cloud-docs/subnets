@@ -35,7 +35,7 @@ Now let's say you've created two virtual machines, **`VPS1`** and **`VPS2`**, pu
 ```
 {: screen}
 
-If you want **`VPS1`** to have more IP addresses to segregate services that it is providing, you can assign more addresses out of the `129.42.0.0/29` subnet, but you may want to use that subnet only to bring VMs online, not for their services. You have two options: 1) purchase another portable subnet, or 2) purchase a static subnet. Portable subnets provide flexibility but they don't give you access to all of the IP addresses. If you only needed four additional IP addresses, for example, purchasing a static subnet is an efficient option. 
+If you want **`VPS1`** to have more IP addresses to separate services that it is providing, you can assign more addresses out of the `129.42.0.0/29` subnet, but you may want to use that subnet only to bring VMs online, not for their services. You have two options: 1) purchase another portable subnet, or 2) purchase a static subnet. Portable subnets provide flexibility but they don't give you access to all of the IP addresses. If you only needed four additional IP addresses, for example, purchasing a static subnet is an efficient option. 
 
 You can purchase a static subnet and receive `129.42.0.100/30`. You can route the subnet to `129.42.0.3` or **`VPS1`** in this scenario. Doing so provides you with all four IP addresses to use on whatever server is responding to `129.42.0.3`, and if you transfer `129.42.0.3` to **`VPS2`**, those four new IP addresses from `129.42.0.100/30` will follow. Let's look at the IP address usage again:
 
