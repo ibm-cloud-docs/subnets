@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-08-12"
+  years: 2021, 2023
+lastupdated: "2023-04-07"
 
 subcollection: subnets
 
@@ -22,11 +22,13 @@ Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out
 ## Installing Terraform and configuring resources for subnets
 {: #install-terraform-subnets}
 
-To install Terraform and configure resources for subnets:
+Before you can create an authorization by using Terraform, make sure that you have completed the following:
 
-1. Follow the [Terraform on {{site.data.keyword.cloud}} getting started tutorial](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) to install the Terraform CLI and configure the {{site.data.keyword.cloud}} Provider plug-in for Terraform. The plug-in abstracts the {{site.data.keyword.cloud}} APIs that are used to provision, update, or delete subnet resources.
+* Make sure that you have the [required access](/docs/account?topic=account-mngclassicinfra) to create and work with subnet resources.
+* Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
+* Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
 
-1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a subnet resource. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
+1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a subnet resource and to assign a user an access policy in Identity and Access Management (IAM) for that instance by using HashiCorp Configuration Language (HCL). For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
 
    The following example creates an `ibm_subnet` resource with a type of `Portable` and the `private` property set to `true`. This subnet has an IP version of `4`, a capacity of `4`, and is associated with a `vlan_id` of `1234567`.
 
@@ -50,7 +52,7 @@ To install Terraform and configure resources for subnets:
    ```
    {: codeblock}
 
-1. Initialize the Terraform CLI.
+1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://www.terraform.io/cli/init){: external}.
 
    ```terraform
    terraform init
@@ -73,3 +75,7 @@ To install Terraform and configure resources for subnets:
 
 1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the subnet resource that you created and note the resource ID.
 
+## What's next?
+{: #terraform-setup-next}
+
+Now that you successfully created your subnet instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [CDN Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet){: external} to perform additional tasks using Terraform.
