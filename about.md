@@ -28,7 +28,7 @@ Primary subnets are assigned automatically and managed by {{site.data.keyword.cl
 
 IP addresses within primary subnets which are not yet assigned to resources are not available for use. Attempting to use unassigned IP addresses from primary subnets can lead to IP conflicts on the network and general service disruption. IBM reserves the right to block, or otherwise make unusable, any IP address on a primary subnet which is not assigned during fulfillment of other services. Use secondary subnets as your external facing service/application IP addresses.
 
-IP addresses in primary subnets cannot be reserved.
+IP addresses in primary subnets cannot be assigned manually to specific resources and cannot be reserved by customers.
 {: note}
 
 ## Secondary subnets
