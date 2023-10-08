@@ -78,4 +78,4 @@ Before you can create an authorization by using Terraform, make sure that you ha
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your subnet instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [CDN Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet){: external} to perform additional tasks using Terraform.
+Now that you successfully created your subnet instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [Subnet Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet){: external} to perform additional tasks using Terraform.
