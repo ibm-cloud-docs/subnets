@@ -15,10 +15,6 @@ subcollection: subnets
 # Registering with the Regional Internet Registry
 {: #rir}
 
-Support for the Classic Regional Internet Registry (RIR) will be deprecated on 14 March 2024 and you will no longer be able to make changes to RIR information 
-for IBM Cloud Classic-owned public subnets. If you want to continue using your own custom RIR information, you must purchase public IP addresses and bring them to the IBM Cloud Classic platform. For more information, see [Customer-owned subnets for Classic](). 
-{: deprecated}
-
 The Regional Internet Registry (RIR) registration process associates personal or business identifiable information with an assigned subnet resource. By registering subnets, you affirm your presence on the internet, making data publicly available to a respective registrar and accessible through `whois` and `rwhois` services in association with your individual, or ranges of, assigned public IP addresses. The {{site.data.keyword.cloud}} RIR Registration pages enable management of subnet registrations and the person records associated with them.
 {: shortdesc}
 
