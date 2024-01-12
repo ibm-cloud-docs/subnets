@@ -13,15 +13,15 @@ toc:
     label: Subnets and IPs
 
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
-  entries: 
-    - navgroup: 
+  entries:
+    - navgroup:
         id: learn
         topics:
         - getting-started.md
         - about.md
         - release-notes.md
-        
-    - navgroup: 
+
+    - navgroup:
         id: howto
         topics:
         - order-subnets.md
@@ -32,9 +32,9 @@ toc:
         - use-secondary-self-hosted-vms.md
         - cancel-subnets.md
         - rir-tool.md
-        - topicgroup: 
+        - topicgroup:
             label: Managing global IPs
-            topics: 
+            topics:
             - manage-global-ip.md
             - route-global-ip-to-device.md
         - terraform.md
@@ -43,14 +43,15 @@ toc:
 #  Links to your command line reference docs should be included in the Reference navigation group.
     - navgroup:
         id: reference
-        topics: 
-        - link: 
+        topics:
+        - customer-owned-subnets.md
+        - link:
             label: Terraform reference
-            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet  
+            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet
 
     - navgroup:
         id: help
-        topics: 
+        topics:
         - faq.md
         - network-protection.md
-        - getting-help.md 
+        - getting-help.md
