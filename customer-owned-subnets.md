@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-01-18"
 
 keywords:
 
@@ -15,12 +15,12 @@ subcollection: subnets
 # Customer-owned subnets for Classic
 {: #customer-owned-subnets}
 
-This topic explains how to use your own public IP addresses on the IBM Cloud Classic platform. For custom Classic Private Network subnet space solutions, see [Bring Your Own IP Address](/docs/solution-tutorials?topic=solution-tutorials-byoip).
+This topic explains how to use your own _public_ IP addresses on the IBM Cloud Classic platform. If you are looking for how to use your own _private_ IP addresses on the IBM Cloud Classic platform, see [Bring Your Own IP Address](/docs/solution-tutorials?topic=solution-tutorials-byoip).
 {: shortdesc}
 
 If you want to use your own public IP addresses, instead of the options provided by the IBM Cloud Classic platform, you can use your own public subnets. Using your public subnet gives you full control over the lifecycle and assignment of your public IP addresses and gives you the option to modify any Classic Regional Internet Registry (RIR) registration information that is announced for your subnet.
 
-If you do not have your own public IP ranges, you must first purchase one. Due to the global exhaustion of public IPv4 subnet space, RIR organizations no longer directly offer IPv4 subnets. As a result, you must obtain the IP ranges from a third-party broker. IPv6 space is still readily available directly from RIR organizations. 
+If you do not have your own public IP ranges, you must first purchase one. Due to the global exhaustion of public IPv4 subnet space, RIR organizations no longer directly offer IPv4 subnets. As a result, you must obtain the IP ranges from a third-party broker. IPv6 space is still readily available directly from RIR organizations.
 
 The minimum subnet size that can be announced from IBM Cloud is `/24` for an IPv4 subnet, or `/48` for an IPv6 subnet.
 {: note}
@@ -43,5 +43,7 @@ After you procure your subnet, [create an IBM Support case](/docs/get-support?to
 After you submit your IBM Support case, the following occurs:
 
 1. The IBM Cloud Support team reviews and approves your request, or ask for any missing or unclear information.
-1. After the support team approves your request, IBM Cloud announces your IP ranges, and the support team configures the announcement and confirms through the support case when completed.
-1. If you want to announce your IP ranges, the support team reviews your request, then works with you to set up the peering relationship between the device that you are announcing from and IBM Cloud front-end routers.
+1. After the support team approves your request:
+
+   * If you request IBM Cloud to announce your IP ranges, the support team configures the announcement and confirms through the support case when completed.
+   * If you request to announce your own IP ranges, the support team reviews your request, then works with you to set up the peering relationship between the device that you are announcing from and IBM Cloud front-end routers.
