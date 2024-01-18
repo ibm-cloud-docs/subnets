@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2022
 lastupdated: "2022-09-07"
 
-keywords: 
+keywords:
 
 subcollection: subnets
 
@@ -27,13 +27,13 @@ You can re-route the secondary subnets that are assigned to your account on the 
 
 Re-routing secondary subnets has no effect on billing. Unrouted secondary subnets remain billed and assigned to your account.
 
-Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnet-automatic-reclaim) for more details on this policy.
+Secondary subnets in the unrouted state may be subject to automatic reclaim. Refer to the [FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim) for more details on this policy.
 {: note}
 
 ## Limitations when re-routing secondary subnets
 {: #routing-secondary-subnets-limitations}
 
-The following limitations exist when re-routing your secondary subnets: 
+The following limitations exist when re-routing your secondary subnets:
 
 ### Scoped to a single data center
 {: #single-data-center-limitation}
@@ -60,7 +60,7 @@ You can route and unroute secondary subnets assigned to your account using the U
 1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet you want to re-route and select **Change route**.
-1. Select a **Routing** option. 
+1. Select a **Routing** option.
 1. Select a routing endpoint.
     * For **Unrouted** secondary subnets, no routing endpoint is needed.
     * For **Static** secondary subnets, a table of subnets is shown. Expand the subnet row(s) to see a list of IP addresses that are available to route your subnet to.
@@ -72,7 +72,7 @@ You can route and unroute secondary subnets assigned to your account using the U
 {: #api-re-routing-secondary-subnets}
 {: api}
 
-You can route and unroute secondary subnets assigned to your account using the API. 
+You can route and unroute secondary subnets assigned to your account using the API.
 
 ### Routing secondary subnets using the API
 {: #api-routing-secondary-subnets}
