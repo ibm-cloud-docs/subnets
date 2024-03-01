@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-09-07"
+  years: 1994, 2024
+lastupdated: "2024-03-01"
 
 keywords:
 
@@ -77,7 +77,7 @@ Yes. When ordering a secondary subnet, you can choose **Unrouted** as the routin
 {: #faq-unrouted-subnets-automatic-reclaim}
 {: faq}
 
-Starting **November 30, 2022**, secondary subnets that remain unrouted on your account for 60 days or more are subject to automatic cancellation of billing and reclaim of the subnet in order to maintain sufficient subnet availability for all customers.
+Secondary subnets that remain unrouted on your account for 60 days or more are subject to automatic cancellation of billing and reclaim of the subnet in order to maintain sufficient subnet availability for all customers.
 
 ## Can I re-route static or portable secondary subnets on my account?
 {: #faq-re-route-secondary-subnets}
