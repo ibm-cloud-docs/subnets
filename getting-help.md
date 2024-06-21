@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-06-20"
 
 keywords: 
 
@@ -19,7 +19,6 @@ If you experience an issue or have questions when using subnets, you can use the
 {: shortdesc}
 
 * Review [FAQs](/docs/subnets?topic=subnets-faq) in the product documentation.
-* Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 
 If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
 
