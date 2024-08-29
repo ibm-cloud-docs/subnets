@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-01-18"
+  years: 2024, 2024
+lastupdated: "2024-08-29"
 
 keywords:
 
@@ -21,6 +21,9 @@ This topic explains how to use your own _public_ IP addresses on the IBM Cloud C
 If you want to use your own public IP addresses, instead of the options provided by the IBM Cloud Classic platform, you can use your own public subnets. Using your public subnet gives you full control over the lifecycle and assignment of your public IP addresses and gives you the option to modify any Classic Regional Internet Registry (RIR) registration information that is announced for your subnet.
 
 If you do not have your own public IP ranges, you must first purchase one. Due to the global exhaustion of public IPv4 subnet space, RIR organizations no longer directly offer IPv4 subnets. As a result, you must obtain the IP ranges from a third-party broker. IPv6 space is still readily available directly from RIR organizations.
+
+With RADb's recent migration of their database from IRRDv3 to IRRDv4, any new or preexisting BGP announcements whose RPKI status is flagged as "INVALID" might cause those announcements to be filtered. Please contact your Regional Internet Register (RIPE, ARIN, APNIC) or third-party broker and ensure that any new or preexisting IP space has valid RPKI signatures. For more information, see https://www.radb.net/support/informational/irrdv4-migration-faq.html.
+{: note}
 
 The minimum subnet size that can be announced from IBM Cloud is `/24` for an IPv4 subnet, or `/48` for an IPv6 subnet.
 {: note}
