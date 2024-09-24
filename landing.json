@@ -39,3 +39,53 @@
       ]
     }
   }
+
+
+  {
+    "version": 2,
+    "title": "IBM Cloud Private Path solution guide",
+    "introduction": "With IBM Cloud Private Path solution, providers can deliver services securely over the IBM Cloud private network backbone without exposing data over the public internet. Leverage the docs, API & SDK reference, architecture references, and more to support your infrastructure needs.",
+    "product_page": "https://www.ibm.com/cloud/privatePathServices",
+    "console_page": "/infrastructure/network/privatePathServices",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Ordering secondary subnets and global IP addresses",
+          "description": "Secondary subnets provide additional, independent IP addresses for your compute resources and are available until canceled.",
+          "href": "/docs/subnets?topic=subnets-order-subnets"
+        },
+        {
+          "title": "Working with global IP addresses",
+          "description": "Manage global IP addresses associated with your subnets.",
+          "href": "/docs/subnets?topic=subnets-work-with-global-ip-addresses"
+        }
+      ]
+    },
+    "section_highlights": [
+        {
+          "title": "Getting started with subnets and IPs",
+          "description": "Get started setting up subnets and IPs.",
+          "href": "/docs/subnets?topic=subnets-getting-started"
+        },
+        {
+          "title": "About subnets and IPs",
+          "description": "Learn specific terminology for the types, and uses, of subnets. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.",
+          "href": "/docs/subnets?topic=subnets-about-subnets-and-ips"
+        }
+    ],
+    "section_devtools": {
+        "api": "/apidocs/vpc-beta/latest",
+        "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
+        "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
+    },
+    "section_updates": {
+        "view_more": "/docs/subnets?topic=subnets-release-notes-subnets",
+        "tiles": [
+          {
+            "date": "27 May 2021",
+            "title": "Remove obsolete links",
+            "description": "Removed obsolete links from the getting started and ordering topics."
+          },
+      ]
+    }
+  }
