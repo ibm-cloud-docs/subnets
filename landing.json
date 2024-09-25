@@ -30,11 +30,6 @@
           "href": "/docs/subnets?topic=subnets-about-subnets-and-ips"
         }
     ],
-    "section_devtools": {
-        "api": "/apidocs/vpc-beta/latest",
-        "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
-        "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
-    },
     "section_updates": {
         "view_more": "/docs/subnets?topic=subnets-release-notes-subnets",
         "tiles": [
