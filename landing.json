@@ -1,9 +1,9 @@
   {
     "version": 2,
-    "title": "IBM Cloud Private Path solution guide",
-    "introduction": "With IBM Cloud Private Path solution, providers can deliver services securely over the IBM Cloud private network backbone without exposing data over the public internet. Leverage the docs, API & SDK reference, architecture references, and more to support your infrastructure needs.",
-    "product_page": "https://www.ibm.com/cloud/privatePathServices",
-    "console_page": "/infrastructure/network/privatePathServices",
+    "title": "IBM Cloud Subnets and IPs",
+    "introduction": "IBM has three types of subnets (Primary, Secondary, and Global IP), with each subnet providing IP addresses to resources in different ways.",
+    "product_page": "/docs/subnets?topic=subnets-getting-started",
+    "console_page": "/infrastructure/network/subnets",
     "section_topics": {
       "links": [
         {
