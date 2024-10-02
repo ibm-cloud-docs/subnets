@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-10-02"
 
 keywords: 
 
@@ -15,7 +15,7 @@ subcollection: subnets
 # Getting help and support for subnets
 {: #gettinghelp-subnets}
 
-If you experience an issue or have questions when using subnets, you can use the following resources before you open a support case.
+If you experience an issue or have questions when using subnets, you can use the following resources before you open a support case. 
 {: shortdesc}
 
 * Review [FAQs](/docs/subnets?topic=subnets-faq) in the product documentation.
@@ -33,5 +33,3 @@ Provide the following details based on the problem you experience:
 * **Routing problems:** need mtr data, fully qualified names and fully qualified addresses
 * **Cancellation problems:** need fully qualified name, user ID, billing item ID
 * **Current and desired routing states problems:** need current and desired routing
-
-
