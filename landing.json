@@ -7,29 +7,23 @@
     "section_topics": {
       "links": [
         {
-          "title": "Ordering secondary subnets and global IP addresses",
-          "description": "Secondary subnets provide additional, independent IP addresses for your compute resources and are available until canceled.",
-          "href": "/docs/subnets?topic=subnets-order-subnets"
-        },
-        {
-          "title": "Working with global IP addresses",
-          "description": "Manage global IP addresses associated with your subnets.",
-          "href": "/docs/subnets?topic=subnets-work-with-global-ip-addresses"
-        }
-      ]
-    },
-    "section_highlights": [
-        {
           "title": "Getting started with subnets and IPs",
-          "description": "Get started setting up subnets and IPs.",
           "href": "/docs/subnets?topic=subnets-getting-started"
         },
         {
           "title": "About subnets and IPs",
-          "description": "Learn specific terminology for the types, and uses, of subnets. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.",
           "href": "/docs/subnets?topic=subnets-about-subnets-and-ips"
+        },
+        {
+          "title": "Ordering secondary subnets and global IP addresses",
+          "href": "/docs/subnets?topic=subnets-order-subnets"
+        },
+        {
+          "title": "Working with global IP addresses",
+          "href": "/docs/subnets?topic=subnets-work-with-global-ip-addresses"
         }
-    ],
+      ]
+    },
     "section_updates": {
         "view_more": "/docs/subnets?topic=subnets-release-notes-subnets",
         "tiles": [
