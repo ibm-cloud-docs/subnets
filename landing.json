@@ -2,7 +2,6 @@
     "version": 2,
     "title": "IBM Cloud Subnets and IPs",
     "introduction": "IBM has three types of subnets (Primary, Secondary, and Global IP), with each subnet providing IP addresses to resources in different ways.",
-    "product_page": "/docs/subnets?topic=subnets-getting-started",
     "console_page": "/infrastructure/network/subnets",
     "section_topics": {
       "links": [
