@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-09-07"
+  years: 1994, 2024
+lastupdated: "2024-10-10"
 
 keywords:
 
@@ -111,7 +111,7 @@ The following IP addresses are _not_ eligible as route targets for static subnet
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  | Yes  | No   |
-{: caption="Table 1. Static IP address availability" caption-side="bottom"}
+{: caption="Static IP address availability" caption-side="bottom"}
 
 ### Portable subnets
 {: #portable-subnet}
@@ -134,7 +134,7 @@ A secondary portable subnet provides its IP addresses to all resources on a VLAN
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  | Yes  | No   |
-{: caption="Table 2. Broadcast, network, and gateway IP address availability" caption-side="bottom"}
+{: caption="Broadcast, network, and gateway IP address availability" caption-side="bottom"}
 
 
 ### Global IP addresses
@@ -155,7 +155,7 @@ Global IP addresses provide the flexibility to shift workloads between servers, 
 | ---------------- | :--: | :--: |
 | Public Network   | Yes  | Yes  |
 | Private Network  | No   | No   |
-{: caption="Table 3. Global IP address availability" caption-side="bottom"}
+{: caption="Global IP address availability" caption-side="bottom"}
 
 
 ## Product-specific considerations when ordering subnets
