@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2022-05-03"
+  years: 1994, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -28,7 +28,7 @@ The **Subnets** page lists each subnet that is associated with the account, alon
 Follow these steps to edit the note for a subnet:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet and select **Edit note** to enter your text.
 1. Click **Update** to save the note.
@@ -39,7 +39,7 @@ Follow these steps to edit the note for a subnet:
 Follow these steps to edit the note for an IP address:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Click a subnet link to display the list of IP addresses for that subnet.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the IP address and select **Edit note** to enter your text.

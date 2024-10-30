@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2022-09-02"
+  years: 1994, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -21,7 +21,7 @@ Global IP addresses are manually routed by the user to any device that {{site.da
 Follow these steps to route a global IP address to a device, such as a bare metal server, portable subnet address, gateway virtual IP, or virtual server instance.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Find the global IP address you want to route. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
 1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Route global IP**.
@@ -41,7 +41,7 @@ When you initiate the global IP subnet route, the process begins. Routes general
 Global IP addresses can be manually unrouted by the user at any time. Follow these steps to unroute a global IP address from a device.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Select the global IP address you want to unroute. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
 1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Unroute global IP**.

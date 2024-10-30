@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-02"
+lastupdated: "2024-10-30"
 
 keywords: 
 
@@ -20,7 +20,7 @@ If you experience an issue or have questions when using subnets, you can use the
 
 * Review [FAQs](/docs/subnets?topic=subnets-faq) in the product documentation.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui).
 
 ## Providing support case details for subnets
 {: #support-case-details-subnets}

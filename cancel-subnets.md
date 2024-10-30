@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2022-05-03"
+  years: 2020, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -19,7 +19,7 @@ If you no longer require a secondary subnet, follow these steps to cancel it:
 {: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. Select the menu icon ![menu icon](../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. Select the menu icon ![menu icon](../icons/icon_hamburger.svg), then click **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Locate the subnet you want to cancel, using subnet filters as necessary.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet and select **Cancel subnet**.
