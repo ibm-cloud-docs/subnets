@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2022-09-07"
+  years: 1994, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -33,7 +33,7 @@ Not all option combinations form orderable secondary subnets. Selecting some opt
 {: note}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Click **Create subnet**. The Secondary subnets page appears. 
 1. In the Details section:

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-09-07"
+  years: 1994, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -57,7 +57,7 @@ Re-routing portable secondary subnets with dependent routes causes those depende
 You can route and unroute secondary subnets assigned to your account using the UI. To do so, take the following steps:
 
 1. From your browser, open the [IBM Cloud console](https://{DomainName}/) and log in to your account.
-1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Click the overflow menu ![overflow menu](images/overflow.png) for the subnet you want to re-route and select **Change route**.
 1. Select a **Routing** option.

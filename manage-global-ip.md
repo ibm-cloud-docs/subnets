@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2022-05-04"
+  years: 1994, 2024
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -35,7 +35,7 @@ You must have the following Classic infrastructure permissions to change the rou
 To manage global IP addresses, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the menu icon ![menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the dashboard, click the menu icon ![menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. In the Classic Infrastructure navigation menu, select **Network > IP Management > Subnets**.
 1. Find the global IP address you want to manage. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
 1. Click the overflow menu ![overflow menu](images/overflow.png) of the global IP you want to manage.
