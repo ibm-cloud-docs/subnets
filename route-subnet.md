@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -50,7 +50,7 @@ Portable secondary subnets have a minimum size requirement of 8 addresses, or `/
 
 Re-routing portable secondary subnets with dependent routes causes those dependent routes to be lost. For example, if you have a static secondary subnet routed to a portable secondary subnet on your account and re-route the portable secondary subnet, the static secondary subnet will be unrouted as part of the portable secondary subnet re-route. Dependent routes that might be lost as a result of portable secondary subnet re-routing are displayed on the re-route confirmation page before any changes are made.
 
-### Losing storage host suthorizations
+### Losing storage host authorizations
 {: #dependent-storage-host-authorizations-lost-limitation}
 
 Re-routing secondary subnets with dependent storage host authorizations, either associated with the subnet directly or one of its IP addresses, causes those dependent authorizations to be lost. Read more about managing host authorizations for [File](/docs/FileStorage?topic=FileStorage-managingstorage) and [Block](/docs/BlockStorage?topic=BlockStorage-managingstorage) storage.
