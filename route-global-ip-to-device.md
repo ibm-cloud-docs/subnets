@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-30"
+  years: 1994, 2025
+lastupdated: "2025-02-13"
 
 keywords:
 
@@ -14,40 +14,47 @@ subcollection: subnets
 
 # Routing and unrouting a global IP address to a device
 {: #route-global-ip-address-device}
+{: #unroute-global-ip-address}
 
 Global IP addresses are manually routed by the user to any device that {{site.data.keyword.cloud}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP.
 {: shortdesc}
 
+## Re-routing global IP addresses using the UI
+{: #ui-re-routing-global-ip-addresses}
+{: ui}
+
 Follow these steps to route a global IP address to a device, such as a bare metal server, portable subnet address, gateway virtual IP, or virtual server instance.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. From the console, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > Subnets**.
 1. Find the global IP address you want to route. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
-1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Route global IP**.
-1. In the Global IP Routing side panel, begin typing the IP address of the device that you want the global IP address to route to in the **Search for IP address** field. This field auto-completes based on your input. It displays any device that is associated with your account.
+1. Click the Overflow Menu ![Overflow Menu](images/overflow.png) for the global IP address you want to re-route and select **Change route**.
+1. Select a **Routing** option.
+1. Select a routing endpoint.
+    * For **Unrouted** global IP addresses, no routing endpoint is needed.
+    * For **Static** global IP addresses, a table of subnets is shown. Expand the subnet row(s) to see a list of IP addresses that are available to route your global IP address to.
+1. Click **Change route**. A confirmation window will appear.
+1. Review the route change details and click **Confirm**.
 
-   The menu is not an exhaustive list of available IP addresses. Manually enter the IP address that you want if it is not available in the list.
-   {: note}
+When you initiate the global IP address route, the process begins. Routes generally take less than one minute to complete. 
+{: note}
 
-1. Select a target IP address from the list menu.
-1. Click **Update** to complete the route, or select **Cancel** to cancel the action and return to the **Subnets** page.
+## Re-routing global IP addresses using the API
+{: #api-re-routing-global-ip-addresses}
+{: api}
 
-When you initiate the global IP subnet route, the process begins. Routes generally take less than one minute to complete. 
+You can route and unroute global IP addresses assigned to your account using the API.
 
-## Unrouting a global IP address from a device
-{: #unroute-global-ip-address}
+### Routing global IP addresses using the API
+{: #api-routing-global-ip-addresses}
 
-Global IP addresses can be manually unrouted by the user at any time. Follow these steps to unroute a global IP address from a device.
+For more information on routing global IP addresses using the API, see [route](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Subnet/route/){: external}
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
-1. Select **Network > IP Management > Subnets**.
-1. Select the global IP address you want to unroute. If necessary, use the **Filter subnets** section, selecting **Global** as **Type** to show only the global IP addresses.
-1. Use the overflow menu ![overflow menu](images/overflow.png) to select **Unroute global IP**.
-1. In the Unroute Global Subnet modal that appears, click **Confirm** to unroute the global IP address, or click **Cancel** to cancel the action and return to the **Subnets** page.
+### Unrouting global IP addresses using the API
+{: #api-unrouting-global-ip-addresses}
 
-After you unroute a global IP address from a device, the global IP address is no longer associated with that device. After the global IP address unroute process is complete, that global IP address can be re-routed to any other device on the account.
+For more information on unrouting global IP addresses using the API, see [clearRoute](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Subnet/clearRoute/){: external}
 
 ## How often can I update?
 {: #how-often-can-i-update}
