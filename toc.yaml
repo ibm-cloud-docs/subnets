@@ -27,7 +27,6 @@ toc:
         - route-subnet.md
         - use-secondary-self-hosted-vms.md
         - cancel-subnets.md
-        - rir-tool.md
         - topicgroup:
             label: Managing global IPs
             topics:
