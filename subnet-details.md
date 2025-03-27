@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-30"
+  years: 1994, 2025
+lastupdated: "2025-03-27"
 
 keywords:
 
@@ -54,6 +54,7 @@ You can tag all subnets on your account with one or more alphanumeric identifier
 {: #edit-reverse-dns}
 
 For any IP address on a public subnet, you can adjust the DNS settings from the overflow menu.  
+
 
 1. Select **Edit reverse DNS** from the overflow menu ![overflow menu](images/overflow.png).
 1. Enter the Reverse DNS in the field provided.
