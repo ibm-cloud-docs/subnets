@@ -55,7 +55,6 @@ You can tag all subnets on your account with one or more alphanumeric identifier
 
 For any IP address on a public subnet, you can adjust the DNS settings from the overflow menu.  
 
-
 1. Select **Edit reverse DNS** from the overflow menu ![overflow menu](images/overflow.png).
 1. Enter the Reverse DNS in the field provided.
 1. Select a Reverse TTL from the list.
