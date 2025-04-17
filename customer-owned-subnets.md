@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-03-17"
+lastupdated: "2025-04-17"
 
 keywords:
 
@@ -28,7 +28,7 @@ With RADb's recent migration of their database from IRRDv3 to IRRDv4, any new or
 The minimum subnet size that can be announced from IBM Cloud is `/24` for an IPv4 subnet, or `/48` for an IPv6 subnet.
 {: note}
 
-After you procure your subnet, [create an IBM Support case](/docs/get-support?topic=get-support-open-case&interface=ui) with the following information:
+After you procure your subnet, [create an IBM Support case](/docs/account?topic=account-open-case&interface=ui) with the following information:
 
 * List the specific IP ranges that you want to use.
 * Provide a Letter of Authority (LoA) for the specific IP ranges to be used.
