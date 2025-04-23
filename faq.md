@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-03-01"
+  years: 1994, 2025
+lastupdated: "2025-04-23"
 
 keywords:
 
@@ -65,7 +65,7 @@ Purchase a secondary subnet. After you have a subnet that is routed to the IP ad
 {: faq}
 {: support}
 
-In some locations, {{site.data.keyword.cloud_notm}} has routers using a technique that is known as Hot Router Standby Protocol (HSRP). Specifically, the way it's used impacts the IP addresses available to secondary portable subnets, meaning that you lose access to two more addresses in these locations. "Reserved for HSRP" indicates these IP addresses are reserved to fulfill the needs of HSRP. You might even have subnets on the same router, some with and some without, such reservations. As with any IP conflict, do not attempt to use these addresses or you risk affecting traffic on the entire subnet.
+In some locations, {{site.data.keyword.cloud_notm}} has routers using a technique that is known as Hot Standby Router Protocol (HSRP). Specifically, the way it's used impacts the IP addresses available to secondary portable subnets, meaning that you lose access to two more addresses in these locations. "Reserved for HSRP" indicates these IP addresses are reserved to fulfill the needs of HSRP. You might even have subnets on the same router, some with and some without, such reservations. As with any IP conflict, do not attempt to use these addresses or you risk affecting traffic on the entire subnet.
 
 ## Can I order secondary subnets that are unrouted?
 {: #faq-order-unrouted-secondary}

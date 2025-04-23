@@ -45,7 +45,7 @@
  "subnets-faq-reserved-hsrp-meaning":[
     "Reserved for HSRP in my subnet's IP address",
     "what's Reserved for HSRP mean",
-    "Whats  Hot Router Standby Protocol",
+    "Whats  Hot Standby Router Protocol",
     "is it reserved for HSRP",
     "HSRP reservation"       
     ],
