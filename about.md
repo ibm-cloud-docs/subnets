@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-10"
+  years: 1994, 2026
+lastupdated: "2026-06-09"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: subnets
 # About subnets and IPs
 {: #about-subnets-and-ips}
 
-{{site.data.keyword.cloud}} has specific terminology for the types, and uses, of subnets. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.
+{{site.data.keyword.cloud}} has specific terminology for the types and uses of subnets. Knowing their intended uses. Knowing their intended use helps you understand how best to use them in your cloud infrastructure.
 {: shortdesc}
 
 To understand subnets and subnetting in general, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){: external}.

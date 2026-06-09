@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: subnets
@@ -11,37 +10,37 @@ toc:
     path: subnets
     label: Subnets and IPs
   entries:
-    - navgroup:
-        id: learn
-        topics:
-        - getting-started.md
-        - about.md
-    - navgroup:
-        id: howto
-        topics:
-        - order-subnets.md
-        - subnets-screen.md
-        - subnet-details.md
-        - edit-notes.md
-        - route-subnet.md
-        - use-secondary-self-hosted-vms.md
-        - cancel-subnets.md
-        - topicgroup:
-            label: Managing global IPs
-            topics:
-            - manage-global-ip.md
-            - route-global-ip-to-device.md
-        - terraform.md
-    - navgroup:
-        id: reference
-        topics:
-        - customer-owned-subnets.md
-        - link:
-            label: Terraform reference
-            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet
-    - navgroup:
-        id: help
-        topics:
-        - faq.md
-        - network-protection.md
-        - getting-help.md
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - about.md
+  - navgroup:
+      id: howto
+      topics:
+      - order-subnets.md
+      - subnets-screen.md
+      - subnet-details.md
+      - edit-notes.md
+      - route-subnet.md
+      - use-secondary-self-hosted-vms.md
+      - cancel-subnets.md
+      - topicgroup:
+          label: Managing global IPs
+          topics:
+          - manage-global-ip.md
+          - route-global-ip-to-device.md
+      - terraform.md
+  - navgroup:
+      id: reference
+      topics:
+      - customer-owned-subnets.md
+      - link:
+          label: Terraform reference
+          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/subnet
+  - navgroup:
+      id: help
+      topics:
+      - faq.md
+      - network-protection.md
+      - getting-help.md
