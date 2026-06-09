@@ -19,7 +19,7 @@ subcollection: subnets
 {: shortdesc}
 
 To understand subnets and subnetting in general, review [Subnetwork](https://en.wikipedia.org/wiki/Subnetwork){: external}.
-Additionally, subnets are referred to in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){: external}.
+Additionally, find more information about subnets in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){: external}.
 
 ## Primary subnets
 {: #primary-subnets}
