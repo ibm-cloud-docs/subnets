@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-02-13"
+  years: 1994, 2026
+lastupdated: "2026-08-26"
 
 keywords:
 
@@ -14,7 +14,6 @@ subcollection: subnets
 
 # Routing and unrouting a global IP address to a device
 {: #route-global-ip-address-device}
-{: #unroute-global-ip-address}
 
 Global IP addresses are manually routed by the user to any device that {{site.data.keyword.cloud}} offers. To route a global IP to a device, the device must be associated with the account that owns the global IP.
 {: shortdesc}
