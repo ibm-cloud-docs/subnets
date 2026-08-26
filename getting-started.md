@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2022-09-01"
+  years: 1994, 2026
+lastupdated: "2026-08-26"
 
 keywords: subnets
 
@@ -29,7 +29,7 @@ Review each type in detail at [About subnets and IPs](/docs/subnets?topic=subnet
 ## Before you begin
 {: #before-you-begin}
 
-Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/account?topic=account-mngclassicinfra).
+Ensure you have the "Add/Upgrade Services" permission, which is set through the [IBM Cloud IAM users permissions panel](/docs/iam?topic=iam-mngclassicinfra).
 
 ## Ordering secondary subnets
 {: #intro-ordering-secondary-subnets}
