@@ -2,7 +2,9 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-08-26"
+lastupdated: "2026-11-04"
+
+keywords:
 
 subcollection: subnets
 
